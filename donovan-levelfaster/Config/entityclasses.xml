@@ -4,7 +4,7 @@
   <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='ExperienceGain']/@value">3000</set>
   <set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='ExperienceGain']/@value">5000</set>
 
-  <set xpath="/entity_classes/entity_class[@name='zombieBoe']/property[@name='ExperienceGain']/@value">1000</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='ExperienceGain']/@value">1000</set>
   <set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/property[@name='ExperienceGain']/@value">1500</set>
 
   <set xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']/property[@name='ExperienceGain']/@value">1500</set>
