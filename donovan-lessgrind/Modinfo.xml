@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_LessGrind" />
+    <Description value="Increases the harvest amount of most methods" />
+    <Author value="Donovan" />
+    <Version value="17.1.1.0" />
+  </ModInfo>
+</xml>
