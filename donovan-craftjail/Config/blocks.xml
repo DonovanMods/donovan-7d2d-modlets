@@ -1,0 +1,23 @@
+<configs>
+  <append xpath="/blocks">
+    <block name="jailDoor">
+      <property name="Class" value="DoorSecure"/>
+      <property name="Material" value="Miron"/>
+      <property name="Model" value="Entities/Doors/jail_doorPrefab"/>
+      <property name="Place" value="Door"/>
+      <property name="CustomIcon" value="jailDoorStatic"/>
+      <property name="PassThroughDamage" value="true"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Tag" value="Door"/>
+      <property name="Place" value="Door"/>
+      <property name="ImposterExclude" value="true"/>
+      <property name="PlaceEverywhere" value="true"/>
+      <property name="OpenSound" value="open_door_jail"/>
+      <property name="CloseSound" value="close_door_jail"/>
+      <property class="RepairItems">
+        <property name="resourceForgedIron" value="10"/>
+      </property>
+      <property name="Group" value="Building"/>
+    </block>
+  </append>
+</configs>

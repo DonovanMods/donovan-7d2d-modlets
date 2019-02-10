@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_CraftJail" />
+    <Description value="Adds the Jaildoor back in as a craftable item" />
+    <Author value="Donovan" />
+    <Version value="17.1.1.0" />
+  </ModInfo>
+</xml>

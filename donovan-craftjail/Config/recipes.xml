@@ -1,0 +1,9 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="jailDoor" count="1" craft_area="workbench">
+      <ingredient name="resourceForgedIron" count="50" />
+      <ingredient name="resourceSpring" count="10" />
+      <ingredient name="resourceMechanicalParts" count="10" />
+    </recipe>
+  </append>
+</configs>

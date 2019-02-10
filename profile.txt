@@ -3,3 +3,5 @@ https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-megastacks
 https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-lessgrind
 https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-levelfaster
 https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-moreperks
+https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-craftacid
+https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-craftjail
