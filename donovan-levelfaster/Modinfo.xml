@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_LevelFaster" />
+    <Description value="Reduces the experience required for each level and boosts exp from hostiles" />
+    <Author value="Donovan" />
+    <Version value="17.1.1.0" />
+  </ModInfo>
+</xml>
