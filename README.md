@@ -11,6 +11,7 @@ These are intended to work in unison, but you can pick and choose which pieces y
 - [LessGrind](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
 - [MorePerks](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level
+- [CraftAcid](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
 
 Tested under game version: _alpha 17.1 (b9)_
 
