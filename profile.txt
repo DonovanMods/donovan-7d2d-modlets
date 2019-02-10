@@ -1,2 +1,5 @@
 https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-bigstacks
 https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-megastacks
+https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-lessgrind
+https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-levelfaster
+https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-moreperks
