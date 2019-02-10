@@ -19,7 +19,7 @@
   <set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">50</set>
   <set xpath="/items/item[@name='medicalBloodDrawKit']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">250</set>
-  <set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber']/@value">50</set>
+  <set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">100</set>
   <set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">100</set>
   <set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">100</set>
@@ -81,6 +81,7 @@
   <set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceSnowBall']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceAcid']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber']/@value">20000</set>
@@ -130,6 +131,7 @@
   <set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">5000</set>
   <set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
   <set xpath="/items/item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">50000</set>
   <set xpath="/items/item[@name='resourceGlue']/property[@name='Stacknumber']/@value">1000</set>
