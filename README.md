@@ -8,16 +8,16 @@ These are intended to work in unison, but you can pick and choose which pieces y
 
 Mix and Match:
 
-- [LessGrind](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
-- [LevelFaster](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
-- [MorePerks](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level
-- [CraftAcid](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
-- [CraftJail](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
+- [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
+- [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
+- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level
+- [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
+- [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 
 Choose One:
 
-- [BigStacks](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount
-- [MegaStacks](https://github.com/dyoung522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount
+- [BigStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount
+- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount
 
 Tested under game version: _alpha 17.1 (b9)_
 
@@ -29,4 +29,4 @@ With the addition of xpath modlets in the latest versions of the [7D2DLauncher u
 
 ## Support
 
-If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/dyoung522/donovan-7d2d-modlets/issues) and I'll look into it ASAP.
+If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/donovan522/donovan-7d2d-modlets/issues) and I'll look into it ASAP.
