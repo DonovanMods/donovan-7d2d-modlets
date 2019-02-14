@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_CraftAcid" />
+    <Name value="Donovan - CraftAcid" />
     <Description value="Adds Acid as a craftable item to your chemistry station" />
     <Author value="Donovan" />
     <Version value="17.1.1.0" />
