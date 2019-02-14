@@ -1,0 +1,9 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="toolBeaker" count="1" craft_area="forge" craft_tool="toolForgeCrucible">
+      <ingredient name="unit_glass" count="50"/>
+      <ingredient name="unit_lead" count="20"/>
+      <ingredient name="unit_clay" count="20"/>
+    </recipe>
+  </append>
+</configs>
