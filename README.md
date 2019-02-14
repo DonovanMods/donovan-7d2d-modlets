@@ -4,22 +4,18 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 
 ## The Modlets
 
-These are intended to work in unison, but you can pick and choose which pieces you prefer. The only real caveat is that BigStacks and MegaStacks are mutually exclusive and will overwrite each other, so pick the one you prefer.
-
-Mix and Match:
+These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
-- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level
 - [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
+- [BigStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount (conflicts with megastacks)
+- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount (conflicts with bigstacks)
+- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
+- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megaperks) - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 
-Choose One:
-
-- [BigStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount
-- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount
-
-Tested under game version: _alpha 17.1 (b9)_
+Tested under game version: _alpha 17.2 (b20)_
 
 ## History
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan MegaStacks" />
+    <Name value="Donovan_MegaStacks" />
     <Description value="Increases stack sizes an unreasonable amount" />
     <Author value="Donovan" />
     <Version value="17.1.1.1" />
