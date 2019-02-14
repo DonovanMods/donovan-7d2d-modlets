@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_MorePerks" />
-    <Description value="Increases the number of perks you get for each level" />
+    <Name value="Donovan MegaPerks (x4)" />
+    <Description value="Increases the number of perks you get per level x4" />
     <Author value="Donovan" />
     <Version value="17.1.1.0" />
   </ModInfo>
