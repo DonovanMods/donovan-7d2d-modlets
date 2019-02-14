@@ -2,4 +2,6 @@
 
 ## 7 Days 2 Die Modlet
 
-This modlet decreases the experience needed for each level by 25%, and increases the exp gained for farming and killing by a small margin.
+Increases the exp gained for killing hostiles and, to a lessor extent, farming crops
+
+Note: I removed the reduction in experience required per level, as it was out of balance. Also, as of 17.2, you can boost the XP multiplier within the game settings if you want this feature.
