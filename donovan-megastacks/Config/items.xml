@@ -4,7 +4,7 @@
   <set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">1000</set>
@@ -130,6 +130,7 @@
   <set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">100</set>
   <set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
   <set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
   <set xpath="/items/item[@name='resourceHeadlight']/property[@name='Stacknumber']/@value">500</set>
