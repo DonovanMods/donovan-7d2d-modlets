@@ -139,4 +139,11 @@
   <set xpath="/items/item[@name='resourceDuctTape']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceSpring']/property[@name='Stacknumber']/@value">20000</set>
   <set xpath="/items/item[@name='resourceSteelPolish']/property[@name='Stacknumber']/@value">20000</set>
+
+  <!-- Tools -->
+  <set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25</set>
 </configs>
