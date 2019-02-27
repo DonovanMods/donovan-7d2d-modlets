@@ -1,0 +1,18 @@
+<configs>
+  <!-- Chainsaw -->
+  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='EntityDamage']/@value">25</set>
+  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='BlockDamage']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">500</set>
+  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='DegradationPerUse']/@value">1</set>
+
+  <!-- Auger -->
+  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='BlockDamage']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">500</set>
+  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='DegradationPerUse']/@value">1</set>
+
+  <!-- Nailgun -->
+  <set xpath="items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
+  <set xpath="items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Repair_amount']/@value">500</set>
+</configs>

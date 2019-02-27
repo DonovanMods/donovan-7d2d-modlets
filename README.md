@@ -6,6 +6,7 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
+- [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
 - [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
