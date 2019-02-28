@@ -2,4 +2,4 @@
 
 ## 7 Days 2 Die Modlet
 
-This small modlet increases the number of perks you gain per level (now 2 points per level).
+Increases the number of perks you gain per level to 2.
