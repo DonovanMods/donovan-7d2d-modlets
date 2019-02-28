@@ -1,0 +1,76 @@
+<configs>
+  <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='LootDropProb']/@value">0.05</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.25</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='LootDropProb']/@value">0.5</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieYoRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSnowFeral']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieCheerleaderFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieCheerleaderRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieOldTimerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieOldTimerRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/property[@name='LootDropProb']/@value">0.2</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieFarmerFeral']/property[@name='LootDropProb']/@value">0.1</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieStripperFeral']/property[@name='LootDropProb']/@value">0.1</set>
+</configs>
