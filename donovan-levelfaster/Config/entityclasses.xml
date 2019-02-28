@@ -84,7 +84,7 @@
 
   <set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='ExperienceGain']/@value">500</set>
   <set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='ExperienceGain']/@value">1000</set>
-  <set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">1201</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">1200</set>
   <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='ExperienceGain']/@value">1200</set>
   <set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/property[@name='ExperienceGain']/@value">1500</set>
