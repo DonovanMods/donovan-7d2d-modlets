@@ -1,7 +1,7 @@
 <configs>
   <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">0.05</set>
-  <set xpath="/entity_classes/entity_class[ends-with(@name, 'Feral')]/property[@name='LootDropProb']/@value">0.1</set>
-  <set xpath="/entity_classes/entity_class[ends-with(@name, 'Radiated')]/property[@name='LootDropProb']/@value">0.2</set>
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">0.1</set>
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]/property[@name='LootDropProb']/@value">0.2</set>
 
   <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.3</set>
   <set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='LootDropProb']/@value">0.5</set>
