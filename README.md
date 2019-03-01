@@ -19,7 +19,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
 
-Tested under game version: _alpha 17.2 (b20)_
+Tested under game version: _alpha 17.2 (b27)_
 
 ## History
 
