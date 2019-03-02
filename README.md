@@ -17,15 +17,20 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
 - [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megaperks) - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-- [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
+- [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
+- [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 
 Tested under game version: _alpha 17.2 (b27)_
 
 ## History
 
-I previously used a fantastic complete config replacement made by SpikeDaddy, so full credit to his work for my inspiration. However, I wasn't entire satisfied with some of the sweeping changes he made to suit his needs, so I set out to create my own.
+I previously used an excellent XML config replacement made by SpikeDaddy, which he still maintains, so full credit to his work for my inspiration!
 
-With the addition of xpath modlets in the latest versions of the [7D2DLauncher utility](http://7d2dmodlauncher.org/7D2DModLauncher.html), I decided to convert his original work into a series of modlets and make them my own. If you used his configs previously, you'll find much of the same changes in here, but the numbers have been tweaked a bit; some up, but mostly down.
+With the addition of xpath modlets support in the latest versions of 7D2D (and in the [7D2DLauncher utility](http://7d2dmodlauncher.org/7D2DModLauncher.html)), I decided to convert some of his changes along with some of my own into a series of modlets. The result is this body of work, which will be updated with new ideas and to support future stable versions of 7D2D.
+
+Enjoy!
+
+-- Donovan
 
 ## Support
 
