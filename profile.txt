@@ -11,3 +11,4 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megaperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks
+https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lootcleanup

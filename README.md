@@ -19,6 +19,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
+- [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lootcleanup) - Destroys birdnests and garbage piles after looting, you know, to clean up the environment.
 
 Tested under game version: _alpha 17.2 (b27)_
 
