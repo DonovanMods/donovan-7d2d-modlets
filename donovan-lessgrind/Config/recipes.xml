@@ -6,6 +6,8 @@
   <set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
   <set xpath="/recipes/recipe[@name='foodMeatStew']/ingredient[@name='foodRawMeat']/@count">5</set>
 
+  <set xpath="/recipes/recipe[@name='meleeClubIron']/ingredient[@name='resourceScrapIron']/@count">25</set>
+
   <set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">50</set>
   <set xpath="/recipes/recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">50</set>
 </configs>
