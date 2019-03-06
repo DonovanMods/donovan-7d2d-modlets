@@ -1,4 +1,8 @@
 <configs>
+  <!-- Wood logs should burn longer than wood -->
+  <set xpath="/blocks/block[@name='woodLogPillar100']/property[@name='FuelValue']/@value">1500</set>
+
+  <!-- Harvest Values -->
   <set xpath="/blocks/block[@name='woodNoUpgradeMaster']/drop[@event='Harvest' and @name='resourceWood']/@count">20</set>
   <set xpath="/blocks/block[@name='rWoodMaster']/drop[@event='Harvest' and @name='resourceWood']/@count">20</set>
   <set xpath="/blocks/block[@name='rScrapIronMaster']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">40</set>
