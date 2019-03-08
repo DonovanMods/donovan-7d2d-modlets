@@ -238,5 +238,5 @@
   <set xpath="/blocks/block[@name='trapSpikesScrapIronMaster']/property[@class='RepairItems']/property[@name='resourceScrapIron']/@value">4</set>
 
   <set xpath="/blocks/block[@name='trapSpikesIronDmg2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
-  <set xpath="/blocks/block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set
+  <set xpath="/blocks/block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
 </configs>
