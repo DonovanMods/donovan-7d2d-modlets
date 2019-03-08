@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_BetterBuffs" />
+    <Description value="Tweaks some of the (de)buff settings. Notably, hunger and thirsty now work off %, not a fixed number." />
+    <Author value="Donovan" />
+    <Version value="17.2.1.0" />
+  </ModInfo>
+</xml>

@@ -220,7 +220,23 @@
   <set xpath="/blocks/block[@name='cntBusSchool']/drop[@event='Harvest' and @name='resourceMechanicalParts']/@count">5,13</set>
   <set xpath="/blocks/block[@name='cntBusSchool']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">6,12</set>
 
+  <set xpath="/blocks/block[@name='goreBlockAnimal']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@count">8,16</set>
+  <set xpath="/blocks/block[@name='goreBlockAnimal']/drop[@event='Destroy' and @name='resourceFemur']/@count">4,8</set>
+  <set xpath="/blocks/block[@name='goreBlockHumanCorpse']/drop[@event='Harvest' and @name='foodRottingFlesh']/@count">6,12</set>
+  <set xpath="/blocks/block[@name='goreBlockHumanCorpse']/drop[@event='Destroy' and @name='resourceFemur']/@count">4,8</set>
+  <set xpath="/blocks/block[@name='goreBlockHumanBones']/drop[@event='Destroy' and @name='resourceFemur']/@count">4,8</set>
   <set xpath="/blocks/block[@name='goreBlockAnimal']/drop[@event='Destroy' and @name='resourceFemur']/@count">6,12</set>
 
-  <set xpath="/blocks/block[@name='goreBlockHumanCorpse']/drop[@event='Harvest' and @name='foodRottingFlesh']/@count">6,12</set>
+  <!-- Repairing/Upgrading -->
+  <set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+  <set xpath="/blocks/block[@name='ironBarsCentered']/property[@class='RepairItems']/property[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+
+  <set xpath="/blocks/block[@name='trapSpikesWoodDmg0']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+  <set xpath="/blocks/block[@name='trapSpikesWoodDmg0']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">40</set>
+
+  <set xpath="/blocks/block[@name='trapSpikesScrapIronMaster']/property[@class='RepairItems']/property[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+  <set xpath="/blocks/block[@name='trapSpikesScrapIronMaster']/property[@class='RepairItems']/property[@name='resourceScrapIron']/@value">4</set>
+
+  <set xpath="/blocks/block[@name='trapSpikesIronDmg2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+  <set xpath="/blocks/block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
 </configs>

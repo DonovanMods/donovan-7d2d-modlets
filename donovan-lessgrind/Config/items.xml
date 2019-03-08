@@ -1,0 +1,12 @@
+<configs>
+  <!-- Crafting time -->
+  <set xpath="items/item[@name='resourceRockSmall']/property[@name='CraftingIngredientTime']/@value">0.05</set>
+  <set xpath="items/item[@name='resourceWood']/property[@name='CraftingIngredientTime']/@value">0.05</set>
+  <set xpath="items/item[@name='resourceScrapIron']/property[@name='CraftingIngredientTime']/@value">0.05</set>
+  <set xpath="items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
+  <set xpath="items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">6</set>
+  <set xpath="items/item[@name='unit_iron']/property[@name='CraftingIngredientTime']/@value">0.05</set>
+
+  <!-- Melting time -->
+  <set xpath="items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
+</configs>
