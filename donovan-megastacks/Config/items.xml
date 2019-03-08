@@ -1,6 +1,5 @@
 <configs>
   <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Ammo -->
-  <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>  <!-- Parts -->
   <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>  <!-- Medical -->
   <set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">100</set>  <!-- Drugs -->
   <set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">100</set>  <!-- Food -->
@@ -18,6 +17,7 @@
   <set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
   <set xpath="/items/item[@name='unlockBookMaster']/property[@name='Stacknumber']/@value">10</set>
