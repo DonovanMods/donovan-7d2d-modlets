@@ -19,6 +19,6 @@
   <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
-  <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
+  <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
   <set xpath="/items/item[@name='unlockBookMaster']/property[@name='Stacknumber']/@value">10</set>
 </configs>
