@@ -49,5 +49,6 @@
   <set xpath="/items/item[@name='resourceDuctTape']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='resourceSpring']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='resourceSteelPolish']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">6</set>
 </configs>
