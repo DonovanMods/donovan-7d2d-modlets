@@ -2,8 +2,8 @@
 <xml>
   <ModInfo>
     <Name value="Donovan_LootCleanup" />
-    <Description value="Destroys birdnests and garbage after looting, to clean up the environment" />
+    <Description value="Destroys bird nests, garbage, and bags after looting them, to clean up the environment" />
     <Author value="Donovan" />
-    <Version value="17.2.1.0" />
+    <Version value="17.2.2.0" />
   </ModInfo>
 </xml>

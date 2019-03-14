@@ -1,4 +1,6 @@
 <config>
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='9']" name="destroy_on_close">true</setattribute>  <!-- bags -->
   <setattribute xpath="/lootcontainers/lootcontainer[@id='10']" name="destroy_on_close">true</setattribute>  <!-- garbage -->
   <setattribute xpath="/lootcontainers/lootcontainer[@id='25']" name="destroy_on_close">true</setattribute>  <!-- birdnest -->
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='48']" name="destroy_on_close">true</setattribute>  <!-- purse -->
 </config>
