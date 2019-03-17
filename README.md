@@ -8,6 +8,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. no more being thirsty/hungry at 190%
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
+- [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage adn +25% normal speed (double that for turbo speed)
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
 - [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lootcleanup) - Destroys birdnests and garbage piles after looting, you know, to clean up the environment.
