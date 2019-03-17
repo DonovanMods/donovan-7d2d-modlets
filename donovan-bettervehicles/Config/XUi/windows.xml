@@ -1,0 +1,6 @@
+<configs>
+	<set xpath="/windows/window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@width">100%</set>
+	<set xpath="/windows/window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@height">100%</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/grid[@name='inventory']/@rows">10</set>
+	<set xpath="/windows/window[@name='windowVehicleStorage']/grid[@name='inventory']/@cols">10</set>
+</configs>
