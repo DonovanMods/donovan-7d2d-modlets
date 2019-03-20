@@ -1,5 +1,8 @@
 <configs>
   <!-- Harvest Values -->
+  <set xpath="/blocks/block[@name='palletWhiteBagsBase']/drop[@event='Harvest' and @name='resourceConcreteMix']/@count">15,45</set>
+  <set xpath="/blocks/block[@name='palletBlueTarpBase']/drop[@event='Harvest' and @name='resourceCobblestones']/@count">105</set>
+
   <set xpath="/blocks/block[@name='woodNoUpgradeMaster']/drop[@event='Harvest' and @name='resourceWood']/@count">20</set>
   <set xpath="/blocks/block[@name='rWoodMaster']/drop[@event='Harvest' and @name='resourceWood']/@count">20</set>
   <set xpath="/blocks/block[@name='rScrapIronMaster']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">40</set>

@@ -19,9 +19,9 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - MorePerks - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
 - MegaPerks - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 - LongerLootbags - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-- MoreLootbags - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
-- MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
-- LootCleanup - Destroys birdnests and garbage piles after looting, you know, to clean up the environment.
+- MoreLootbags - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with MegaLootbags)
+- MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
+- LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
 
 Tested under game version: _alpha 17.2 (b27)_
 
