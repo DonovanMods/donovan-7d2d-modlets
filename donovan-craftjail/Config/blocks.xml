@@ -1,14 +1,21 @@
 <configs>
-  <!-- Remove rocket collision so we can shoot through bars -->
-  <set xpath="/blocks/block[@name='jailBars']/property[@name='Collide']/@value">movement,melee</set>
+  <!-- fix jail bars -->
+  <set xpath="/blocks/block[@name='jailBars']/property[@name='Material']/@value">Mmetal_hard</set>
+  <set xpath="/blocks/block[@name='jailBars']/property[@name='FilterTags']/@value">fdecor,fother,fwindows,fdoors</set>
+  <append xpath="/blocks/block[@name='jailBars']">
+    <property class="RepairItems">
+      <property name="resourceForgedIron" value="10" />
+    </property>
+  </append>
 
+  <!-- jail door -->
   <append xpath="/blocks">
     <block name="jailDoor">
       <property name="Class" value="DoorSecure" />
-      <property name="Material" value="Miron" />
+      <property name="Material" value="Mmetal_hard" />
       <property name="Model" value="Entities/Doors/jail_doorPrefab" />
       <property name="Place" value="Door" />
-      <property name="Collide" value="movement,melee" />
+      <property name="Collide" value="movement,melee,rocket" />
       <property name="CustomIcon" value="jailDoorStatic" />
       <property name="PassThroughDamage" value="true" />
       <property name="Shape" value="ModelEntity" />
@@ -18,10 +25,11 @@
       <property name="PlaceEverywhere" value="true" />
       <property name="OpenSound" value="open_door_jail" />
       <property name="CloseSound" value="close_door_jail" />
+      <property name="Group" value="Building" />
+      <property name="FilterTags" value="fdecor,fother,fwindows,fdoors" />
       <property class="RepairItems">
         <property name="resourceForgedIron" value="10" />
       </property>
-      <property name="Group" value="Building" />
     </block>
   </append>
 </configs>
