@@ -1,0 +1,5 @@
+<configs>
+  <!-- Advanced rotate -->
+  <set xpath="/blocks/block[starts-with(@name, 'garageDoorMetal')]/property[@name='OnlySimpleRotations']/@value">false</set>
+  <set xpath="/blocks/block[starts-with(@name, 'metalReinforcedWoodDrawBridge')]/property[@name='OnlySimpleRotations']/@value">false</set>
+</configs>
