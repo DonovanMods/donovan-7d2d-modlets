@@ -1,4 +1,8 @@
 <configs>
+  <!-- Reduce near-death Trauma debuff -->
+  <set xpath="buffs/buff[@name='buffNearDeathTrauma']/duration/@value">600</set>
+
+  <!-- Fix hungry/thristy status debuffs -->
   <set xpath="buffs/buff[@name='buffStatusCheck']/effect_group/triggered_effect[@buff='buffStatusHungry1']/requirement[@name='StatComparePercModMaxToMax']/@value">0.25</set>
   <set xpath="buffs/buff[@name='buffStatusCheck']/effect_group/triggered_effect[@buff='buffStatusHungry2']/requirement[@name='StatComparePercModMaxToMax']/@value">0.15</set>
   <set xpath="buffs/buff[@name='buffStatusCheck']/effect_group/triggered_effect[@buff='buffStatusThirsty1']/requirement[@name='StatComparePercCurrentToMax']/@value">0.25</set>
