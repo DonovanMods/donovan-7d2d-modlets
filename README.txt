@@ -6,6 +6,8 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
+- BetterBandages - Craft medical bandages directly from normal bandages + aloe cream
+- BetterBridges - Allows advanced rotation on garage door and drawbridge
 - BetterBuffs - Tweaks some of the (de)buff settings. Notably, hunger and thirsty now work off %, not a fixed number.
 - BetterPowertools - Makes the Chainsaw, Auger, and Nailgun way more useful
 - BetterVehicles - Bigger and Faster Vehicles; more storage adn +25% normal speed (double that for turbo speed)
@@ -23,7 +25,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
 - LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
 
-Tested under game version: _alpha 17.2 (b27)_
+Tested under game version: _alpha 17.4 (b4)_
 
 :: History::
 
