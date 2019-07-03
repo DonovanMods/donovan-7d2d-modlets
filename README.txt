@@ -14,8 +14,9 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - LessGrind - Increases the harvest amount of most methods and reduces some resource requirements
 - LevelFaster - Increases the experience gain on most items
 - CraftAcid - Craftable Acid
-- CraftJail - Adds the jaildoor back into the game as a craftable item
 - CraftBeaker - Adds the beaker as a craftable item from the forge (requires crucible)
+- CraftJail - Adds the jaildoor back into the game as a craftable item
+- CraftSpikes - Adds the A16 log spikes back into the game as a craftable item
 - BigStacks - Increases stack sizes a fairly reasonable amount (conflicts with megastacks)
 - MegaStacks - Increases stack sizes an unreasonably large amount (conflicts with bigstacks)
 - MorePerks - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
