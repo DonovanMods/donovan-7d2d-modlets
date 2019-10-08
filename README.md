@@ -18,15 +18,14 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 - [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
-- [BigStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount (conflicts with megastacks)
-- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount (conflicts with bigstacks)
+- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Vastly increases stack sizes
 - [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
 - [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megaperks) - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with megalootbags)
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with morelootbags)
 
-Tested under game version: _alpha 17.4 (b4)_
+Tested under game version: _alpha 18 (b139)_
 
 ## History
 
