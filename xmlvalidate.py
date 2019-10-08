@@ -203,7 +203,6 @@ stats = {
 }
 options = getoptions()
 
-
 if options['debug']:
     print(options)
 
