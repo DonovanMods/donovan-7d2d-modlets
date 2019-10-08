@@ -90,17 +90,23 @@ def readModlets(original_configs):
                                 print('NEW VALUE:', new_value)
 
                             if results:
-                                if attrib:
-                                    for result in results:
-                                        if tag in ['set', 'setattribute']:
+                                for result in results:
+                                    if tag in ['set', 'setattribute']:
+                                        if attrib:
                                             result.getparent().set(attrib, new_value)
-                                            continue
+                                        continue
 
-                                        if tag == 'removeattribute':
+                                    if tag == 'removeattribute':
+                                        if attrib:
                                             result.getparent().removeattribute(attrib)
-                                            continue
+                                        continue
 
-                                        break
+                                    if tag == 'append':
+                                        for child in line:
+                                            result.append(child)
+                                        continue
+
+                                    break
                             else:
                                 stats['failures'] += 1
                                 passfail = False
