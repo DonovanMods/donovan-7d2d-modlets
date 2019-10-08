@@ -41,9 +41,11 @@ def readModlets(original_configs):
 
         # don't clobber other modlets while validating
         configs = copy(original_configs)
+
         passfail = True
         base_filename = Path(modlet_dir).parent
         parser = etree.XMLParser(ns_clean=True, remove_comments=True)
+        stats['modlets'] += 1
 
         if options['verbose']:
             if options['debug']:
@@ -57,6 +59,8 @@ def readModlets(original_configs):
                 filename = Path(modlet)
 
                 if modlet.is_file() and filename.suffix == '.xml':
+                    stats['modfiles'] += 1
+
                     for line in etree.parse(str(filename), parser).getroot():
                         if 'xpath' in line.attrib:
                             xpath = line.attrib['xpath']
@@ -98,6 +102,7 @@ def readModlets(original_configs):
 
                                         break
                             else:
+                                stats['failures'] += 1
                                 passfail = False
                                 print(
                                     f'\n{colortext(Fore.RED, "FAIL: ")}{filename} on line {line.sourceline}:\n{line.values()[0]}')
@@ -179,16 +184,34 @@ def getoptions():
     return options
 
 
+def print_stats(stats):
+    if stats['failures']:
+        print(colortext(Fore.RED,
+                        f'\nFound {stats["failures"]} failures in {stats["modfiles"]} XML files across {stats["modlets"]} modlets'))
+    else:
+        print(colortext(Fore.GREEN,
+                        f'\nAll {stats["modlets"]} modlets are OKAY'))
+
+
 ##
 # Main()
 ##
+stats = {
+    'failures': 0,
+    'modfiles': 0,
+    'modlets': 0,
+}
 options = getoptions()
+
 
 if options['debug']:
     print(options)
 
 configXML = readConfigs(options['config'])
 readModlets(configXML)
+
+if options['verbose']:
+    print_stats(stats)
 
 if options['debug']:
     etree.ElementTree(configXML).write('debug.xml')
