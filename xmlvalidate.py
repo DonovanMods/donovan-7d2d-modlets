@@ -179,7 +179,7 @@ def getoptions():
 
     if not options['modlets']:
         if options['verbose']:
-            print('No modlets provided on command line, using current directory')
+            print('No modlets provided on command line, using current directory\n')
 
         options['modlets'] = Path('.').glob('**/Config')
 
