@@ -40,7 +40,7 @@ def readModlets(configs):
                                     Path(modlet_dir)))
                                 print('XPATH:', xpath)
                                 print('RESULT:', result)
-                            if len(result) == 0:
+                            if not result:
                                 passfail = False
                                 print(
                                     f'\n{Fore.RED}FAIL: {Style.RESET_ALL}{filename} on recipe:\n{line.values()[0]}')
