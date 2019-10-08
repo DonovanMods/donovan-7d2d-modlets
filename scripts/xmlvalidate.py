@@ -106,6 +106,10 @@ def readModlets(original_configs):
                                             result.append(child)
                                         continue
 
+                                    if tag == 'remove':
+                                        result.getparent().remove(result)
+                                        continue
+
                                     break
                             else:
                                 stats['failures'] += 1
