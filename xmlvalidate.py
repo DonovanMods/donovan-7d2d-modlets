@@ -30,7 +30,10 @@ def readConfigs(path):
 
 # Read and validate our modlet XML files
 def readModlets(original_configs):
-    for modlet_dir in glob('*/Config'):
+    for modlet_dir in options['modlets']:
+        if not modlet_dir.exists() or not modlet_dir.is_dir():
+            continue
+
         # don't clobber other modlets while validating
         configs = copy(original_configs)
         passfail = True
@@ -96,20 +99,23 @@ def readModlets(original_configs):
 
 
 def help():
-    print(
-        f'Usage: {Path(sys.argv[0]).name} -c <directory> [opts]\n\nOpts:')
-    print('\t-c|--config <directory>: the game XML config directory')
-    print('\t-m|--modlets <directory>: where we should look for modlets')
-    print('\n\t-h|--help: this help message')
-    print('\t-v|--verbose: display successes as well as failures during run -- failures always show')
-    print('\n\t-d|--debug: produces copious amounts of output, not recommended for normal use!')
+    def format(command, description):
+        return f'\t{command:20} - {description}'
+
+    print(f'Usage: {Path(sys.argv[0]).name} -c <directory> [opts]')
+    print('\nOpts:')
+    print(f'{format("-c|--config <dir>", "the game XML config directory")}')
+    print(f'{format("-m|--modlets <dir>", "where we should look for modlets (can be repeated) -- Default is current directory")}')
+    print(f'\n{format("-v|--verbose", "display successes as well as failures during run -- failures always show")}')
+    print(f'\n{format("-d|--debug", "produces copious amounts of output, not recommended for normal use!")}')
+    print(f'\n{format("-h|--help", "this help message")}')
     sys.exit(2)
 
 
 options = {
     'config': None,
     'debug': False,
-    'modlets': ['.'],
+    'modlets': [],
     'verbose': False,
 }
 
@@ -126,6 +132,9 @@ for arg, value in arguments:
     if arg in ('-c', '--config'):
         options['config'] = value
 
+    if arg in ('-m', '--modlets'):
+        options['modlets'].append(Path(value).glob('**/Config'))
+
     if arg in ('-d', '--debug'):
         options['debug'] = True
 
@@ -135,13 +144,22 @@ for arg, value in arguments:
     if arg in ('-v', '--verbose'):
         options['verbose'] = True
 
+# Flatten the modlets list
+options['modlets'] = [item for items in options['modlets'] for item in items]
+
 if options['config'] == None:
     print('You must provide a directory for us to validate against -- generally this should be the 7 days Data/Config directory')
     help()
 
+if not options['modlets']:
+    options['modlets'] = Path('.').glob('**/Config')
+
 if not Path(options['config']).exists():
     print(f'{options["config"]!r} is not a valid directory')
     sys.exit(1)
+
+if options['debug']:
+    print(options)
 
 configXML = readConfigs(options['config'])
 readModlets(configXML)
