@@ -5,6 +5,7 @@
     <ingredient name="medicalBandage" count="1"/>
   </append>
   <!-- Included from donovan-lessgrind -->
+  <!-- Why would you need 5 pieces of meat to make 1 cooked piece of meat? -->
   <set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">2</set>
   <set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
   <set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
@@ -15,5 +16,6 @@
   <set xpath="/recipes/recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">50</set>
   <set xpath="recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
   <set xpath="recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceScrapIron']/@count">40</set>
+  <!-- You should be able to make a bone knife with only one bone -->
   <set xpath="recipes/recipe[@name='meleeToolKnifeBone']/ingredient[@name='resourceBone']/@count">1</set>
 </configs>
