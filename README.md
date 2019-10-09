@@ -6,6 +6,7 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
+- [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-aio) - Bundled modlet of my recommended modlets
 - [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
@@ -25,7 +26,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with megalootbags)
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with morelootbags)
 
-Tested under game version: _alpha 18 (b139)_
+Tested under game version: _alpha 18.0 (b139)_
 
 ## History
 
