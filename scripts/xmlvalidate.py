@@ -44,7 +44,8 @@ def readModlets(original_configs):
 
         passfail = True
         base_filename = Path(modlet_dir).parent
-        parser = etree.XMLParser(ns_clean=True, remove_comments=True)
+        parser = etree.XMLParser(
+            ns_clean=True, remove_blank_text=True, remove_comments=True)
         stats['modlets'] += 1
 
         if options['verbose']:
