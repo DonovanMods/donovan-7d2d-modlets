@@ -1,3 +1,5 @@
+import sys
+
 from os import scandir
 from pathlib import Path
 from shutil import copy
@@ -17,9 +19,19 @@ def cleanAIO(path):
         print('\t', colortext(Fore.RED, clean_me))
         if clean_me.is_dir():
             cleanAIO(clean_me)
-            Path.rmdir(clean_me)
+            try:
+                Path.rmdir(clean_me)
+            except RuntimeError as error:
+                print(
+                    f'Unable to remove directory {clean_me}: {colortext(Fore.RED, error)}')
+                sys.exit(1)
         else:
-            Path.unlink(clean_me)
+            try:
+                Path.unlink(clean_me)
+            except RuntimeError as error:
+                print(
+                    f'Unable to remove file {clean_me}: {colortext(Fore.RED, error)}')
+                sys.exit(1)
 
 
 def readXML(path, dir=None, xmlfiles={}):
@@ -63,7 +75,13 @@ def writeXML(aio_mod, xmlfiles):
             Path.mkdir(aio_file.parent)
 
         if aio_file.suffix == '.xml':
-            etree.ElementTree(value).write(str(aio_file), pretty_print=True)
+            try:
+                etree.ElementTree(value).write(
+                    str(aio_file), pretty_print=True)
+            except RuntimeError as error:
+                print(
+                    f'Unable to write XML file {value}: {colortext(Fore.RED, error)}')
+                sys.exit(1)
         else:
             copy(value, aio_file)
 
@@ -98,3 +116,5 @@ for mod in included_mods:
 # Write files
 print(colortext(Fore.GREEN, f'Writing'))
 writeXML(aio_mod, xmls)
+
+sys.exit(0)
