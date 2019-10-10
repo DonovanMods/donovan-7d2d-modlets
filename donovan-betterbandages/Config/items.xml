@@ -1,0 +1,4 @@
+<configs>
+  <set xpath="items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidBandageSchematic</set>
+  <set xpath="items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidKitSchematic</set>
+</configs>

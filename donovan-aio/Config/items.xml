@@ -1,4 +1,7 @@
 <configs>
+  <!-- Included from donovan-betterbandages -->
+  <set xpath="items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidBandageSchematic</set>
+  <set xpath="items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidKitSchematic</set>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
