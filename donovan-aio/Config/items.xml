@@ -60,4 +60,5 @@
   <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
+  <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
 </configs>

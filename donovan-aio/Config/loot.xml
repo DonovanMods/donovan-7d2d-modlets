@@ -20,4 +20,6 @@
   </append>
   <!-- increase number of Eggs in refrigerators -->
   <set xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']/@count">1,12</set>
+  <!-- increase number of lockpicks found -->
+  <set xpath="/lootcontainers/lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
 </configs>
