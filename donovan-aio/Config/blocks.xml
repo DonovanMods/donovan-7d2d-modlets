@@ -157,7 +157,6 @@
   <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Harvest' and @name='resourceOil']/@count">3,9</set>
   <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Harvest' and @name='resourceSpring']/@count">6,12</set>
   <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">30,65</set>
-  <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Harvest' and @name='ammoGasCan' and @tag='allHarvest']/@count">60,220</set>
   <set xpath="/blocks/block[@name='cntCar03SedanDamage1Master']/drop[@event='Harvest' and @name='ammoGasCan' and @tag='salvageHarvest']/@count">60,230</set>
   <set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@event='Harvest' and @name='resourceMetalPipe']/@count">15</set>
   <set xpath="/blocks/block[@name='cntCar03SedanDamage2Master']/drop[@event='Harvest' and @name='ammoGasCan' and @tag='allHarvest']/@count">110,250</set>
