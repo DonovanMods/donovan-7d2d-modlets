@@ -15,4 +15,7 @@
 
   <!-- You should be able to make a bone knife with only one bone -->
   <set xpath="recipes/recipe[@name='meleeToolKnifeBone']/ingredient[@name='resourceBone']/@count">1</set>
+
+  <!-- Yucca juice shouldn't need boiled water -->
+  <set xpath="recipes/recipe[@name='drinkJarYuccaJuice']/ingredient[@name='drinkJarBoiledWater']/@name">drinkJarEmpty</set>
 </configs>
