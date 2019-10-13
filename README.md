@@ -25,8 +25,9 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with megalootbags)
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with morelootbags)
+- [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
-Tested under game version: _alpha 18.0 (b139)_
+Tested under game version: _Alpha 18.0_
 
 ## History
 

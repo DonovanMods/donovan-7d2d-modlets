@@ -25,8 +25,9 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - MoreLootbags - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with MegaLootbags)
 - MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
 - LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
+- PickMeUp - Allows for certain blocks to be picked up after placing.
 
-Tested under game version: _alpha 18.0 (b139)_
+Tested under game version: _Alpha 18.0_
 
 :: History::
 
