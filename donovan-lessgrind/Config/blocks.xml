@@ -29,17 +29,33 @@
   <set xpath="/blocks/block[@name='terrOrePotassiumNitrate']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">35</set>
   <set xpath="/blocks/block[@name='terrOreOilDeposit']/drop[@event='Harvest' and @name='resourceOilShale']/@count">100</set>
   <set xpath="/blocks/block[@name='terrOreOilDeposit']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">35</set>
+  <set xpath="/blocks/block[@name='terrOreSilver']/drop[@event='Harvest' and @name='resourceSilverNugget']/@count">9,24</set>
+  <set xpath="/blocks/block[@name='terrOreGold']/drop[@event='Harvest' and @name='resourceGoldNugget']/@count">6,18</set>
+  <set xpath="/blocks/block[@name='terrOreDiamond']/drop[@event='Harvest' and @name='resourceRawDiamond']/@count">3</set>
+  <set xpath="/blocks/block[@name='terrOreDiamond']/drop[@event='Harvest' and @name='resourceSilverNugget']/@count">3</set>
+  <set xpath="/blocks/block[@name='terrOreDiamond']/drop[@event='Harvest' and @name='resourceGoldNugget']/@count">3</set>
+
+  <set xpath="/blocks/block[@name='oreBoulderMaster']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">35</set>
+  <set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceIronFragment']/@count">150</set>
+  <set xpath="/blocks/block[@name='oreLeadBoulder']/drop[@event='Harvest' and @name='resourceScrapLead']/@count">150</set>
+  <set xpath="/blocks/block[@name='oreCoalBoulder']/drop[@event='Harvest' and @name='resourceCoal']/@count">150</set>
+  <set xpath="/blocks/block[@name='orePotassiumNitrateBoulder']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@count">150</set>
+  <set xpath="/blocks/block[@name='oreShaleBoulder']/drop[@event='Harvest' and @name='resourceOilShale']/@count">150</set>
 
   <set xpath="/blocks/block[@name='woodLogPillar100']/drop[@event='Harvest' and @name='resourceWood']/@count">50</set>
 
   <!-- Wood logs should burn longer than wood (4x) -->
   <set xpath="/blocks/block[@name='woodLogPillar100']/property[@name='FuelValue']/@value">2000</set>
 
-  <!-- Trees -->
+  <!-- shrubs & trees -->
   <set xpath="/blocks/block[starts-with(@name, 'tree')]/drop[@event='Harvest' and @name='resourceWood']/@count">175</set>
-
   <set xpath="/blocks/block[@name='treeStump']/drop[@event='Destroy' and @name='foodHoney']/@count">3,8</set>
-  <set xpath="/blocks/block[@name='treePlainsTree']/drop[@event='Harvest' and @name='resourceWood']/@count">10,25</set>
+
+  <set xpath="/blocks/block[@name='treeDeadPineLeaf']/drop[@event='Harvest' and @name='resourceWood']/@count">5,15</set>
+  <set xpath="/blocks/block[@name='treeSnowyDeadBush']/drop[@event='Harvest' and @name='resourceWood']/@count">5,15</set>
+  <set xpath="/blocks/block[starts-with(@name, 'treePlainsTree')]/drop[@event='Harvest' and @name='resourceWood']/@count">5,15</set>
+
+  <!-- Trees -->
   <set xpath="/blocks/block[@name='treeOakMed01']/drop[@event='Harvest' and @name='resourceWood']/@count">350</set>
   <set xpath="/blocks/block[@name='treeOakMed02']/drop[@event='Harvest' and @name='resourceWood']/@count">550</set>
   <set xpath="/blocks/block[@name='treeOakLrg01']/drop[@event='Harvest' and @name='resourceWood']/@count">675</set>
