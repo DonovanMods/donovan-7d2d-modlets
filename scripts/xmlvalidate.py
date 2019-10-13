@@ -225,3 +225,5 @@ if options['verbose']:
 
 if options['debug']:
     etree.ElementTree(configXML).write('debug.xml')
+
+sys.exit(1) if stats['failures'] else sys.exit(0)
