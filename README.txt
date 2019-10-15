@@ -7,6 +7,7 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
 - All-In-One - Bundled modlet of my recommended modlets
+- BetterBackpack - Increases the size of the player inventory to 120
 - BetterBandages - Craft medical bandages directly from normal bandages + aloe cream
 - BetterBridges - Allows advanced rotation on garage door and drawbridge
 - BetterBuffs - Tweaks some of the (de)buff settings. Notably, hunger and thirsty now work off %, not a fixed number.

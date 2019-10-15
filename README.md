@@ -7,6 +7,7 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
 - [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-aio) - Bundled modlet of my recommended modlets
+- [BetterBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterBackpack) - Increases the size of the player inventory to 120
 - [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
