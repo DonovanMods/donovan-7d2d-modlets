@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_BetterBackpack" />
-    <Description value="Increases the size of the backpack" />
+    <Name value="Donovan_MegaBackpack" />
+    <Description value="Increases the size of the player inventory to 120" />
     <Author value="Donovan" />
     <Version value="18.0.1.0" />
   </ModInfo>
