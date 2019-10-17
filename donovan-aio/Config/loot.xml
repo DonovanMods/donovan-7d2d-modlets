@@ -11,9 +11,6 @@
   <!-- 4x4Truck (Default: 9,7) -->
   <set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,6</set>
   <!-- Gyrocopter (Default: 9,5) -->
-  <!-- Included from donovan-bigbackpack -->
-  <!-- Player dropped backpack-->
-  <set xpath="/lootcontainers/lootcontainer[@id='2']/@size">8,10</set>
   <!-- Included from donovan-lessgrind -->
   <!-- Increase the amount of feathers you find in nests -->
   <set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='resourceFeather']/@count">5,10</set>
