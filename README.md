@@ -19,6 +19,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 - [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
+- [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 60
 - [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 120
 - [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Vastly increases stack sizes
 - [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level by 2 (conflicts with megaperks)

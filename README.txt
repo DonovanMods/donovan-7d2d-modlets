@@ -18,6 +18,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - CraftBeaker - Adds the beaker as a craftable item from the forge (requires crucible)
 - CraftJail - Adds the jaildoor back into the game as a craftable item
 - CraftSpikes - Adds the A16 log spikes back into the game as a craftable item
+- BigBackpack - Increases the size of the player inventory to 60
 - MegaBackpack - Increases the size of the player inventory to 120
 - MegaStacks - Increases stack sizes by a large amount
 - MorePerks - Increases the amount of perks points received per level by 2 (conflicts with megaperks)

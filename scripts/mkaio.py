@@ -96,6 +96,7 @@ included_mods = [
     'donovan-betterbuffs',
     'donovan-betterpowertools',
     'donovan-bettervehicles',
+    'donovan-bigbackpack',
     'donovan-lessgrind',
     'donovan-longerlootbags',
     'donovan-megastacks',
