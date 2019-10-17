@@ -1,0 +1,4 @@
+<configs>
+  <!-- Included from donovan-megastacks -->
+  <set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">10</set>
+</configs>
