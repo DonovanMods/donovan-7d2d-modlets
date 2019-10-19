@@ -1,3 +1,5 @@
+#!env python3
+
 import getopt
 import sys
 from copy import copy
@@ -201,7 +203,7 @@ def print_stats(stats):
                         f'\nFound {stats["failures"]} failures in {stats["modfiles"]} XML files across {stats["modlets"]} modlets'))
     else:
         print(colortext(Fore.GREEN,
-                        f'\nAll {stats["modlets"]} modlets are OKAY'))
+                        f'\nAll {stats["modlets"]} modlets are OKAY\n'))
 
 
 ##

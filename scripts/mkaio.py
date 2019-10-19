@@ -1,3 +1,4 @@
+#!env python3
 import sys
 
 from os import scandir

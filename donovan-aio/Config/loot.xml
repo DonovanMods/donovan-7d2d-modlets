@@ -13,7 +13,7 @@
   <!-- Gyrocopter (Default: 9,5) -->
   <!-- Included from donovan-lessgrind -->
   <!-- Increase the amount of feathers you find in nests -->
-  <set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='resourceFeather']/@count">5,10</set>
+  <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='resourceFeather']/@count">5,10</set>
   <!-- Add acid to cupboards -->
   <append xpath="/lootcontainers/lootgroup[@name='cupboard']">
     <item name="resourceAcid" count="1,2" prob="0.05"/>
