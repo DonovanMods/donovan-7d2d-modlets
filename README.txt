@@ -11,6 +11,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - BetterBridges - Allows advanced rotation on garage door and drawbridge
 - BetterBuffs - Tweaks some of the (de)buff settings. Notably, hunger and thirsty now work off %, not a fixed number.
 - BetterPowertools - Makes the Chainsaw, Auger, and Nailgun way more useful
+- BetterSpears - Gives the spears a little more damage
 - BetterVehicles - Bigger and Faster Vehicles; more storage adn +25% normal speed (double that for turbo speed)
 - LessGrind - Increases the harvest amount of most methods and reduces some resource requirements
 - LevelFaster - Increases the experience gain on most items

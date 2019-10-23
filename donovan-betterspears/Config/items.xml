@@ -1,0 +1,10 @@
+<configs>
+  <set xpath="items/item[@name='meleeThrownSpearStone']/effect_group[@name='meleeThrownSpearStone']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">11.33</set>
+  <set xpath="items/item[@name='meleeThrownSpearStone']/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">3.14</set>
+
+  <set xpath="items/item[@name='meleeThrownSpearIron']/effect_group[@name='meleeThrownSpearIron']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">14.26</set>
+  <set xpath="items/item[@name='meleeThrownSpearIron']/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">3.28</set>
+
+  <set xpath="items/item[@name='meleeThrownSpearSteel']/effect_group[@name='meleeThrownSpearSteel']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">23.25</set>
+  <set xpath="items/item[@name='meleeThrownSpearIron']/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">3.56</set>
+</configs>

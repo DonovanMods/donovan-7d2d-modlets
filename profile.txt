@@ -3,6 +3,7 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterban
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbridges
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools
+https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigbackpacks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid
