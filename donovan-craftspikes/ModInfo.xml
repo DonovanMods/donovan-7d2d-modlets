@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_CraftSpikes" />
+    <Description value="Adds the A16 Log Spikes back in as craftable items" />
+    <Author value="Donovan" />
+    <Version value="18.0.1.0" />
+  </ModInfo>
+</xml>

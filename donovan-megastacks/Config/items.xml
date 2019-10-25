@@ -6,19 +6,19 @@
   <set xpath="/items/item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>  <!-- Crops -->
   <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>  <!-- Drinks -->
   <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>  <!-- Resources -->
+  <set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>  <!-- Resources -->
   <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>  <!-- Tools -->
 
   <!-- Exceptions & Misc -->
   <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
-  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">50000</set>
+  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
   <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='medicalSnowberryExtract']/property[@name='Stacknumber']/@value">500</set>
   <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
-  <set xpath="/items/item[@name='unlockBookMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
 </configs>

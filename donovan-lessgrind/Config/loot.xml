@@ -1,9 +1,15 @@
 <config>
+  <!-- Increase the amount of feathers you find in nests -->
+  <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='resourceFeather']/@count">5,10</set>
+
   <!-- Add acid to cupboards -->
   <append xpath="/lootcontainers/lootgroup[@name='cupboard']">
-    <item name="resourceAcid" count="1,2" prob="0.05"/>
+    <item name="resourceAcid" count="1,2" prob="0.05" />
   </append>
 
   <!-- increase number of Eggs in refrigerators -->
   <set xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']/@count">1,12</set>
+
+  <!-- increase number of lockpicks found -->
+  <set xpath="/lootcontainers/lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
 </config>

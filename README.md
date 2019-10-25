@@ -6,26 +6,31 @@ The goal is to create a _less grindy_ experience in 7 Days to Die, so you can en
 
 These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
+- [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-aio) - Bundled modlet of my recommended modlets
 - [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
+- [BetterSpears](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears) - Gives the spears a little more damage
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster) - Increases the experience gain on most items
 - [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lootcleanup) - Destroys bird nests, garbage piles, and bags after looting them, you know, to clean up the environment.
 - [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
-- [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
-- [BigStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigstacks) - Increases stack sizes a fairly reasonable amount (conflicts with megastacks)
-- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Increases stack sizes an unreasonably large amount (conflicts with bigstacks)
+- [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
+- [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
+- [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 60
+- [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 120
+- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megastacks) - Vastly increases stack sizes
 - [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-moreperks) - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
 - [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megaperks) - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with megalootbags)
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with morelootbags)
+- [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
-Tested under game version: _alpha 17.4 (b4)_
+Tested under game version: _Alpha 18.0_
 
 ## History
 

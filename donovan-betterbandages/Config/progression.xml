@@ -1,0 +1,9 @@
+<configs>
+  <!-- let's move the medical craftables to physician where they belong -->
+  <set xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">mineCookingPot,rScrapIronPlateMine,ammoGasCan,resourceOil</set>
+  <set xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">drugSteroids,resourceMilitaryFiber,mineHubcap</set>
+  <append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="medicalFirstAidBandage,medicalPlasterCast" />
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="medicalFirstAidKit" />
+  </append>
+</configs>

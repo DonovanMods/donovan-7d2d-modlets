@@ -1,0 +1,4 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">60</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">33</set>
+</configs>

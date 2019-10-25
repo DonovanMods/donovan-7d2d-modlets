@@ -1,3 +1,4 @@
 <configs>
+  <!-- MotherLode perk is rather, underwhelming, let's fix that -->
   <set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.5,2</set>
 </configs>

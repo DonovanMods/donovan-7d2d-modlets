@@ -4,7 +4,7 @@
       <ingredient name="resourcePotassiumNitratePowder" count="5" />
       <ingredient name="resourceCoal" count="5" />
       <ingredient name="drinkJarRiverWater" count="1" />
-      <ingredient name="resourceFemur" count="1" />
+      <ingredient name="resourceBone" count="1" />
     </recipe>
   </append>
 </configs>

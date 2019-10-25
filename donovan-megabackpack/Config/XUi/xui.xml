@@ -1,0 +1,5 @@
+<configs>
+	<!-- Main scale of UI -->
+	<set xpath="/xui/ruleset[@name='default']/@scale">1.05</set>
+	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.93</set>
+</configs>

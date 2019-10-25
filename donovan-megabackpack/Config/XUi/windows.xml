@@ -1,0 +1,16 @@
+<configs>
+	<!-- Looting window -->
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">11</set>
+	<set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">13</set>
+	<!-- Player backpack window -->
+	<set xpath="/windows/window[@name='windowBackpack']/@width">1008</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@height">550</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">504</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">1008</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">537</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">8</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">15</set>
+	<!-- Crafting Queue x5 -->
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">10,0</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
+</configs>
