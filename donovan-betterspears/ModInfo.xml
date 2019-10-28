@@ -2,8 +2,8 @@
 <xml>
   <ModInfo>
     <Name value="Donovan_BetterSpears" />
-    <Description value="Gives the spears a little more oomph" />
+    <Description value="Spears do more damage and can harvest animals" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.2.0" />
   </ModInfo>
 </xml>
