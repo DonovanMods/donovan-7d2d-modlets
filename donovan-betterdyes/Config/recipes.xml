@@ -1,0 +1,28 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="modDyeRed" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeGreen" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBlack" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBlue" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBrown" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyePink" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyePurple" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeYellow" count="1">
+      <ingredient name="resourcePaint" count="15" />
+    </recipe>
+  </append>
+</configs>

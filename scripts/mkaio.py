@@ -3,7 +3,6 @@ import sys
 
 from os import scandir
 from pathlib import Path
-from shutil import copy
 
 from colorama import Fore, Style
 from lxml import etree
@@ -49,7 +48,6 @@ def readXML(path, dir=None, xmlfiles={}):
         key = configfile.relative_to(dir)
 
         if configfile.suffix == '.xml':
-
             if key not in xmlfiles:
                 xmlfiles[key] = etree.Element('configs')
 
@@ -59,8 +57,13 @@ def readXML(path, dir=None, xmlfiles={}):
             for node in etree.parse(str(configfile), XMLparser).getroot():
                 xmlfiles[key].append(node)
 
-        else:
-            xmlfiles[key] = configfile
+        if configfile.name == 'localization.txt':
+            if key not in xmlfiles:
+                xmlfiles[key] = []
+
+            with configfile.open() as lf:
+                next(lf)
+                xmlfiles[key] += lf.readlines()
 
     return xmlfiles
 
@@ -83,8 +86,15 @@ def writeXML(aio_mod, xmlfiles):
                 print(
                     f'Unable to write XML file {value}: {colortext(Fore.RED, error)}')
                 sys.exit(1)
-        else:
-            copy(value, aio_file)
+
+        if aio_file.name == 'localization.txt':
+            if not aio_file.is_file():
+                with aio_file.open("w") as lf:
+                    lf.write('Key,Source,Context,Changes,English\n')
+
+            # ... do stuff
+            with aio_file.open("a") as lf:
+                lf.writelines(value)
 
 
 ##
@@ -95,6 +105,7 @@ included_mods = [
     'donovan-betterbandages',
     'donovan-betterbridges',
     'donovan-betterbuffs',
+    'donovan-betterdyes',
     'donovan-betterpowertools',
     'donovan-betterspears',
     'donovan-bettervehicles',
