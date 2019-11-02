@@ -12,6 +12,7 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - betterbandages
 - betterbridges
 - betterbuffs
+- betterdyes
 - betterpowertools
 - betterspears
 - bettervehicles

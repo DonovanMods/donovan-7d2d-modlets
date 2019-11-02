@@ -10,6 +10,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
+- [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterSpears](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears) - Gives the spears a little more damage
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)

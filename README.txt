@@ -10,6 +10,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - BetterBandages - Craft medical bandages directly from normal bandages + aloe cream
 - BetterBridges - Allows advanced rotation on garage door and drawbridge
 - BetterBuffs - Tweaks some of the (de)buff settings. Notably, hunger and thirsty now work off %, not a fixed number.
+- BetterDyes - Allows all colored dyes to be crafted with paint
 - BetterPowertools - Makes the Chainsaw, Auger, and Nailgun way more useful
 - BetterSpears - Gives the spears a little more damage
 - BetterVehicles - Bigger and Faster Vehicles; more storage adn +25% normal speed (double that for turbo speed)

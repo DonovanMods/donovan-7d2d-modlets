@@ -2,6 +2,7 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-aio
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbridges
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs
+https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterdyes
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles
