@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterVehicles" />
     <Description value="Bigger and Faster Vehicles; more storage plus 25% normal speed and double turbo speed" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A17,A18" />
   </ModInfo>
 </xml>

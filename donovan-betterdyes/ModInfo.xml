@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterDyes" />
     <Description value="Craft dyes using paint" />
     <Author value="Donovan" />
-    <Version value="a18.0 v1.0" />
+    <Version value="18.0.1.0" compat="A18" />
   </ModInfo>
 </xml>

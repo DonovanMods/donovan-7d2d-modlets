@@ -2,8 +2,8 @@
 <xml>
   <ModInfo>
     <Name value="Donovan_PickMeUp" />
-    <Description value="Allows various blocks to be picked up" />
+    <Description value="Allows spike blocks to be picked up" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A17,A18" />
   </ModInfo>
 </xml>

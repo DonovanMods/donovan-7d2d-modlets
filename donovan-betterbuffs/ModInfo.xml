@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterBuffs" />
     <Description value="Tweaks some of the (de)buff settings. Notably, NearTrauma now only lasts 10 minutes and hunger and thirsty are now more realistic." />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A17,A18" />
   </ModInfo>
 </xml>

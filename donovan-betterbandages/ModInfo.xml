@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterBandages" />
     <Description value="Craft medical bandages directly from normal bandages + aloe cream, plus unlocks via Physican perk tree" />
     <Author value="Donovan" />
-    <Version value="a18.0 v1.1.1" />
+    <Version value="18.0.1.2" compat="A17,A18" />
   </ModInfo>
 </xml>

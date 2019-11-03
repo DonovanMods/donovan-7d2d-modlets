@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterPowertools" />
     <Description value="Makes the Chainsaw, Auger, and Nailgun more useful" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A18" />
   </ModInfo>
 </xml>

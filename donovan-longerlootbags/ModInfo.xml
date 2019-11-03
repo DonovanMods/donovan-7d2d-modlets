@@ -4,6 +4,6 @@
     <Name value="Donovan_LongerLootbags" />
     <Description value="Decreases the decay rate on zombie loot bags from 5 to 30 minutes" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A17,A18" />
   </ModInfo>
 </xml>

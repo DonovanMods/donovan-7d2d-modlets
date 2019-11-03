@@ -4,6 +4,6 @@
     <Name value="Donovan_MegaPerks" />
     <Description value="Increases the number of perks you get per level (x4)" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" />
+    <Version value="18.0.1.0" compat="A17,A18" />
   </ModInfo>
 </xml>
