@@ -4,6 +4,6 @@
     <Name value="Donovan_MegaStacks" />
     <Description value="Increases stack sizes a large amount" />
     <Author value="Donovan" />
-    <Version value="18.0.1.1" compat="A17,A18" />
+    <Version value="18.0.1.2" compat="A18" />
   </ModInfo>
 </xml>
