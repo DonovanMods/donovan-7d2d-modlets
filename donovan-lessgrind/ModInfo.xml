@@ -4,6 +4,6 @@
     <Name value="Donovan_LessGrind" />
     <Description value="Increases the harvest amount of most methods" />
     <Author value="Donovan" />
-    <Version value="18.0.1.3" compat="A18" />
+    <Version value="18.1.1.0" compat="A18.1" />
   </ModInfo>
 </xml>
