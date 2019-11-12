@@ -100,20 +100,16 @@ def writeXML(aio_mod, xmlfiles):
 ##
 # Main()
 ##
+modlistFile = Path(Path(sys.argv[0]).parent, 'modlist.txt')
+includedMods = []
 aio_mod = 'donovan-aio'
-included_mods = [
-    'donovan-betterbandages',
-    'donovan-betterbridges',
-    'donovan-betterbuffs',
-    'donovan-betterdyes',
-    'donovan-betterpowertools',
-    'donovan-betterspears',
-    'donovan-bettervehicles',
-    'donovan-lessgrind',
-    'donovan-longerlootbags',
-    'donovan-megastacks',
-    'donovan-moreperks',
-]
+
+if modlistFile.exists:
+    with open(modlistFile) as f:
+        includedMods = list(f)
+else:
+    print(f'Unable to open {modlistFile.name}')
+    sys.exit(1)
 
 # Clean AIO files
 print(colortext(Fore.RED, f'Cleaning'))
@@ -122,9 +118,16 @@ cleanAIO(Path(aio_mod, 'config'))
 # Read files
 xmls = {}
 print(colortext(Fore.YELLOW, f'Reading'))
-for mod in included_mods:
-    print('\t', colortext(Fore.YELLOW, mod))
-    xmls.update(readXML(Path(mod, 'config')))
+for mod in includedMods:
+    modFile = mod.strip()
+    modConfig = Path(modFile, 'config')
+
+    if modConfig.exists:
+        print('\t', colortext(Fore.YELLOW, modFile))
+        xmls.update(readXML(modConfig))
+    else:
+        print(f"{modFile} doesn't appear to be a modlet")
+
 
 # Write files
 print(colortext(Fore.GREEN, f'Writing'))
