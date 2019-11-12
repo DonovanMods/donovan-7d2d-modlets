@@ -1,4 +1,4 @@
-<configs>
+<bundle>
   <!-- Included from donovan-betterbandages -->
   <!-- let's move the medical craftables to physician where they belong -->
   <set xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">mineCookingPot,rScrapIronPlateMine,ammoGasCan,resourceOil</set>
@@ -12,4 +12,4 @@
   <set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.5,2</set>
   <!-- Included from donovan-moreperks -->
   <set xpath="/progression/level/@skill_points_per_level">2</set>
-</configs>
+</bundle>

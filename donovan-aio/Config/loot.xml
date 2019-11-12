@@ -1,4 +1,4 @@
-<configs>
+<bundle>
   <!-- Included from donovan-bettervehicles -->
   <!-- Storage Sizes -->
   <set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,2</set>
@@ -22,4 +22,4 @@
   <set xpath="/lootcontainers/lootgroup[@name='coldfood']/item[@name='foodEgg']/@count">1,12</set>
   <!-- increase number of lockpicks found -->
   <set xpath="/lootcontainers/lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
-</configs>
+</bundle>

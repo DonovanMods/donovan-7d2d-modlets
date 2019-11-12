@@ -1,4 +1,4 @@
-<configs>
+<bundle>
   <!-- Included from donovan-bettervehicles -->
   <!-- Speed -->
   <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">6.25,10</set>
@@ -11,4 +11,4 @@
   <!-- Default: 9,13 -->
   <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">14,21</set>
   <!-- Default: 7,10 -->
-</configs>
+</bundle>

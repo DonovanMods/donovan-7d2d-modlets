@@ -1,4 +1,4 @@
-<configs>
+<bundle>
   <!-- Included from donovan-lessgrind -->
   <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @tag='butcherHarvest' and @name='foodRawMeat']/@count">50</set>
   <set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@event='Harvest' and @tag='butcherHarvest' and @name='resourceLeather']/@count">12</set>
@@ -36,4 +36,4 @@
   <!-- Included from donovan-longerlootbags -->
   <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">300</set>
   <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">1800</set>
-</configs>
+</bundle>
