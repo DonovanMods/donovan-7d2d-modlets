@@ -1,5 +1,6 @@
 #!env python3
 import sys
+import getopt
 
 from os import scandir
 from pathlib import Path
@@ -16,7 +17,9 @@ def cleanAIO(path):
     directory = path
 
     for clean_me in directory.glob('*'):
-        print('\t', colortext(Fore.RED, clean_me))
+        if options['verbose']:
+            print('\t', colortext(Fore.RED, clean_me))
+
         if clean_me.is_dir():
             cleanAIO(clean_me)
             try:
@@ -69,11 +72,15 @@ def readXML(path, dir=None, xmlfiles={}):
 
 
 def writeXML(aio_mod, xmlfiles):
+    if not aio_mod.is_dir():
+        Path.mkdir(aio_mod)
+
     for key in xmlfiles:
-        aio_file = Path(aio_mod, 'config', key)
+        aio_file = aio_mod / 'Config' / key
         value = xmlfiles[key]
 
-        print('\t', colortext(Fore.GREEN, aio_file))
+        if options['verbose']:
+            print('\t', colortext(Fore.GREEN, aio_file))
 
         if not aio_file.parent.exists():
             Path.mkdir(aio_file.parent)
@@ -92,17 +99,81 @@ def writeXML(aio_mod, xmlfiles):
                 with aio_file.open("w") as lf:
                     lf.write('Key,Source,Context,Changes,English\n')
 
-            # ... do stuff
             with aio_file.open("a") as lf:
                 lf.writelines(value)
+
+
+def getoptions():
+    def help():
+        def format(command, description):
+            return f'\t{command:20} - {description}'
+
+        print(
+            f'Usage: {Path(sys.argv[0]).name} -c [config_file] -m [bundled_modlet_name]')
+        print('\nOpts:')
+        print(f'{format("-c|--config <file>", "a file containing a list of the modlets to bundle, one per line")}')
+        print(
+            f'{format("-m|--modlet <name>", "The name of the bundled modlet to create")}')
+        print()
+        print(f'{format("-v|--verbose", "display more output during run")}')
+        print(f'{format("-h|--help", "this help message")}')
+        sys.exit(2)
+
+    options = {
+        'config': Path(Path(sys.argv[0]).parent, 'modlist.txt'),
+        'modlet': Path('./bundle'),
+        'debug': False,
+        'verbose': False,
+    }
+
+    short_args = 'c:hm:v'
+    long_args = ['config', 'debug', 'help', 'modlets', 'verbose']
+
+    try:
+        arguments, values = getopt.getopt(sys.argv[1:], short_args, long_args)
+    except getopt.error as err:
+        print(str(err))
+        sys.exit(1)
+
+    for arg, value in arguments:
+        if arg in ('-c', '--config'):
+            if Path(value).exists():
+                options['config'] = Path(value)
+            else:
+                print(colortext(
+                    Fore.RED, f"\nERROR: Could not find or read from the config file '{value}'\n"))
+                help()
+
+        if arg in ('-m', '--modlet'):
+            options['modlet'] = Path(value)
+
+        if arg in ('--debug'):
+            options['debug'] = True
+
+        if arg in ('-h', '--help'):
+            help()
+
+        if arg in ('-v', '--verbose'):
+            options['verbose'] = True
+
+    if options['config'] == None:
+        help()
+
+    if options['modlet'] == None:
+        print(colortext(Fore.RED, 'ERROR: No modlet name was provided'))
+        help()
+
+    return options
 
 
 ##
 # Main()
 ##
-modlistFile = Path(Path(sys.argv[0]).parent, 'modlist.txt')
 includedMods = []
-aio_mod = 'donovan-aio'
+
+options = getoptions()
+modlistFile = options['config']
+aio_mod = options['modlet']
 
 if modlistFile.exists:
     with open(modlistFile) as f:
@@ -112,25 +183,33 @@ else:
     sys.exit(1)
 
 # Clean AIO files
-print(colortext(Fore.RED, f'Cleaning'))
-cleanAIO(Path(aio_mod, 'config'))
+if options['verbose']:
+    print(colortext(Fore.RED, f'Cleaning'))
+
+cleanAIO(Path(aio_mod, 'Config'))
 
 # Read files
 xmls = {}
-print(colortext(Fore.YELLOW, f'Reading'))
+if options['verbose']:
+    print(colortext(Fore.YELLOW, f'Reading'))
+
 for mod in includedMods:
     modFile = mod.strip()
-    modConfig = Path(modFile, 'config')
+    modConfig = Path(modFile, 'Config')
 
     if modConfig.exists:
-        print('\t', colortext(Fore.YELLOW, modFile))
+        if options['verbose']:
+            print('\t', colortext(Fore.YELLOW, modFile))
         xmls.update(readXML(modConfig))
     else:
-        print(f"{modFile} doesn't appear to be a modlet")
+        print(colortext(Fore.YELLOW,
+                        f"{modFile} doesn't appear to be a modlet"))
 
 
 # Write files
-print(colortext(Fore.GREEN, f'Writing'))
+if options['verbose']:
+    print(colortext(Fore.GREEN, f'Writing'))
+
 writeXML(aio_mod, xmls)
 
 sys.exit(0)
