@@ -7,6 +7,7 @@
   <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>  <!-- Drinks -->
   <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>  <!-- Resources -->
   <set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>  <!-- Resources -->
+  <set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>  <!-- Grenades & Molotovs -->
   <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>  <!-- Tools -->
 
   <!-- Exceptions & Misc -->
