@@ -6,4 +6,8 @@
   <append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
     <property name="CanPickup" value="true" param1="trapSpikesIronDmg0" />
   </append>
+
+  <append xpath="/blocks/block[@name='barbedFence']">
+    <property name="CanPickup" value="true" />
+  </append>
 </configs>
