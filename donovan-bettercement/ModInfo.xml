@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_BetterCement" />
+    <Description value="Create 'Cement Mix' directly in the cement mixer" />
+    <Author value="Donovan" />
+    <Version value="18.3.1.0" compat="A18" />
+  </ModInfo>
+</xml>
