@@ -27,13 +27,19 @@
   </append>
   <!-- Included from donovan-lessgrind -->
   <!-- Crafting time -->
-  <set xpath="items/item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
-  <set xpath="items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
-  <set xpath="items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
-  <set xpath="items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
+  <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
+  <set xpath="/items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
+  <set xpath="/items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
+  <set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
+  <append xpath="/items/item[@name='resourceCrushedSand']">
+    <property name="CraftingIngredientTime" value="0.1"/>
+  </append>
+  <append xpath="/items/item[@name='resourceCement']">
+    <property name="CraftingIngredientTime" value="0.5"/>
+  </append>
   <!-- Melting time -->
-  <set xpath="items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
-  <set xpath="items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
+  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
+  <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
   <!-- Included from donovan-megastacks -->
   <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
   <!-- Ammo -->
@@ -52,7 +58,7 @@
   <set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>
   <!-- Resources -->
   <set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>
-  <!-- Granades & Molotovs -->
+  <!-- Grenades & Molotovs -->
   <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>
   <!-- Tools -->
   <!-- Exceptions & Misc -->

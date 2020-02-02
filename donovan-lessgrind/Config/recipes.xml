@@ -10,15 +10,15 @@
   <set xpath="/recipes/recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">50</set>
   <set xpath="/recipes/recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">50</set>
 
-  <set xpath="recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
-  <set xpath="recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceScrapIron']/@count">40</set>
+  <set xpath="/recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+  <set xpath="/recipes/recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceScrapIron']/@count">40</set>
 
   <!-- You should be able to make a bone knife with only one bone -->
-  <set xpath="recipes/recipe[@name='meleeToolKnifeBone']/ingredient[@name='resourceBone']/@count">1</set>
+  <set xpath="/recipes/recipe[@name='meleeToolKnifeBone']/ingredient[@name='resourceBone']/@count">1</set>
 
   <!-- Add recipe to make Yucca juice without boiled water -->o
-  <set xpath="recipes/recipe[@name='drinkJarYuccaJuice']/ingredient[@name='foodCropYuccaFruit']/@count">1</set>
-  <append xpath="recipes">
+  <set xpath="/recipes/recipe[@name='drinkJarYuccaJuice']/ingredient[@name='foodCropYuccaFruit']/@count">1</set>
+  <append xpath="/recipes">
     <recipe name="drinkJarYuccaJuice" count="1" tags="perkMasterChef">
       <ingredient name="foodCropYuccaFruit" count="2" />
       <ingredient name="drinkJarEmpty" count="1" />
