@@ -1,0 +1,340 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="modGunBarrelExtenderSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunBarrelExtender" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunMuzzleBrakeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunMuzzleBrake" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunSoundSuppressorSilencerSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunSoundSuppressorSilencer" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunLaserSightSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunLaserSight" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunFlashlightSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunFlashlight" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunScopeSmallSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunScopeSmall" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunScopeMediumSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunScopeMedium" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunScopeLargeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunScopeLarge" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunReflexSightSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunReflexSight" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunTriggerGroupSemiSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunTriggerGroupSemi" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunTriggerGroupBurst3Schematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunTriggerGroupBurst3" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunTriggerGroupAutomaticSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunTriggerGroupAutomatic" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunRodAndSpringSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunRodAndSpring" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunBipodSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunBipod" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunForegripSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunForegrip" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunRetractingStockSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunRetractingStock" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunDuckbillSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunDuckbill" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunChokeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunChoke" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunMagazineExtenderSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunMagazineExtender" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modShotgunSawedOffBarrelSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modShotgunSawedOffBarrel" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunCrippleEmSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunCrippleEm" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunBowPolymerStringSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunBowPolymerString" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunBowArrowRestSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunBowArrowRest" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunMeleeTheHunterSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunMeleeTheHunter" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunMeleeRadRemoverSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunMeleeRadRemover" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modGunMeleeBlessedMetalSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modGunMeleeBlessedMetal" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeTemperedBladeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeTemperedBlade" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeSerratedBladeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeSerratedBlade" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeWeightedHeadSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeWeightedHead" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeStructuralBraceSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeStructuralBrace" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeErgonomicGripSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeErgonomicGrip" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeFortifyingGripSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeFortifyingGrip" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeClubBarbedWireSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeClubBarbedWire" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeClubMetalSpikesSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeClubMetalSpikes" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeGraveDiggerSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeGraveDigger" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeBunkerBusterSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeBunkerBuster" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeIronBreakerSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeIronBreaker" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeWoodSplitterSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeWoodSplitter" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modMeleeClubBurningShaftSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modMeleeClubBurningShaft" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorInsulatedLinerSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorInsulatedLiner" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorCoolingMeshSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorCoolingMesh" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorImprovedFittingsSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorImprovedFittings" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorCustomizedFittingsSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorCustomizedFittings" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorPlatingBasicSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorPlatingBasic" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorPlatingReinforcedSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorPlatingReinforced" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorStoragePocketSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorStoragePocket" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorDoubleStoragePocketSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorDoubleStoragePocket" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorTripleStoragePocketSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorTripleStoragePocket" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorMuffledConnectorsSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorMuffledConnectors" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorAdvancedMuffledConnectorsSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorAdvancedMuffledConnectors" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorImpactBracingSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorImpactBracing" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorBandolierSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorBandolier" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorWaterPurifierSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorWaterPurifier" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modArmorHelmetLightSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modArmorHelmetLight" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modFuelTankSmallSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modFuelTankSmall" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+    <recipe name="modFuelTankLargeSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+      <ingredient name="modFuelTankLarge" count="1"/>
+      <ingredient name="resourcePaper" count="100"/>
+      <ingredient name="resourceGlue" count="10"/>
+      <ingredient name="resourceLeather" count="5"/>
+    </recipe>
+  </append>
+</configs>
