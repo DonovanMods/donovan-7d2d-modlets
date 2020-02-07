@@ -1,0 +1,5 @@
+<configs>
+  <append xpath="/items/item[starts-with(@name, 'mod') and contains(@name, 'Schematic')]">
+    <property name="Group" value="Decor/Miscellaneous" />
+  </append>
+</configs>
