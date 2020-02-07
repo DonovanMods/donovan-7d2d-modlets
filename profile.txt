@@ -18,6 +18,7 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfast
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack
+https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megalootbags
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megaperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags
