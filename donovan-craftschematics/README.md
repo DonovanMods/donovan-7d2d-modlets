@@ -10,3 +10,5 @@ Of course, in order to make the schematic, the original mod will be consumed in 
 shiny new schematic to read!
 
 Not to mention, you will finally have a good use for that table saw you just _had_ to have, but now sits in your crafting area collecting dust.
+
+Special Thanks to Steveburger (aka Khar Brons) for his help and ideas on this modlet!
