@@ -11,6 +11,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
+- [BetterCement](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterSpears](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears) - Gives the spears a little more damage
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
@@ -20,6 +21,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid) - Craftable Acid
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
+- [CraftSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftschematics) - Create weapon mod schematics using the table saw
 - [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
 - [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 60
 - [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-megabackpack) - Increases the size of the player inventory to 120

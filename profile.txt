@@ -2,6 +2,7 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-aio
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbandages
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbridges
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterbuffs
+https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bettercement
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterdyes
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterpowertools
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-betterspears
@@ -10,6 +11,7 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-bigbackpa
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftacid
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftbeaker
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftjail
+https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftschematics
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-craftspikes
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-lessgrind
 https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-levelfaster
