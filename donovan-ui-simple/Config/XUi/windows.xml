@@ -1,0 +1,29 @@
+<configs>
+	<!-- Remove the default food/water bars -->
+	<remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Food']" />
+	<remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Water']" />
+	<set xpath="/windows/window[@name='windowToolbelt']/@pos">-313,88</set>
+
+	<!-- Add the new Water/Food Bars -->
+	<set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='left']/@pos">90,159</set>
+	<set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='right']/@pos">9,183</set>
+	<append xpath="/windows/window[@name='HUDLeftStatBars']">
+		<rect name="wellnessBars" pos="9,33" rows="1" cols="1" side="right">
+			<!-- Water Bar -->
+			<rect width="84" height="23" pos="0,0" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+				<sprite depth="1" name="border" color="0,0,0,128" type="sliced" />
+				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
+				<filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,0,128,128" type="filled" fill="0" globalopacity="false" />
+			</rect>
+
+			<!-- Food Bar -->
+			<rect width="84" height="23" pos="87,0" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+				<sprite depth="1" name="border" color="0,0,0,128" type="sliced" />
+				<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
+				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
+				<filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,128,0,128" type="filled" fill="0" globalopacity="false" />
+			</rect>
+		</rect>
+	</append>
+</configs>
