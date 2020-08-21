@@ -4,6 +4,6 @@
     <Name value="Donovan_PickMeUp" />
     <Description value="Allows spike blocks to be picked up" />
     <Author value="Donovan" />
-    <Version value="18.3.1.0" compat="A18" />
+    <Version value="19.0.1.0" compat="A19,A18" />
   </ModInfo>
 </xml>

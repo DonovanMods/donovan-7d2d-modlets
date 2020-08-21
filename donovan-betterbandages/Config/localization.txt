@@ -1,5 +1,0 @@
-Key,Source,Context,Changes,English
-perkPhysicianRank1LongDesc,progression,Perk,New,"Craft advanced medical items such as first aid bandages and plaster casts. Healing items heal 10% more health and heal over time 20% faster. Gain 20% more XP using bandages, first aid bandages, first aid kits and splints."
-perkPhysicianRank2LongDesc,progression,Perk,New,"Craft first aid kits. Healing items heal 20% more health and heal over time 40% faster. Gain 40% more XP using bandages, first aid bandages, first aid kits and splints."
-perkYeahScienceRank2LongDesc,progression,Perk,New,"You're now a professor and are learning practical science. Craft cooking pot and pressure plate mines, gasoline & oil."
-perkYeahScienceRank3LongDesc,progression,Perk,New,"Your friends call you the chemist and your enemies go boom. Craft steroids, military fiber and hub cap mines."

@@ -11,7 +11,7 @@
   <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>  <!-- Tools -->
 
   <!-- Exceptions & Misc -->
-  <set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
   <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
   <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
   <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
