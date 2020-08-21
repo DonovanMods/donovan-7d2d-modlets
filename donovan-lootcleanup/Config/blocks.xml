@@ -1,0 +1,4 @@
+<config>
+  <!-- The default destroy sound for bird nests is the wood destroy sound, not really appropriate -->
+  <set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
+</config>
