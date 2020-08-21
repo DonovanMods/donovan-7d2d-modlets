@@ -4,6 +4,6 @@
     <Name value="Donovan_BigBackpack" />
     <Description value="Increases the size of the player inventory to 60" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" compat="A18" />
+    <Version value="19.0.1.0" compat="A19,A18" />
   </ModInfo>
 </xml>

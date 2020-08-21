@@ -4,6 +4,6 @@
     <Name value="Donovan_CraftJail" />
     <Description value="Adds the Jaildoor and Jailbars back in as craftable items" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" compat="A17,A18" />
+    <Version value="19.0.1.0" compat="A19,A18,A17" />
   </ModInfo>
 </xml>

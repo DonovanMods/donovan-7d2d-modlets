@@ -1,18 +1,18 @@
 <configs>
   <!-- Chainsaw -->
-  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
-  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
-  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
-  <set xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
-  <append xpath="items/item[@name='meleeToolChainsaw']/effect_group[@name='meleeToolChainsaw']">
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+  <append xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']">
     <passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest" />
   </append>
 
   <!-- Auger -->
-  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='MaxRange']/@value">3.5</set>
-  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
-  <set xpath="items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
 
   <!-- Nailgun -->
-  <set xpath="items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
+  <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
 </configs>

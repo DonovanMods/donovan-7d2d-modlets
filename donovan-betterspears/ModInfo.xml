@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterSpears" />
     <Description value="Spears do more damage and can harvest animals" />
     <Author value="Donovan" />
-    <Version value="18.0.2.0" compat="A18" />
+    <Version value="19.0.1.0" compat="A19" />
   </ModInfo>
 </xml>

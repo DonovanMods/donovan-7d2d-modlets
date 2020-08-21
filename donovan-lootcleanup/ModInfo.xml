@@ -4,6 +4,6 @@
     <Name value="Donovan_LootCleanup" />
     <Description value="Destroys bird nests, garbage, and bags after looting them, to clean up the environment" />
     <Author value="Donovan" />
-    <Version value="18.0.1.0" compat="A17,A18" />
+    <Version value="19.0.1.0" compat="A19,A18,A17" />
   </ModInfo>
 </xml>
