@@ -1,10 +1,8 @@
 Donovan's 7 Days to Die Modlets
 
-The goal is to create a _less grindy_ experience in 7 Days to Die, so you can enjoy the other aspects of the game. As such, these mods only make changes to things like resource stack sizes and gathering, resource requirements, and experience requirements. Nothing has been changed to make the game "easier" in other ways.
-
 :: The Modlets::
 
-These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
+These are all intended to work a-la-carte and/or in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
 - All-In-One - Bundled modlet of my recommended modlets
 - BetterBandages - Craft medical bandages directly from normal bandages + aloe cream
@@ -30,9 +28,10 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
 - LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
 - PickMeUp - Allows for certain blocks to be picked up after placing.
+- UI-Simple - A very simple custom UI that repositions the food/water bars.
 
-Tested under game version: _Alpha 18.0_
+Tested under game version: _Alpha 19.0_
 
 :: History::
 
-I previously used an excellent XML config replacement made by SpikeDaddy, which he still maintains, so full credit to his work for my inspiration!
+I previously used an excellent XML config replacement made by SpikeDaddy so full credit to him for his work and my inspiration!

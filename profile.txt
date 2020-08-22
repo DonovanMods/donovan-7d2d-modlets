@@ -24,3 +24,4 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastack
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-moreperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-pickmeup
+https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-ui-simple
