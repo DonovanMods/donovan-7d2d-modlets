@@ -2,8 +2,8 @@
 <xml>
   <ModInfo>
     <Name value="Donovan_UI_Simple" />
-    <Description value="A very simple custom UI that repositions the food/water bars" />
+    <Description value="Repositions the food/water bars under heath/stamina" />
     <Author value="Donovan Young" />
-    <Version value="19.0.1.1" compat="A19" />
+    <Version value="19.0.2.0" compat="A19" />
   </ModInfo>
 </xml>
