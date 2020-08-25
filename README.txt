@@ -24,9 +24,10 @@ These are all intended to work a-la-carte and/or in unison, so feel free to mix 
 - MorePerks - Increases the amount of perks points received per level by 2 (conflicts with megaperks)
 - MegaPerks - Increases the amount of perks points received per level by 4 (conflicts with moreperks)
 - LongerLootbags - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
+- LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
 - MoreLootbags - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with MegaLootbags)
 - MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
-- LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
+- NightFog - Thick fog rolls in at night
 - PickMeUp - Allows for certain blocks to be picked up after placing.
 - UI-Simple - A very simple custom UI that repositions the food/water bars.
 

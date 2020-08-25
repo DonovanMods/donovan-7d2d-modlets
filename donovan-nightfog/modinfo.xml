@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_NightFog" />
+    <Description value="Thick fog rolls in at night, as if it weren't already bad enough!" />
+    <Author value="Donovan" />
+    <Version value="19.0.1.0" compat="A19" />
+  </ModInfo>
+</xml>
