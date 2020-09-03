@@ -72,12 +72,6 @@
       <ingredient name="resourceGlue" count="10"/>
       <ingredient name="resourceLeather" count="5"/>
     </recipe>
-    <recipe name="modGunRodAndSpringSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-      <ingredient name="modGunRodAndSpring" count="1"/>
-      <ingredient name="resourcePaper" count="100"/>
-      <ingredient name="resourceGlue" count="10"/>
-      <ingredient name="resourceLeather" count="5"/>
-    </recipe>
     <recipe name="modGunBipodSchematic" count="1" craft_area="tablesaw" tags="tableSawCrafting">
       <ingredient name="modGunBipod" count="1"/>
       <ingredient name="resourcePaper" count="100"/>
