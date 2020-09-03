@@ -4,6 +4,6 @@
     <Name value="Donovan_CraftBeaker" />
     <Description value="Adds Beaker as a craftable item to your forge (requires crucible)." />
     <Author value="Donovan" />
-    <Version value="19.0.1.0" compat="A19,A18,A17" />
+    <Version value="19.0.1.1" compat="A19,A18,A17" />
   </ModInfo>
 </xml>
