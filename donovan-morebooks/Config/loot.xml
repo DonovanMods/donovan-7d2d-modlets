@@ -1,0 +1,6 @@
+<configs>
+  <remove xpath="//lootcontainer[@id='135']/item[@name='resourcePaper' and @prob='7.5']" />
+  <set xpath="//lootcontainer[@id='135']/item[@name='resourcePaper']/@prob">1</set>
+  <remove xpath="//lootcontainer[@id='136']/item[@name='resourcePaper' and @prob='7.5']" />
+  <set xpath="//lootcontainer[@id='136']/item[@name='resourcePaper']/@prob">1</set>
+</configs>

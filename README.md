@@ -48,6 +48,8 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 
 - [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks) - Vastly increases stack sizes
 
+- [MoreBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks) - Increases the chance of finding books
+
 - [NightFog](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog) - Thick fog rolls in at night
 
 - [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
