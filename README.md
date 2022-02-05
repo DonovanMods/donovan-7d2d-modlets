@@ -1,5 +1,7 @@
 # Donovan's 7 Days to Die Modlets
 
+**A20 UPDATE!** All modlets have been updated to work in A20! Enjoy!
+
 This is a collection of modlets I've made in order to enhance the "fun factor" of 7 Days to Die and most of them I would considered "Quality of Life" changes, but, of course, you're free to define them however you wish.
 
 The modlets are all intended to be used a la carte, so you can freely mix and match the ones _you_ think will make your game more enjoyable. Any exceptions are noted in the descriptions below (some conflict with each other because they alter the same things in different ways).
@@ -24,41 +26,32 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterSpears](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterspears) - Gives the spears a little more damage
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
-
 - [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 60
 - [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 120
-
 - [CraftAcid](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftacid) - Craftable Acid
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 - [CraftSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftschematics) - Create weapon mod schematics using the table saw
 - [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
-
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfaster) - Increases the experience gain on most items
 - [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup) - Destroys bird nests, garbage piles, and bags after looting them, you know, to clean up the environment.
-
 - [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-moreperks) - Increases the amount of perks points received per level by 2 **- conflicts with megaperks**
 - [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megaperks) - Increases the amount of perks points received per level by 4 **- conflicts with moreperks**
-
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-
 - [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) **- conflicts with megalootbags**
 - [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) **- conflicts with morelootbags**
-
 - [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks) - Vastly increases stack sizes
-
-- [MoreBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks) - Increases the chance of finding books
-
+- [MoreBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks) - Increases the chance of finding books  **- conflicts with megabooks**
+- [MegaBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabooks) - Significantly increases the chance of finding books  **- conflicts with morebooks**
 - [NightFog](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog) - Thick fog rolls in at night
-
 - [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
 ### UI
 
 - [UI-Simple](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
 
-All have been verfied under game version: _Alpha 19 (stable)_
+All have been verfied under game version: _Alpha 20 (stable)_
 
 ## History
 

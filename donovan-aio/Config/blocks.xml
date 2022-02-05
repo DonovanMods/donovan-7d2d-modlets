@@ -88,7 +88,7 @@
   <set xpath="/blocks/block[starts-with(@name, 'plantedCorn3Harvest')]/drop[@event='Harvest' and @name='foodCropCorn']/@count">4</set>
   <set xpath="/blocks/block[starts-with(@name, 'plantedGraceCorn3Harvest')]/drop[@event='Harvest' and @name='foodCropGraceCorn']/@count">4</set>
   <set xpath="/blocks/block[starts-with(@name, 'plantedHop3Harvest')]/drop[@event='Harvest' and @name='resourceCropHopsFlower']/@count">4</set>
-  <set xpath="/blocks/block[starts-with(@name, 'plantedSnowberry3Harvest')]/drop[@event='Harvest' and @name='resourceCropSnowberryPlant']/@count">4</set>
+  <set xpath="/blocks/block[starts-with(@name, 'plantedSnowberry3Harvest')]/drop[@event='Harvest' and @name='resourceYuccaFibers']/@count">4</set>
   <set xpath="/blocks/block[starts-with(@name, 'decoCarTire')]/drop[@event='Destroy' and @name='resourceScrapPolymers']/@count">10,20</set>
   <set xpath="/blocks/block[@name='controlPanelBase01']/drop[@event='Harvest' and @name='resourceMetalPipe']/@count">3</set>
   <set xpath="/blocks/block[@name='controlPanelBase01']/drop[@event='Harvest' and @name='resourceSpring']/@count">3</set>
@@ -108,20 +108,17 @@
   <set xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">3,9</set>
   <set xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']/drop[@event='Harvest' and @name='resourceMetalPipe']/@count">3</set>
   <set xpath="/blocks/block[@name='cntRetroFridgeVer1Closed']/drop[@event='Harvest' and @name='resourceScrapPolymers']/@count">3,9</set>
-  <set xpath="/blocks/block[@name='cntWashingMachine']/drop[@event='Harvest' and @name='resourceMetalPipe']/@count">3,9</set>
-  <set xpath="/blocks/block[@name='cntWashingMachine']/drop[@event='Harvest' and @name='resourceMechanicalParts']/@count">3,9</set>
-  <set xpath="/blocks/block[@name='cntWashingMachine']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">3,9</set>
   <set xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']/drop[@event='Harvest' and @name='resourceScrapPolymers']/@count">12,18</set>
   <set xpath="/blocks/block[@name='cntTrashCompactor']/drop[@event='Harvest' and @name='resourceMechanicalParts']/@count">3,9</set>
   <set xpath="/blocks/block[@name='cntTrashCompactor']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">3,9</set>
   <set xpath="/blocks/block[@name='cntToilet01']/drop[@event='Destroy' and @name='resourceMetalPipe']/@count">4,8</set>
   <set xpath="/blocks/block[@name='conduit01']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">3,9</set>
-  <set xpath="/blocks/block[@name='cntGasPump']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">3,9</set>
-  <set xpath="/blocks/block[@name='cntGasPump']/drop[@event='Harvest' and @name='resourceMechanicalParts']/@count">3,9</set>
+  <set xpath="/blocks/block[@name='cntGasPumpRandomLootHelper']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">5,15</set>
+  <set xpath="/blocks/block[@name='cntGasPumpRandomLootHelper']/drop[@event='Harvest' and @name='resourceMechanicalParts']/@count">4,10</set>
   <set xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']/drop[@event='Harvest' and @name='resourceWood']/@count">6</set>
-  <set xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']/drop[@event='Harvest' and @name='resourceCloth']/@count">6</set>
+  <set xpath="/blocks/block[@name='sectionalPlaidCouchSofaMiddle']/drop[@event='Destroy' and @name='resourceCloth']/@count">6</set>
   <set xpath="/blocks/block[@name='sectionalLeatherCouchSofaArm']/drop[@event='Harvest' and @name='resourceWood']/@count">6</set>
-  <set xpath="/blocks/block[@name='sectionalLeatherCouchSofaArm']/drop[@event='Harvest' and @name='resourceLeather']/@count">6</set>
+  <set xpath="/blocks/block[@name='sectionalLeatherCouchSofaArm']/drop[@event='Destroy' and @name='resourceLeather']/@count">6</set>
   <set xpath="/blocks/block[@name='leatherCouchSofa2']/drop[@event='Harvest' and @name='resourceWood']/@count">12</set>
   <set xpath="/blocks/block[@name='leatherCouchSofa2']/drop[@event='Harvest' and @name='resourceLeather']/@count">12</set>
   <set xpath="/blocks/block[@name='tv']/drop[@event='Harvest' and @name='resourceElectricParts']/@count">6,12</set>
@@ -191,7 +188,6 @@
   <set xpath="/blocks/block[@name='goreBlockHumanCorpse']/drop[@event='Destroy' and @name='resourceBone']/@count">10,20</set>
   <set xpath="/blocks/block[@name='goreBlockHumanBones']/drop[@event='Destroy' and @name='resourceBone']/@count">10,20</set>
   <!-- Repairing/Upgrading -->
-  <set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
   <set xpath="/blocks/block[@name='ironBarsCentered']/property[@class='RepairItems']/property[@name='resourceForgedIron']/@name">resourceScrapIron</set>
   <set xpath="/blocks/block[@name='trapSpikesWoodDmg0']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
   <set xpath="/blocks/block[@name='trapSpikesWoodDmg0']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">40</set>

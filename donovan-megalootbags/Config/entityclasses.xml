@@ -1,8 +1,12 @@
 <configs>
-  <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">0.2</set>
-  <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">0.5</set>
-  <set xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]/property[@name='LootDropProb']/@value">0.8</set>
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">.2</set>
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='LootDropProb']/@value">.5</set>
+  <append xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]">
+    <property name="LootDropProb" value=".8"/>
+  </append>
 
-  <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">0.8</set>
-  <set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='LootDropProb']/@value">1.0</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">.8</set>
+  <append xpath="/entity_classes/entity_class[@name='zombieWightRadiated']">
+    <property name="LootDropProb" value="1.0"/>
+  </append>
 </configs>

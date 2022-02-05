@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterBandages" />
     <Description value="Craft medical bandages directly from normal bandages + aloe cream" />
     <Author value="Donovan" />
-    <Version value="19.0.1.0" compat="A19,A18" />
+    <Version value="20.0.0" compat="A20,A19,A18" />
   </ModInfo>
 </xml>
