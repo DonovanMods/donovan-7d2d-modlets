@@ -2,7 +2,7 @@
 <xml>
   <ModInfo>
     <Name value="Donovan_CraftSchematics" />
-    <Description value="Create weapon mod schematics using the table saw" />
+    <Description value="Create weapon mod schematics from mods" />
     <Author value="Donovan" />
     <Version value="20.0.0" compat="A20,A19,A18" />
   </ModInfo>
