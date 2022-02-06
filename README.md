@@ -32,7 +32,7 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 - [CraftBeaker](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftbeaker) - Adds the beaker as a craftable item from the forge (requires crucible)
 - [CraftJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftjail) - Adds the jaildoor back into the game as a craftable item
 - [CraftSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftschematics) - Create weapon mod schematics using the table saw
-- [CraftSpikes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftspikes) - Adds the A16 style log spikes back into the game as a craftable item
+- CraftSpikes - REMOVED as of A20 (no longer supported by the game)
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfaster) - Increases the experience gain on most items
 - [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup) - Destroys bird nests, garbage piles, and bags after looting them, you know, to clean up the environment.
