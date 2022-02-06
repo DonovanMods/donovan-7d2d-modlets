@@ -1,9 +1,13 @@
 <configs>
   <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='ExperienceGain']/@value">1000</set>
 
-  <set xpath="/entity_classes/entity_class[contains(@name, 'Fat')]/property[@name='ExperienceGain']/@value">1000</set>
+  <set xpath="/entity_classes/entity_class[contains(@name, 'Fat')]/property[@name='ExperienceGain']/@value">1200</set>
   <set xpath="/entity_classes/entity_class[contains(@name, 'Feral')]/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]/property[@name='ExperienceGain']/@value">2000</set>
+
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/property[@name='ExperienceGain']/@value">1200</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']/property[@name='ExperienceGain']/@value">2000</set>
 
   <set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='ExperienceGain']/@value">2000</set>
@@ -20,7 +24,6 @@
   <set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='ExperienceGain']/@value">2500</set>
   <set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='ExperienceGain']/@value">3000</set>
 
-  <set xpath="/entity_classes/entity_class[@name='zombieSoldier']/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='ExperienceGain']/@value">5000</set>
 
   <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='ExperienceGain']/@value">3000</set>
@@ -29,8 +32,17 @@
   <set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='ExperienceGain']/@value">500</set>
   <set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='ExperienceGain']/@value">1000</set>
 
+  <set xpath="/entity_classes/entity_class[@name='animalChicken']/property[@name='ExperienceGain']/@value">200</set>
+  <set xpath="/entity_classes/entity_class[@name='animalRabbit']/property[@name='ExperienceGain']/@value">200</set>
+  <set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='ExperienceGain']/@value">500</set>
+
+  <set xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='ExperienceGain']/@value">300</set>
+  <set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='ExperienceGain']/@value">250</set>
+
+
   <set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">2000</set>
   <set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='ExperienceGain']/@value">1500</set>
   <set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/property[@name='ExperienceGain']/@value">1500</set>
+  <set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='ExperienceGain']/@value">5000</set>
 </configs>
