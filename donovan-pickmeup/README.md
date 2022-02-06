@@ -8,3 +8,4 @@ Modified blocks are:
 
 - Wood Spikes
 - Iron Spikes
+- Barbed Fence

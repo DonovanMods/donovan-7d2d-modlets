@@ -17,7 +17,6 @@ These are all intended to work a-la-carte and/or in unison, so feel free to mix 
 - CraftAcid - Craftable Acid
 - CraftBeaker - Adds the beaker as a craftable item from the forge (requires crucible)
 - CraftJail - Adds the jaildoor back into the game as a craftable item
-- CraftSpikes - Adds the A16 log spikes back into the game as a craftable item
 - BigBackpack - Increases the size of the player inventory to 60
 - MegaBackpack - Increases the size of the player inventory to 120
 - MegaStacks - Increases stack sizes by a large amount
@@ -27,6 +26,8 @@ These are all intended to work a-la-carte and/or in unison, so feel free to mix 
 - LootCleanup - Destroys bird nests, garbage piles, and bags after looting, you know, to clean up the environment.
 - MoreLootbags - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) (conflicts with MegaLootbags)
 - MegaLootbags - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) (conflicts with MoreLootbags)
+- MegaBooks - Dramatically increases the chance of finding books
+- MoreBooks - Increases the chance of finding books
 - NightFog - Thick fog rolls in at night
 - PickMeUp - Allows for certain blocks to be picked up after placing.
 - UI-Simple - A very simple custom UI that repositions the food/water bars.

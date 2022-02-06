@@ -12,7 +12,6 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftacid
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftbeaker
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftjail
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftschematics
-https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftspikes
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfaster
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags
@@ -21,6 +20,8 @@ https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackp
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megalootbags
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megaperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks
+https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabooks
+https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-moreperks
 https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog

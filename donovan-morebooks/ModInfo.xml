@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_LevelFaster" />
-    <Description value="Increases the experience gained from killing hostiles" />
+    <Name value="Donovan_MoreBooks" />
+    <Description value="Increases the chance of finding books" />
     <Author value="Donovan" />
     <Version value="20.0.0" compat="A20" />
   </ModInfo>

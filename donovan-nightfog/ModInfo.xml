@@ -4,6 +4,6 @@
     <Name value="Donovan_NightFog" />
     <Description value="Thick fog rolls in at night, as if it weren't already bad enough!" />
     <Author value="Donovan" />
-    <Version value="19.0.1.0" compat="A19" />
+    <Version value="20.0.0" compat="A20,A19" />
   </ModInfo>
 </xml>

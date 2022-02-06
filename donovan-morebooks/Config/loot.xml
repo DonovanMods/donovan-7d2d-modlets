@@ -1,0 +1,17 @@
+<configs>
+  <set xpath="//lootgroup[@name='groupJunk03']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupJunkNoBMats03']/item[@group='booksAllScaled']/@loot_prob_template">low</set>
+  <set xpath="//lootgroup[@name='groupFileCabinet02']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupPOIStorageBox02']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupBookcase']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupMailbox02']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupBookPile01']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupCrackabookShelves01']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupZpackReg02']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupZpackStrong02']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupZpackBoss02']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupDesks01']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupLuggage02']/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[@name='groupLocker02']/item[@group='booksAllScaled']/@loot_prob_template">medLow</set>
+  <set xpath="//lootgroup[@name='groupHiddenStash01']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+</configs>
