@@ -1,10 +1,10 @@
 donovan-betterbandages
+donovan-betterblades
 donovan-betterbridges
 donovan-betterbuffs
 donovan-bettercement
 donovan-betterdyes
 donovan-betterpowertools
-donovan-betterspears
 donovan-bettervehicles
 donovan-craftacid
 donovan-craftbeaker

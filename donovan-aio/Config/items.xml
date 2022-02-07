@@ -2,6 +2,33 @@
   <!-- Included from donovan-betterbandages -->
   <set xpath="items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidBandageSchematic</set>
   <set xpath="items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidKitSchematic</set>
+  <!-- Included from donovan-betterblades -->
+  <!-- Knives -->
+  <set xpath="items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='meleeWpnBladeT0BoneKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">8</set>
+  <set xpath="items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">6</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='meleeWpnBladeT1HuntingKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">8</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='meleeWpnBladeT1CandyKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">8</set>
+  <!-- Blades: attacks per minute -->
+  <set xpath="items/item[contains(@name, 'Knife')]/effect_group[@name='Power Attack']/passive_effect[@name='AttacksPerMinute']/@value">-50</set>
+  <!-- Machete -->
+  <set xpath="items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='meleeWpnBladeT3Machete']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <append xpath="items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='Power Attack']">
+    <passive_effect name="EntityDamage" operation="base_add" value="15" tags="secondary"/>
+  </append>
+  <!-- Spears -->
+  <set xpath="items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
+  <set xpath="items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <set xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">5</set>
+  <append xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
+    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+  </append>
+  <!-- Fireaxes -->
+  <set xpath="items/item[@name='meleeToolAxeT1IronFireaxe']/effect_group[@name='meleeToolAxeT1IronFireaxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeToolAxeT2SteelAxe']/effect_group[@name='meleeToolAxeT2SteelAxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <append xpath="items/item[starts-with(@name, 'meleeToolAxe')]/property[@name='Tags']/@value">,perkDeepCuts</append>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
@@ -17,14 +44,6 @@
   <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
   <!-- Nailgun -->
   <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
-  <!-- Included from donovan-betterspears -->
-  <set xpath="items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
-  <set xpath="items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
-  <set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
-  <set xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">5</set>
-  <append xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
-    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-  </append>
   <!-- Included from donovan-lessgrind -->
   <!-- Crafting time -->
   <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>

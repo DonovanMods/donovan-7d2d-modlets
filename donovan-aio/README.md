@@ -10,12 +10,12 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 ### Modlets Included
 
 - betterbandages
+- betterblades
 - betterbridges
 - betterbuffs
 - bettercement
 - betterdyes
 - betterpowertools
-- betterspears
 - bettervehicles
 - craftacid
 - craftbeaker
