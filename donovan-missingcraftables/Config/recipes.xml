@@ -1,0 +1,25 @@
+<configs>
+  <append xpath="/recipes">
+    <!-- Acid -->
+    <recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+      <ingredient name="resourcePotassiumNitratePowder" count="5" />
+      <ingredient name="resourceCoal" count="5" />
+      <ingredient name="drinkJarRiverWater" count="1" />
+      <ingredient name="resourceBone" count="1" />
+    </recipe>
+
+    <!-- Beaker -->
+    <recipe name="toolBeaker" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+      <ingredient name="unit_glass" count="50" />
+      <ingredient name="unit_lead" count="20" />
+      <ingredient name="unit_clay" count="20" />
+    </recipe>
+
+    <!-- SewingKit -->
+    <recipe name="resourceSewingKit" count="5" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1" />
+      <ingredient name="resourceCropCottonPlant" count="50" />
+      <ingredient name="resourceAnimalFat" count="5" />
+    </recipe>
+  </append>
+</configs>

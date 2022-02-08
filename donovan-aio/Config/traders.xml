@@ -1,0 +1,9 @@
+<bundle>
+  <!-- Included from donovan-missingcraftables -->
+  <append xpath="//trader_item_group[@name='schematicsToolsCommon']">
+    <item name="resourceSewingKitSchematic"/>
+  </append>
+  <append xpath="//trader_item_group[@name='schematicsToolsRare']">
+    <item name="resourceAcidSchematic"/>
+  </append>
+</bundle>

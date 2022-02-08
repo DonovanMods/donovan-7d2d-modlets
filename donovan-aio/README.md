@@ -17,11 +17,10 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - betterdyes
 - betterpowertools
 - bettervehicles
-- craftacid
-- craftbeaker
 - lessgrind
 - longerlootbags
 - lootcleanup
 - megastacks
+- missingcraftables
 - moreperks
 - pickmeup

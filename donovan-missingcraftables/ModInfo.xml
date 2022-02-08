@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_MissingCraftables" />
+    <Description value="Adds several missing recipes to the game along with schematics to unlock them" />
+    <Author value="Donovan" />
+    <Version value="20.0.0" compat="A20" />
+  </ModInfo>
+</xml>

@@ -6,11 +6,10 @@ donovan-bettercement
 donovan-betterdyes
 donovan-betterpowertools
 donovan-bettervehicles
-donovan-craftacid
-donovan-craftbeaker
 donovan-lessgrind
 donovan-longerlootbags
 donovan-lootcleanup
 donovan-megastacks
+donovan-missingcraftables
 donovan-moreperks
 donovan-pickmeup

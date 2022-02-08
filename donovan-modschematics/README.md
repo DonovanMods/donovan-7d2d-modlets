@@ -1,4 +1,4 @@
-# Donovan CraftSchematics
+# Donovan ModSchematics
 
 ## 7 Days 2 Die Modlet
 

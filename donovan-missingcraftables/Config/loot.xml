@@ -1,0 +1,9 @@
+<configs>
+  <append xpath="//lootgroup[@name='schematicsToolsT0']">
+    <item name="resourceSewingKitSchematic" />
+  </append>
+
+  <append xpath="//lootgroup[@name='schematicsToolsT1']">
+    <item name="resourceAcidSchematic" />
+  </append>
+</configs>
