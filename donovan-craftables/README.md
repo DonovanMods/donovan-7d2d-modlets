@@ -1,4 +1,4 @@
-# Donovan MissingCraftables
+# Donovan Craftables
 
 ## 7 Days 2 Die Modlet
 
@@ -7,5 +7,5 @@ Adds several missing recipes back to the game, along with schematics found in th
 New Craftable items:
 
 - Acid (unlocked via Schematic)
-- Beaker (unlocked via Advanced Engineering Perk)
+- Beaker (Requires Forge w/ crucibal)
 - Sewing Kit (unlocked via Schematic)
