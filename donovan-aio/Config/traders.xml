@@ -1,5 +1,5 @@
 <bundle>
-  <!-- Included from donovan-missingcraftables -->
+  <!-- Included from donovan-craftables -->
   <append xpath="//trader_item_group[@name='schematicsToolsCommon']">
     <item name="resourceSewingKitSchematic"/>
   </append>

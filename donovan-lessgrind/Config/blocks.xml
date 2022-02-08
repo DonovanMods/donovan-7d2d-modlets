@@ -93,7 +93,7 @@
   <set xpath="/blocks/block[starts-with(@name, 'plantedCorn3Harvest')]/drop[@event='Harvest' and @name='foodCropCorn']/@count">4</set>
   <set xpath="/blocks/block[starts-with(@name, 'plantedGraceCorn3Harvest')]/drop[@event='Harvest' and @name='foodCropGraceCorn']/@count">4</set>
   <set xpath="/blocks/block[starts-with(@name, 'plantedHop3Harvest')]/drop[@event='Harvest' and @name='resourceCropHopsFlower']/@count">4</set>
-<set xpath="/blocks/block[starts-with(@name, 'plantedSnowberry3Harvest')]/drop[@event='Harvest' and @name='resourceYuccaFibers']/@count">4</set>
+  <set xpath="/blocks/block[starts-with(@name, 'plantedSnowberry3Harvest')]/drop[@event='Harvest' and @name='resourceYuccaFibers']/@count">4</set>
 
   <set xpath="/blocks/block[starts-with(@name, 'decoCarTire')]/drop[@event='Destroy' and @name='resourceScrapPolymers']/@count">10,20</set>
 

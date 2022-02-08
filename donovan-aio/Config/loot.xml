@@ -37,7 +37,7 @@
   <!-- birdnest sound -->
   <setattribute xpath="/lootcontainers/lootcontainer[@id='48']" name="destroy_on_close">true</setattribute>
   <!-- purse -->
-  <!-- Included from donovan-missingcraftables -->
+  <!-- Included from donovan-craftables -->
   <append xpath="//lootgroup[@name='schematicsToolsT0']">
     <item name="resourceSewingKitSchematic"/>
   </append>

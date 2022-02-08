@@ -10,6 +10,6 @@ donovan-lessgrind
 donovan-longerlootbags
 donovan-lootcleanup
 donovan-megastacks
-donovan-missingcraftables
+donovan-craftables
 donovan-moreperks
 donovan-pickmeup

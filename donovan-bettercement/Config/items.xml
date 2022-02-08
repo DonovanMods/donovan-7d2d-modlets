@@ -1,0 +1,12 @@
+<configs>
+  <set xpath="/items/item[@name='unit_stone']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+
+  <append xpath="/items/item[@name='resourceCrushedSand']">
+    <property name="CraftingIngredientTime" value="0.01" />
+  </append>
+
+  <append xpath="/items/item[@name='resourceCement']">
+    <property name="CraftingIngredientTime" value="0.025" />
+  </append>
+</configs>

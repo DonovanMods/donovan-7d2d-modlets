@@ -29,6 +29,15 @@
   <set xpath="items/item[@name='meleeToolAxeT1IronFireaxe']/effect_group[@name='meleeToolAxeT1IronFireaxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
   <set xpath="items/item[@name='meleeToolAxeT2SteelAxe']/effect_group[@name='meleeToolAxeT2SteelAxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
   <append xpath="items/item[starts-with(@name, 'meleeToolAxe')]/property[@name='Tags']/@value">,perkDeepCuts</append>
+  <!-- Included from donovan-bettercement -->
+  <set xpath="/items/item[@name='unit_stone']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <append xpath="/items/item[@name='resourceCrushedSand']">
+    <property name="CraftingIngredientTime" value="0.01"/>
+  </append>
+  <append xpath="/items/item[@name='resourceCement']">
+    <property name="CraftingIngredientTime" value="0.025"/>
+  </append>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
@@ -50,14 +59,8 @@
   <set xpath="/items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
   <set xpath="/items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
   <set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
-  <append xpath="/items/item[@name='resourceCrushedSand']">
-    <property name="CraftingIngredientTime" value="0.1"/>
-  </append>
-  <append xpath="/items/item[@name='resourceCement']">
-    <property name="CraftingIngredientTime" value="0.5"/>
-  </append>
   <!-- Melting time -->
-  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
+  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
   <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
   <!-- Included from donovan-megastacks -->
   <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
@@ -93,7 +96,7 @@
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
   <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
-  <!-- Included from donovan-missingcraftables -->
+  <!-- Included from donovan-craftables -->
   <!-- Acid -->
   <append xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">,Chemicals</append>
   <append xpath="/items/item[@name='resourceAcid']">
