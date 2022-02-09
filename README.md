@@ -6,11 +6,11 @@ This is a collection of modlets I've made in order to enhance the "fun factor" o
 
 The modlets are all intended to be used a la carte, so you can freely mix and match the ones _you_ think will make your game more enjoyable. Any exceptions are noted in the descriptions below (some conflict with each other because they alter the same things in different ways).
 
-Finally, the _All In One_ modlet is a compilation of those modlets which _I_ personally recommend. Please see the README located in that modlet's directory for a list of which modlets are included.
+Please see the README located in each of the modlet's directories for more details.
 
-## The List
+These are all available individually and are intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
-These are all intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
+All have been verfied under game version: _Alpha 20 (stable)_
 
 ### AiO
 
@@ -51,7 +51,11 @@ These are all intended to work in unison, so feel free to mix and match to suit 
 
 - [UI-Simple](https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
 
-All have been verfied under game version: _Alpha 20 (stable)_
+### Outdated/Removed Modlets
+
+- BetterSpears - incorporated into `BetterBlades`
+- CraftAcid - Incorporated into `Craftables`
+- CraftBeaker - Incorporated into `Craftables`
 
 ## History
 
