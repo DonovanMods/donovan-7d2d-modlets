@@ -1,0 +1,94 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="gunMGT1AK47Parts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunRifleT1HuntingRifleParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunBowT1WoodenBowParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="gunBotRoboticsParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceElectricParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnBatonT2StunBatonParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceElectricParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnBladeT3MacheteParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnSpearT3SteelSpearParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnClubT3SteelClubParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeToolSalvageParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedIron" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeToolAllSteelParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="armorMilitarySetParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="armorSteelSetParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+    <recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="1"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+    </recipe>
+  </append>
+</configs>

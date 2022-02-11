@@ -1,4 +1,5 @@
 Key,Source,Context,Changes,English
+perkDeepCutsDesc,progression,perk Agi,Edit,"Specialize in using bladed weapons like knives, machetes, or Fireaxes to bleed your foes dry."
 modDyeGroupDesc,item_modifiers,mod,New,Adding a dye mod applies a tint to the entire held or worn item and is installed in the cosmetic slot that most items have.\n\nScraps into and can be crafted out of paint.
 resourcePaintDesc,items,Item,New,Used to craft dyes or with a paint brush to paint building blocks.
 resourceAcidSchematic,items,Item,New,Acid Schematic

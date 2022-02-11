@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="Donovan_CraftableParts" />
+    <Description value="Craftable weapon and armor parts" />
+    <Author value="Donovan" />
+    <Version value="20.0.1" compat="A20" />
+  </ModInfo>
+</xml>

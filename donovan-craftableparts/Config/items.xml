@@ -1,0 +1,5 @@
+<configs>
+  <append xpath="/items/item[(starts-with(@name, 'armor') or starts-with(@name, 'gun') or starts-with(@name, 'melee')) and contains(@name, 'Parts')]">
+    <property name="Group" value="Tools/Traps"/>
+  </append>
+</configs>
