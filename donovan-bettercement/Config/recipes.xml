@@ -3,7 +3,7 @@
   <remove xpath="/recipes/recipe[@name='resourceCement']" />
 
   <append xpath="/recipes">
-    <recipe name="resourceCement" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+    <recipe name="resourceCement" count="1" craft_area="cementMixer" craft_time="0.5" tags="cementMixerCrafting">
       <ingredient name="resourceCrushedSand" count="10" />
       <ingredient name="resourceClayLump" count="10" />
     </recipe>

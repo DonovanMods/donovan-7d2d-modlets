@@ -2,7 +2,7 @@
   <!-- Included from donovan-lessgrind -->
   <!-- MotherLode perk is rather, underwhelming, let's fix that -->
   <set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.5,2</set>
-  <!-- <set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime' and @tags='perkAdvancedEngineering']/@value">-0.5</set> -->
+  <set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime' and @tags='perkAdvancedEngineering']/@value">-0.4</set>
   <!-- Included from donovan-moreperks -->
   <set xpath="/progression/level/@skill_points_per_level">2</set>
 </bundle>

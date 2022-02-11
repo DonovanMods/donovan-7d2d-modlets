@@ -5,8 +5,4 @@
   <append xpath="/items/item[@name='resourceCrushedSand']">
     <property name="CraftingIngredientTime" value="0.01" />
   </append>
-
-  <append xpath="/items/item[@name='resourceCement']">
-    <property name="CraftingIngredientTime" value="0.025" />
-  </append>
 </configs>

@@ -35,9 +35,6 @@
   <append xpath="/items/item[@name='resourceCrushedSand']">
     <property name="CraftingIngredientTime" value="0.01"/>
   </append>
-  <append xpath="/items/item[@name='resourceCement']">
-    <property name="CraftingIngredientTime" value="0.025"/>
-  </append>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
