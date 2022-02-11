@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_CraftJail" />
+    <Name value="Donovan_CraftableJail" />
     <Description value="Adds the Jaildoor and Jailbars back in as craftable items" />
     <Author value="Donovan" />
     <Version value="20.0.0" compat="A20,A19,A18,A17" />
