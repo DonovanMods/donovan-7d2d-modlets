@@ -18,8 +18,8 @@
     <!-- SewingKit -->
     <recipe name="resourceSewingKit" count="5" craft_area="workbench" tags="learnable,workbenchCrafting">
       <ingredient name="resourceForgedIron" count="1" />
-      <ingredient name="resourceCropCottonPlant" count="50" />
-      <ingredient name="resourceAnimalFat" count="5" />
+      <ingredient name="resourceCropCottonPlant" count="5" />
+      <ingredient name="resourceAnimalFat" count="2" />
     </recipe>
   </append>
 </configs>

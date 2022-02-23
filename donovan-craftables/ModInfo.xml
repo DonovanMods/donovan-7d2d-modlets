@@ -4,6 +4,6 @@
     <Name value="Donovan_Craftables" />
     <Description value="Adds several missing recipes to the game along with schematics to unlock them" />
     <Author value="Donovan" />
-    <Version value="20.1.0" compat="A20" />
+    <Version value="20.1.1" compat="A20" />
   </ModInfo>
 </xml>
