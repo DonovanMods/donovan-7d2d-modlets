@@ -6,5 +6,5 @@ Dramatically increases the drop rate on zombie loot bags: 20% for normal, 50% fo
 
 ### Notes
 
-Conflicts with [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-morelootbags)
-Works well in conjunction with [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) (for those long horde nights).
+Conflicts with [MoreLootbags](https://github.com/DonovanMods/donovan-7d2d-modlets/tree/master/donovan-morelootbags)
+Works well in conjunction with [LongerLootbags](https://github.com/DonovanMods/donovan-7d2d-modlets/tree/master/donovan-longerlootbags) (for those long horde nights).
