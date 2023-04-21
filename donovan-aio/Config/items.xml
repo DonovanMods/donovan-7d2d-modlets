@@ -2,6 +2,39 @@
   <!-- Included from donovan-betterbandages -->
   <set xpath="items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidBandageSchematic</set>
   <set xpath="items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidKitSchematic</set>
+  <!-- Included from donovan-betterblades -->
+  <!-- Knives -->
+  <set xpath="items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='meleeWpnBladeT0BoneKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">8</set>
+  <set xpath="items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">6</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='meleeWpnBladeT1HuntingKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">8</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='meleeWpnBladeT1CandyKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage' and @operation='base_add']/@value">8</set>
+  <!-- Blades: attacks per minute -->
+  <set xpath="items/item[contains(@name, 'Knife')]/effect_group[@name='Power Attack']/passive_effect[@name='AttacksPerMinute']/@value">-50</set>
+  <!-- Machete -->
+  <set xpath="items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='meleeWpnBladeT3Machete']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <append xpath="items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='Power Attack']">
+    <passive_effect name="EntityDamage" operation="base_add" value="15" tags="secondary"/>
+  </append>
+  <!-- Spears -->
+  <set xpath="items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
+  <set xpath="items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <set xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">5</set>
+  <append xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
+    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+  </append>
+  <!-- Fireaxes -->
+  <set xpath="items/item[@name='meleeToolAxeT1IronFireaxe']/effect_group[@name='meleeToolAxeT1IronFireaxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeToolAxeT2SteelAxe']/effect_group[@name='meleeToolAxeT2SteelAxe']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <append xpath="items/item[starts-with(@name, 'meleeToolAxe')]/property[@name='Tags']/@value">,perkDeepCuts</append>
+  <!-- Included from donovan-bettercement -->
+  <set xpath="/items/item[@name='unit_stone']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <append xpath="/items/item[@name='resourceCrushedSand']">
+    <property name="CraftingIngredientTime" value="0.01"/>
+  </append>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
@@ -17,28 +50,14 @@
   <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
   <!-- Nailgun -->
   <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
-  <!-- Included from donovan-betterspears -->
-  <set xpath="items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
-  <set xpath="items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
-  <set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
-  <set xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">5</set>
-  <append xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
-    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-  </append>
   <!-- Included from donovan-lessgrind -->
   <!-- Crafting time -->
   <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
   <set xpath="/items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
   <set xpath="/items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
   <set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
-  <append xpath="/items/item[@name='resourceCrushedSand']">
-    <property name="CraftingIngredientTime" value="0.1"/>
-  </append>
-  <append xpath="/items/item[@name='resourceCement']">
-    <property name="CraftingIngredientTime" value="0.5"/>
-  </append>
   <!-- Melting time -->
-  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
+  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
   <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
   <!-- Included from donovan-megastacks -->
   <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
@@ -74,4 +93,38 @@
   <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
   <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
   <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  <!-- Included from donovan-craftables -->
+  <!-- Acid -->
+  <append xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">,Chemicals</append>
+  <append xpath="/items/item[@name='resourceAcid']">
+    <property name="UnlockedBy" value="resourceAcidSchematic"/>
+  </append>
+  <append xpath="/items">
+    <item name="resourceAcidSchematic">
+      <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="resourceAcid"/>
+      <property name="Unlocks" value="resourceAcid"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+      </effect_group>
+    </item>
+  </append>
+  <!-- Sewing Kit -->
+  <append xpath="/items/item[@name='resourceSewingKit']">
+    <property name="UnlockedBy" value="resourceSewingKitSchematic"/>
+  </append>
+  <append xpath="/items">
+    <item name="resourceSewingKitSchematic">
+      <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="resourceSewingKit"/>
+      <property name="Unlocks" value="resourceSewingKit"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceSewingKit" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+      </effect_group>
+    </item>
+  </append>
 </bundle>

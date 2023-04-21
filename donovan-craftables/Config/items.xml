@@ -1,0 +1,38 @@
+<configs>
+  <!-- Acid -->
+  <append xpath="/items/item[@name='resourceAcid']/property[@name='Group']/@value">,Chemicals</append>
+  <append xpath="/items/item[@name='resourceAcid']">
+    <property name="UnlockedBy" value="resourceAcidSchematic"/>
+  </append>
+
+  <append xpath="/items">
+    <item name="resourceAcidSchematic">
+      <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="resourceAcid"/>
+      <property name="Unlocks" value="resourceAcid"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceAcid" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+      </effect_group>
+    </item>
+  </append>
+
+  <!-- Sewing Kit -->
+  <append xpath="/items/item[@name='resourceSewingKit']">
+    <property name="UnlockedBy" value="resourceSewingKitSchematic"/>
+  </append>
+
+  <append xpath="/items">
+    <item name="resourceSewingKitSchematic">
+      <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="resourceSewingKit"/>
+      <property name="Unlocks" value="resourceSewingKit"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceSewingKit" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+      </effect_group>
+    </item>
+  </append>
+</configs>

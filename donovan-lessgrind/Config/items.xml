@@ -4,14 +4,8 @@
   <set xpath="/items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
   <set xpath="/items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
   <set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
-  <append xpath="/items/item[@name='resourceCrushedSand']">
-    <property name="CraftingIngredientTime" value="0.1" />
-  </append>
-  <append xpath="/items/item[@name='resourceCement']">
-    <property name="CraftingIngredientTime" value="0.5" />
-  </append>
 
   <!-- Melting time -->
-  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.05</set>
+  <set xpath="/items/item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
   <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
 </configs>

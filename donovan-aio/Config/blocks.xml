@@ -195,4 +195,17 @@
   <set xpath="/blocks/block[@name='trapSpikesScrapIronMaster']/property[@class='RepairItems']/property[@name='resourceScrapIron']/@value">4</set>
   <set xpath="/blocks/block[@name='trapSpikesIronDmg2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
   <set xpath="/blocks/block[@name='trapSpikesIronDmg1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+  <!-- Included from donovan-lootcleanup -->
+  <!-- The default destroy sound for bird nests is the wood destroy sound, not really appropriate -->
+  <set xpath="/blocks/block[@name='cntBirdnest']/property[@name='Material']/@value">Mplants</set>
+  <!-- Included from donovan-pickmeup -->
+  <append xpath="/blocks/block[@name='trapSpikesWoodMaster']">
+    <property name="CanPickup" value="true" param1="trapSpikesWoodDmg0"/>
+  </append>
+  <append xpath="/blocks/block[@name='trapSpikesScrapIronMaster']">
+    <property name="CanPickup" value="true" param1="trapSpikesIronDmg0"/>
+  </append>
+  <append xpath="/blocks/block[@name='barbedFence']">
+    <property name="CanPickup" value="true"/>
+  </append>
 </bundle>

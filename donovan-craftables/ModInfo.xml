@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
   <ModInfo>
-    <Name value="Donovan_AIO" />
-    <Description value="All In One bundle of my recommended mods" />
+    <Name value="Donovan_Craftables" />
+    <Description value="Adds several missing recipes to the game along with schematics to unlock them" />
     <Author value="Donovan" />
     <Version value="20.1.1" compat="A20" />
   </ModInfo>

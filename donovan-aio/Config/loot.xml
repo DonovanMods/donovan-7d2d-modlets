@@ -26,4 +26,28 @@
   </append>
   <!-- increase number of lockpicks found -->
   <set xpath="/lootcontainers/lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
+  <!-- Included from donovan-lootcleanup -->
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='9']" name="destroy_on_close">true</setattribute>
+  <!-- bags -->
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='10']" name="destroy_on_close">true</setattribute>
+  <!-- garbage -->
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='25']" name="destroy_on_close">true</setattribute>
+  <!-- birdnest -->
+  <set xpath="/lootcontainers/lootcontainer[@id='25']/@sound_close">silencefiller</set>
+  <!-- birdnest sound -->
+  <setattribute xpath="/lootcontainers/lootcontainer[@id='48']" name="destroy_on_close">true</setattribute>
+  <!-- purse -->
+  <!-- Included from donovan-craftables -->
+  <append xpath="//lootgroup[@name='schematicsToolsT0']">
+    <item name="resourceSewingKitSchematic"/>
+  </append>
+  <append xpath="//lootgroup[@name='schematicsModsAndGeneralT0']">
+    <item name="resourceSewingKitSchematic"/>
+  </append>
+  <append xpath="//lootgroup[@name='schematicsToolsT1']">
+    <item name="resourceAcidSchematic"/>
+  </append>
+  <append xpath="//lootgroup[@name='schematicsModsAndGeneralT1']">
+    <item name="resourceAcidSchematic"/>
+  </append>
 </bundle>

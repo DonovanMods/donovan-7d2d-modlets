@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-  <ModInfo>
-    <Name value="Donovan_BetterSpears" />
-    <Description value="Spears do more damage and can harvest animals" />
-    <Author value="Donovan" />
-    <Version value="20.0.0" compat="A20,A19" />
-  </ModInfo>
-</xml>

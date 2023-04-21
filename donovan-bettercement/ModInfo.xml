@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterCement" />
     <Description value="Create 'Cement Mix' directly in the cement mixer" />
     <Author value="Donovan" />
-    <Version value="20.0.0" compat="A20,A19,A18" />
+    <Version value="20.0.1" compat="A20,A19,A18" />
   </ModInfo>
 </xml>

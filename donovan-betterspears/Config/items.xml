@@ -1,9 +1,0 @@
-<configs>
-  <set xpath="items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
-  <set xpath="items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
-  <set xpath="items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
-  <set xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[@name='Throw']/passive_effect[@name='EntityDamage']/@value">5</set>
-  <append xpath="items/item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
-		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-  </append>
-</configs>

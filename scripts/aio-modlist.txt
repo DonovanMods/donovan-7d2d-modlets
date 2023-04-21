@@ -1,12 +1,15 @@
 donovan-betterbandages
+donovan-betterblades
 donovan-betterbridges
 donovan-betterbuffs
 donovan-bettercement
 donovan-betterdyes
 donovan-betterpowertools
-donovan-betterspears
 donovan-bettervehicles
 donovan-lessgrind
 donovan-longerlootbags
+donovan-lootcleanup
 donovan-megastacks
+donovan-craftables
 donovan-moreperks
+donovan-pickmeup
