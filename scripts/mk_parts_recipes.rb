@@ -17,7 +17,7 @@ output = Nokogiri::XML::Builder.new do |xml|
       items.xpath("//item").each do |item|
         recipe_name = item.at_xpath("@name").to_s
 
-        next unless recipe_name.match(/(?:armor|gun|melee).*Parts$/)
+        next unless recipe_name.match?(/(?:armor|gun|melee).*Parts$/)
 
         xml.recipe(name: recipe_name, count: 1, craft_area: "workbench", tags: "workbenchCrafting") do
           xml.ingredient(name: "resourceForgedSteel", count: 1)
