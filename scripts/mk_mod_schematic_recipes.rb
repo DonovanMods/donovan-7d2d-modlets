@@ -17,7 +17,7 @@ output = Nokogiri::XML::Builder.new do |xml|
       items.xpath("//item").each do |item|
         schematic_name = item.at_xpath("@name").to_s
 
-        next unless schematic_name.match(/mod.*Schematic/)
+        next unless schematic_name.match?(/mod.*Schematic/)
         next unless item.at_xpath("property[@name='CreativeMode']/@value").to_s == "Player"
 
         xml.recipe(name: schematic_name, count: 1, craft_area: "workbench", tags: "workbenchCrafting") do
