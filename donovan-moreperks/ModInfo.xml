@@ -4,6 +4,6 @@
     <Name value="Donovan_MorePerks" />
     <Description value="Increases the number of perks you get per level (x2)" />
     <Author value="Donovan" />
-    <Version value="20.0.0" compat="A20,A19,A18,A17" />
+    <Version value="20.7.0" compat="A20,A19,A18,A17" />
   </ModInfo>
 </xml>

@@ -13,7 +13,7 @@
   <!-- Exceptions & Misc -->
   <set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
   <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
-  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set> <!-- Dukes can't stack more than 25k -->
   <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
   <set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>

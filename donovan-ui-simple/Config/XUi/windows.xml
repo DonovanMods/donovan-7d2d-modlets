@@ -14,7 +14,7 @@
         <sprite depth="1" name="border" color="0,0,0,128" type="sliced" />
         <sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
         <sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
-        <filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,0,128,128" type="filled" fill="0" globalopacity="false" />
+        <filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,0,128,140" type="filled" fill="0" globalopacity="false" />
         <sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="16,16" pos="3,-3" foregroundlayer="true" />
         <label depth="7" name="TextContent" pos="3,-3" font_size="16" color="[white]" justify="center" pivot="topleft" text="{statcurrent}%" height="17" />
       </rect>
@@ -24,7 +24,7 @@
         <sprite depth="1" name="border" color="0,0,0,128" type="sliced" />
         <sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
         <sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
-        <filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,128,0,128" type="filled" fill="0" globalopacity="false" />
+        <filledsprite depth="5" pos="1,0" width="82" name="BarContent" color="0,128,0,140" type="filled" fill="0" globalopacity="false" />
         <sprite depth="6" name="Icon" atlas="{staticonatlas|once}" sprite="{staticon|once}" size="16,16" pos="3,-3" foregroundlayer="true" />
         <label depth="7" name="TextContent" pos="3,-3" font_size="16" color="[white]" justify="center" pivot="topleft" text="{statcurrent}%" height="35" />
       </rect>
