@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterBridges" />
     <Description value="Allows advanced rotation on garage door and drawbridge" />
     <Author value="Donovan" />
-    <Version value="20.7.0" compat="A20,A19,A18" />
+    <Version value="21.0.0" compat="A21,A20,A19,A18" />
   </ModInfo>
 </xml>
