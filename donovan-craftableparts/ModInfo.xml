@@ -4,6 +4,6 @@
     <Name value="Donovan_CraftableParts" />
     <Description value="Craftable weapon and armor parts" />
     <Author value="Donovan" />
-    <Version value="20.0.1" compat="A20" />
+    <Version value="21.0.0" compat="A21,A20" />
   </ModInfo>
 </xml>
