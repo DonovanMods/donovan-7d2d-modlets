@@ -23,7 +23,6 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 
 #### Includes the following mods
 
-- [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
 - [BetterBlades](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
@@ -65,6 +64,7 @@ _Plus any of the mods listed in the AiO section can also be used a la carte_
 - CraftAcid - Incorporated into `Craftables`
 - CraftBeaker - Incorporated into `Craftables`
 - CraftSpikes - REMOVED as of A20 (no longer supported by the game)
+- BetterBandages - REMOVED as of A21 (now incorporated into the base game!)
 
 ## History
 

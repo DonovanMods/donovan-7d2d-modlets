@@ -1,7 +1,4 @@
 <bundle>
-  <!-- Included from donovan-betterbandages -->
-  <set xpath="items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidBandageSchematic</set>
-  <set xpath="items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']/@value">perkPhysician,medicalFirstAidKitSchematic</set>
   <!-- Included from donovan-betterblades -->
   <!-- Knives -->
   <set xpath="items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='meleeWpnBladeT0BoneKnife']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">8</set>
