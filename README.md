@@ -1,6 +1,6 @@
 # Donovan's 7 Days to Die Modlets
 
-**A20 UPDATE!** All modlets have been updated to work in A20! Enjoy!
+**A21 UPDATE!** All modlets have been updated for A21! Enjoy!
 
 This is a collection of modlets I've made in order to enhance the "fun factor" of 7 Days to Die and most of them I would considered "Quality of Life" changes, but, of course, you're free to define them however you wish.
 
