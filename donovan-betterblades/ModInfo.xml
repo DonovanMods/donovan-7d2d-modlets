@@ -4,6 +4,6 @@
     <Name value="Donovan_BetterBlades" />
     <Description value="Bladed weapons do more damage and harvest animals" />
     <Author value="Donovan" />
-    <Version value="21.0.0" compat="A21,A20" />
+    <Version value="21.0.0" compat="A21" />
   </ModInfo>
 </xml>
