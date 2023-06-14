@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <ModInfo>
-    <Name value="Donovan_AIO" />
-    <Description value="All In One bundle of my recommended mods" />
-    <Author value="Donovan" />
-    <Version value="21.0.0" compat="A21" />
-  </ModInfo>
+  <Name value="Donovan_AIO" />
+  <DisplayName value="Donovan's All-In-One Mod Bundle" />
+  <Version value="21.0.0" compat="A21" />
+  <Description value="All In One bundle of my recommended mods" />
+  <Author value="Donovan" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-aio" />
 </xml>

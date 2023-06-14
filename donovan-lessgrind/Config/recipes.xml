@@ -15,13 +15,4 @@
 
   <!-- You should be able to make a bone knife with only one bone -->
   <set xpath="//recipe[@name='meleeWpnBladeT0BoneKnife']/ingredient[@name='resourceBone']/@count">1</set>
-
-  <!-- Add recipe to make Yucca juice without boiled water -->o
-  <set xpath="//recipe[@name='drinkJarYuccaJuice']/ingredient[@name='foodCropYuccaFruit']/@count">1</set>
-  <append xpath="/recipes">
-    <recipe name="drinkJarYuccaJuice" count="1" tags="perkMasterChef">
-      <ingredient name="foodCropYuccaFruit" count="2" />
-      <ingredient name="drinkJarEmpty" count="1" />
-    </recipe>
-  </append>
 </configs>
