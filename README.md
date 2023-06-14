@@ -30,7 +30,6 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 - [BetterDyes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
-- [Craftables](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftables) - Adds missing craftable items to the game (Acid, Beaker, SewingKit)
 - [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup) - Destroys bird nests and garbage piles after looting them, you know, to clean up the environment.
 - [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
@@ -65,6 +64,10 @@ _Plus any of the mods listed in the AiO section can also be used a la carte_
 - CraftSpikes - REMOVED as of A20 (no longer supported by the game)
 - BetterBandages - REMOVED as of A21 (now incorporated into the base game!)
 - CraftableJail - REMOVED as of A21 (now incorporated into the base game)
+
+### Not Supported in A21
+
+- [Craftables](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftables) - Adds missing craftable items to the game (Acid, Beaker, SewingKit)
 
 ## History
 

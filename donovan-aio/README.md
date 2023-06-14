@@ -20,6 +20,5 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - longerlootbags
 - lootcleanup
 - megastacks
-- craftables
 - moreperks
 - pickmeup

@@ -9,3 +9,5 @@ New Craftable items:
 - Acid (unlocked via Schematic)
 - Beaker (Requires Forge w/ crucibal)
 - Sewing Kit (unlocked via Schematic)
+
+**NOTE: NOT Compatible with A21 or later**
