@@ -1,5 +1,0 @@
-<config>
-  <setattribute xpath="/lootcontainers/lootcontainer[@name='junk']" name="destroy_on_close">true</setattribute>  <!-- garbage -->
-  <setattribute xpath="/lootcontainers/lootcontainer[@name='birdNest']" name="destroy_on_close">true</setattribute>  <!-- birdNest -->
-  <set xpath="/lootcontainers/lootcontainer[@name='birdNest']/@sound_close">silencefiller</set>  <!-- birdNest sound -->
-</config>

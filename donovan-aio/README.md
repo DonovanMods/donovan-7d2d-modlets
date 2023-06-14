@@ -18,7 +18,6 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - bettervehicles
 - lessgrind
 - longerlootbags
-- lootcleanup
 - megastacks
 - moreperks
 - pickmeup

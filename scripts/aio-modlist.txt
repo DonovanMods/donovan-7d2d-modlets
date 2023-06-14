@@ -7,7 +7,6 @@ donovan-betterpowertools
 donovan-bettervehicles
 donovan-lessgrind
 donovan-longerlootbags
-donovan-lootcleanup
 donovan-megastacks
 donovan-moreperks
 donovan-pickmeup

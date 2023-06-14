@@ -12,7 +12,6 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-craftabl
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-lessgrind
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-levelfaster
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags
-https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-megabackpack
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-megabooks
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-megalootbags
