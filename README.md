@@ -64,10 +64,7 @@ _Plus any of the mods listed in the AiO section can also be used a la carte_
 - BetterBandages - REMOVED as of A21 (now incorporated into the base game!)
 - CraftableJail - REMOVED as of A21 (now incorporated into the base game)
 - LootCleanup - REMOVED as of A21 (now incorporated into the base game)
-
-### Not Supported in A21
-
-- [Craftables](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftables) - Adds missing craftable items to the game (Acid, Beaker, SewingKit)
+- Craftables - REMOVED as of A21 due to compatibility issues with the base game
 
 ## History
 

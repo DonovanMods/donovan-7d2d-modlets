@@ -8,7 +8,6 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterpo
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-bigbackpack
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-craftableparts
-https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-craftables
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-lessgrind
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-levelfaster
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags
