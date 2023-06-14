@@ -144,12 +144,6 @@
       <ingredient name="resourceGlue" count="5"/>
       <ingredient name="resourceLeather" count="2"/>
     </recipe>
-    <recipe name="modGunMeleeBlessedMetalSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
-      <ingredient name="modGunMeleeBlessedMetal" count="1"/>
-      <ingredient name="resourcePaper" count="50"/>
-      <ingredient name="resourceGlue" count="5"/>
-      <ingredient name="resourceLeather" count="2"/>
-    </recipe>
     <recipe name="modMeleeTemperedBladeSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
       <ingredient name="modMeleeTemperedBlade" count="1"/>
       <ingredient name="resourcePaper" count="50"/>

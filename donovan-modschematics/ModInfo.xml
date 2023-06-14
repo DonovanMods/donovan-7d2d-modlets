@@ -4,6 +4,6 @@
     <Name value="Donovan_ModSchematics" />
     <Description value="Create weapon mod schematics from mods" />
     <Author value="Donovan" />
-    <Version value="20.0.0" compat="A20,A19,A18" />
+    <Version value="21.0.0" compat="A21,A20,A19,A18" />
   </ModInfo>
 </xml>
