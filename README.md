@@ -12,13 +12,14 @@ These are all available individually and are intended to work in unison, so feel
 
 All have been verfied under game version: _Alpha 20 (stable)_
 
-### AiO
+## AiO
 
 The _All In One_ modlet is a bundle of modlets which _I personally_ recommend for the "best" experience, but they are all available individually, so feel free to mix and match should you desire.
 
 Any modlets added after the AiO will overrule what's included in the AiO, esentially replacing the mod with a different one. e.g. `more*` vs `mega*` modlets. So you can start with AiO as your base and add additional ones to customize your experience.
 
-## The List
+### The List
+
 - [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
 
 #### Includes the following mods
@@ -49,7 +50,7 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 - [ModSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-modschematics) - Turn mods into schematics
 - [NightFog](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog) - Thick fog rolls in at night
 
-_Plus any of the mods listed in the AiO section can also be used a la carte_
+_Note that any of the mods listed in the AiO section can also be used a la carte_
 
 ### UI
 
