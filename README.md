@@ -28,6 +28,7 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 - [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterCement](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
+- [BetterCollectors](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettercollectors) - Get more water from dew collectors
 - [BetterDyes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)

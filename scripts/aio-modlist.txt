@@ -2,6 +2,7 @@ donovan-betterblades
 donovan-betterbridges
 donovan-betterbuffs
 donovan-bettercement
+donovan-bettercollectors
 donovan-betterdyes
 donovan-betterpowertools
 donovan-bettervehicles
