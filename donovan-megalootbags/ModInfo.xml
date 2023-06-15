@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <ModInfo>
-    <Name value="Donovan_MegaLootbags" />
-    <Description value="Dramatically increases zombie lootbag drop rates" />
-    <Author value="Donovan" />
-    <Version value="21.0.0" compat="A21,A20" />
-  </ModInfo>
+  <Name value="Donovan_MegaLootbags" />
+  <DisplayName value="Donovan's Mega Lootbags" />
+  <Description value="Dramatically increases zombie lootbag drop rates" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-megalootbags" />
 </xml>
