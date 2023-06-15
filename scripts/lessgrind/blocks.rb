@@ -21,8 +21,8 @@ module LessGrind
 
     def multiplier(name)
       return @default_multiplier if name.match?(/^tree(Stump|Cactus)/)
-      return @default_multiplier * 2 if name.match?(/^terr/)
-      return @default_multiplier * 4 if name.match?(/^(tree|woodLogPillar)/)
+      return @default_multiplier * 2 if name.match?(/^(planted|terr)/)
+      return @default_multiplier * 4 if name.match?(/^(ore|rock|tree|woodLogPillar)/)
 
       @default_multiplier
     end
@@ -39,6 +39,7 @@ module LessGrind
 
             # Skip unwanted blocks
             next if name.match?(/Shapes$/)
+            next if name.match?(/Twitch$/)
 
             next unless harvest_events.any? || destroy_events.any?
 
