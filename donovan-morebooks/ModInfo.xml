@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's More Books" />
   <Description value="Increases the chance of finding books" />
   <Author value="Donovan" />
-  <Version value="21.0.0" compat="A21,A20" />
+  <Version value="21.0.1" compat="A21,A20" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-morebooks" />
 </xml>
