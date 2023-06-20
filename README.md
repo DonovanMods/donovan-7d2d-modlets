@@ -20,42 +20,42 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 
 ### The List
 
-- [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
+- [All-In-One](donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
 
 #### Includes the following mods
 
-- [BetterBlades](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
-- [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
-- [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
-- [BetterCement](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
-- [BetterCollectors](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettercollectors) - Get more water from dew collectors
-- [BetterDyes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
-- [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
-- [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
-- [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
-- [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-- [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
+- [BetterBlades](donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
+- [BetterBridges](donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
+- [BetterBuffs](donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
+- [BetterCement](donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
+- [BetterCollectors](donovan-bettercollectors) - Get more water from dew collectors
+- [BetterDyes](donovan-betterdyes) - Allows all colored dyes to be crafted from paint
+- [BetterPowertools](donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
+- [BetterVehicles](donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
+- [LessGrind](donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
+- [LongerLootbags](donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
+- [PickMeUp](donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
 ### A La Carte
 
-- [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 60
-- [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 120
-- [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfaster) - Increases the experience gain on most items
-- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-moreperks) - Increases the amount of perks points received per level by 2 **- conflicts with megaperks**
-- [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megaperks) - Increases the amount of perks points received per level by 4 **- conflicts with moreperks**
-- [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) **- conflicts with megalootbags**
-- [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) **- conflicts with morelootbags**
-- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks) - Vastly increases stack sizes
-- [MoreBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks) - Increases the chance of finding books  **- conflicts with megabooks**
-- [MegaBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabooks) - Significantly increases the chance of finding books  **- conflicts with morebooks**
-- [ModSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-modschematics) - Turn mods into schematics
-- [NightFog](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog) - Thick fog rolls in at night
+- [BigBackpack](donovan-megabackpack) - Increases the size of the player inventory to 60
+- [MegaBackpack](donovan-megabackpack) - Increases the size of the player inventory to 120
+- [LevelFaster](donovan-levelfaster) - Increases the experience gain on most items
+- [MorePerks](donovan-moreperks) - Increases the amount of perks points received per level by 2 **- conflicts with megaperks**
+- [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level by 4 **- conflicts with moreperks**
+- [MoreLootbags](donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) **- conflicts with megalootbags**
+- [MegaLootbags](donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) **- conflicts with morelootbags**
+- [MegaStacks](donovan-megastacks) - Vastly increases stack sizes
+- [MoreBooks](donovan-morebooks) - Increases the chance of finding books  **- conflicts with megabooks**
+- [MegaBooks](donovan-megabooks) - Significantly increases the chance of finding books  **- conflicts with morebooks**
+- [ModSchematics](donovan-modschematics) - Turn mods into schematics
+- [NightFog](donovan-nightfog) - Thick fog rolls in at night
 
 _Note that any of the mods listed in the AiO section can also be used a la carte_
 
 ### UI
 
-- [UI-Simple](https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
+- [UI-Simple](donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
 
 ### Outdated/Removed Modlets
 
