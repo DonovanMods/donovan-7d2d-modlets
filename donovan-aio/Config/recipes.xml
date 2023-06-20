@@ -38,10 +38,10 @@
   <!-- Included from donovan-lessgrind -->
   <!-- Why would you need 5 pieces of meat to make 1 cooked piece of meat? -->
   <set xpath="//recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
-  <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+  <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+  <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
   <set xpath="//recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">1</set>
+  <set xpath="//recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
   <set xpath="//recipe[@name='foodMeatStew']/ingredient[@name='foodRawMeat']/@count">5</set>
   <set xpath="//recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">50</set>
   <set xpath="//recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">50</set>
@@ -49,4 +49,8 @@
   <set xpath="//recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceScrapIron']/@count">40</set>
   <!-- You should be able to make a bone knife with only one bone -->
   <set xpath="//recipe[@name='meleeWpnBladeT0BoneKnife']/ingredient[@name='resourceBone']/@count">1</set>
+  <!-- You should be able to make lockpics with scrap iron -->
+  <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+  <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceScrapIron']/@count">10</set>
+  <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceMechanicalParts']/@count">1</set>
 </bundle>
