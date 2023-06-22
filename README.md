@@ -10,7 +10,9 @@ Please see the README located in each of the modlet's directories for more detai
 
 These are all available individually and are intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
-All have been verfied under game version: _Alpha 20 (stable)_
+Verfied under game version: _Alpha 21 (Experimental)_
+
+However, as these are still experimental builds, there may be some issues. Please report them if you find any.
 
 ## AiO
 
@@ -24,8 +26,9 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 
 #### Includes the following mods
 
+Note that any of these mods can also be used a-la-carte, we just bundle them together for convienence in AiO.
+
 - [BetterBlades](donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
-- [BetterBridges](donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterCement](donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
 - [BetterCollectors](donovan-bettercollectors) - Get more water from dew collectors
@@ -34,24 +37,31 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 - [BetterVehicles](donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
 - [LessGrind](donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LongerLootbags](donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
+- [MegaStacks](donovan-megastacks) - Vastly increases stack sizes
+- [MoreBooks](donovan-morebooks) - Increases the chance of finding books
+- [MorePerks](donovan-moreperks) - Increases the amount of perks points received per level to 2
 - [PickMeUp](donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
 ### A La Carte
 
-- [BigBackpack](donovan-megabackpack) - Increases the size of the player inventory to 60
-- [MegaBackpack](donovan-megabackpack) - Increases the size of the player inventory to 120
-- [LevelFaster](donovan-levelfaster) - Increases the experience gain on most items
-- [MorePerks](donovan-moreperks) - Increases the amount of perks points received per level by 2 **- conflicts with megaperks**
-- [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level by 4 **- conflicts with moreperks**
-- [MoreLootbags](donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) **- conflicts with megalootbags**
-- [MegaLootbags](donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) **- conflicts with morelootbags**
-- [MegaStacks](donovan-megastacks) - Vastly increases stack sizes
-- [MoreBooks](donovan-morebooks) - Increases the chance of finding books  **- conflicts with megabooks**
-- [MegaBooks](donovan-megabooks) - Significantly increases the chance of finding books  **- conflicts with morebooks**
+Add these mods by themselves, or as overrides to the AiO modlet.
+
+- [BetterBridges](donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
+- [LevelFaster](donovan-levelfaster) - Increases the experience gain on most items / actions (_deprecated as you can now set this in the game options_)
+- [MegaBooks](donovan-megabooks) - Significantly increases the chance of finding books
+- [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level to 4
 - [ModSchematics](donovan-modschematics) - Turn mods into schematics
 - [NightFog](donovan-nightfog) - Thick fog rolls in at night
 
-_Note that any of the mods listed in the AiO section can also be used a la carte_
+#### Inventory Size (pick one)
+
+1. [BigBackpack](donovan-bigbackpack) - Increases the size of the player inventory to 60
+2. [MegaBackpack](donovan-megabackpack) - Increases the size of the player inventory to 120
+
+#### Lootbag Drop Rates (pick one)
+
+1. [MoreLootbags](donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
+2. [MegaLootbags](donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 
 ### UI
 
