@@ -1,4 +1,6 @@
 <configs>
   <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='booksAllScaled']/@loot_prob_template">veryHigh</set>
-  <set xpath="//lootgroup[starts-with(@name, 'groupJunk']/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='skillMagazines']/@loot_prob_template">high</set>
 </configs>

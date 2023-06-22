@@ -26,4 +26,9 @@
   </append>
   <!-- increase number of lockpicks found -->
   <set xpath="//lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
+  <!-- Included from donovan-morebooks -->
+  <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='skillMagazines']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='skillMagazines']/@loot_prob_template">med</set>
 </bundle>
