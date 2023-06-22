@@ -10,4 +10,5 @@ donovan-lessgrind
 donovan-longerlootbags
 donovan-megastacks
 donovan-moreperks
+donovan-morebooks
 donovan-pickmeup
