@@ -20,4 +20,13 @@
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceScrapIron']/@count">10</set>
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceMechanicalParts']/@count">1</set>
+
+  <!-- Beaker -->
+  <append xpath="/recipes">
+    <recipe name="toolBeaker" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+      <ingredient name="unit_glass" count="100" />
+      <ingredient name="unit_lead" count="50" />
+      <ingredient name="unit_clay" count="50" />
+    </recipe>
+  </append>
 </configs>
