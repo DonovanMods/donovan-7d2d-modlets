@@ -1,4 +1,4 @@
 <configs>
   <set xpath="//block[@name='cntDewCollector']/property[@name='MinConvertTime']/@value">3600</set>
-  <set xpath="//block[@name='cntDewCollector']/property[@name='MaxConvertTime']/@value">10800</set>
+  <set xpath="//block[@name='cntDewCollector']/property[@name='MaxConvertTime']/@value">14400</set>
 </configs>

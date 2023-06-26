@@ -1,10 +1,10 @@
 <configs>
   <!-- Why would you need 5 pieces of meat to make 1 cooked piece of meat? -->
-  <set xpath="//recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">2</set>
-  <set xpath="//recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">2</set>
+  <set xpath="//recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
+  <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
+  <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
+  <set xpath="//recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">3</set>
+  <set xpath="//recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodMeatStew']/ingredient[@name='foodRawMeat']/@count">5</set>
 
   <set xpath="//recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">50</set>
