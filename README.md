@@ -10,7 +10,7 @@ Please see the README located in each of the modlet's directories for more detai
 
 These are all available individually and are intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
-Verfied under game version: _Alpha 21 (Experimental)_
+Verfied under game version: _Alpha 21_
 
 However, as these are still experimental builds, there may be some issues. Please report them if you find any.
 
