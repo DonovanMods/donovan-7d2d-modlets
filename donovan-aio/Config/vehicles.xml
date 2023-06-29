@@ -8,7 +8,7 @@
   <set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">12.5,19</set>
   <!-- Default: 9,14 -->
   <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">11.25,17</set>
-  <!-- Default: 9,13 -->
+  <!-- Default: 9,14 -->
   <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">14,21</set>
-  <!-- Default: 7,10 -->
+  <!-- Default: 9,15 -->
 </bundle>

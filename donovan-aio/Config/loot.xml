@@ -1,49 +1,34 @@
 <bundle>
   <!-- Included from donovan-bettervehicles -->
   <!-- Storage Sizes -->
-  <set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,2</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,2</set>
   <!-- Bicycle (Default: 9,1) -->
-  <set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,4</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,4</set>
   <!-- Minibike (Default: 9,3)-->
-  <set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,8</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,8</set>
   <!-- Motorcycle (Default: 9,4) -->
-  <set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,10</set>
-  <!-- 4x4Truck (Default: 9,7) -->
-  <set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,6</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,10</set>
+  <!-- 4x4Truck (Default: 9,9) -->
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,6</set>
   <!-- Gyrocopter (Default: 9,5) -->
   <!-- Included from donovan-lessgrind -->
   <!-- Increase the amount of feathers and eggs you find in nests -->
-  <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@count">5,10</set>
-  <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@count">5,10</set>
-  <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@count">5,10</set>
+  <set xpath="//lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@count">5,10</set>
+  <set xpath="//lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">high</set>
   <!-- Add acid to cupboards -->
-  <append xpath="/lootcontainers/lootgroup[@name='groupCupboard02']">
+  <append xpath="//lootgroup[@name='groupCupboard02']">
     <item name="resourceAcid" count="1,2" loot_prob_template="low"/>
   </append>
   <!-- increase number of Eggs in refrigerators -->
-  <append xpath="/lootcontainers/lootgroup[@name='groupRefrigerator02']">
+  <append xpath="//lootgroup[@name='groupRefrigerator02']">
     <item group="groupIngredientsRare" loot_prob_template="low"/>
   </append>
   <!-- increase number of lockpicks found -->
-  <set xpath="/lootcontainers/lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
-  <!-- Included from donovan-lootcleanup -->
-  <setattribute xpath="/lootcontainers/lootcontainer[@name='junk']" name="destroy_on_close">true</setattribute>
-  <!-- garbage -->
-  <setattribute xpath="/lootcontainers/lootcontainer[@name='birdNest']" name="destroy_on_close">true</setattribute>
-  <!-- birdNest -->
-  <set xpath="/lootcontainers/lootcontainer[@name='birdNest']/@sound_close">silencefiller</set>
-  <!-- birdNest sound -->
-  <!-- Included from donovan-craftables -->
-  <append xpath="//lootgroup[@name='schematicsToolsT0']">
-    <item name="resourceSewingKitSchematic"/>
-  </append>
-  <append xpath="//lootgroup[@name='schematicsModsAndGeneralT0']">
-    <item name="resourceSewingKitSchematic"/>
-  </append>
-  <append xpath="//lootgroup[@name='schematicsToolsT1']">
-    <item name="resourceAcidSchematic"/>
-  </append>
-  <append xpath="//lootgroup[@name='schematicsModsAndGeneralT1']">
-    <item name="resourceAcidSchematic"/>
-  </append>
+  <set xpath="//lootgroup/item[@name='resourceLockPick']/@count">3,10</set>
+  <!-- Included from donovan-morebooks -->
+  <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='booksAllScaled']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'group')]/item[@group='skillMagazines']/@loot_prob_template">high</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='booksAllScaled']/@loot_prob_template">med</set>
+  <set xpath="//lootgroup[starts-with(@name, 'groupJunk')]/item[@group='skillMagazines']/@loot_prob_template">med</set>
 </bundle>

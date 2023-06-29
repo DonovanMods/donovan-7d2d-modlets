@@ -1,5 +1,4 @@
 <configs>
-  <!-- MotherLode perk is rather, underwhelming, let's fix that -->
-  <set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.5,2</set>
-  <set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime' and @tags='perkAdvancedEngineering']/@value">-0.4</set>
+  <csv xpath="//crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='cntDewCollector']/@item" delim="," op="add">resourceWaterFilter</csv>
+  <csv xpath="//crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='cntDewCollector']/@tags" delim="," op="add">resourceWaterFilter</csv>
 </configs>

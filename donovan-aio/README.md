@@ -9,7 +9,6 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 
 ### Modlets Included
 
-- betterbandages
 - betterblades
 - betterbridges
 - betterbuffs
@@ -19,8 +18,6 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - bettervehicles
 - lessgrind
 - longerlootbags
-- lootcleanup
 - megastacks
-- craftables
 - moreperks
 - pickmeup

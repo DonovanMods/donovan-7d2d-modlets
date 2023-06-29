@@ -19,10 +19,13 @@ output = Nokogiri::XML::Builder.new do |xml|
 
         next unless recipe_name.match?(/(?:armor|gun|melee).*Parts$/)
 
+        metal = recipe_name.match?(/T[1-2].*Parts$/) ? "resourceForgedIron" : "resourceForgedSteel"
+        parts = recipe_name.match?(/(Robotics|StunBaton)Parts$/) ? "resourceElectricParts" : "resourceMechanicalParts"
+
         xml.recipe(name: recipe_name, count: 1, craft_area: "workbench", tags: "workbenchCrafting") do
-          xml.ingredient(name: "resourceForgedSteel", count: 1)
+          xml.ingredient(name: metal, count: 1)
           xml.ingredient(name: "resourceDuctTape", count: 5)
-          xml.ingredient(name: "resourceMechanicalParts", count: 10)
+          xml.ingredient(name: parts, count: 10)
         end
       end
     end

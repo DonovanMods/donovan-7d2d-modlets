@@ -7,6 +7,6 @@
 
   <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">.8</set>
   <append xpath="/entity_classes/entity_class[@name='zombieWightRadiated']">
-    <property name="LootDropProb" value="1.0"/>
+    <property name="LootDropProb" value="1"/>
   </append>
 </configs>

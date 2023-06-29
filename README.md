@@ -1,6 +1,6 @@
 # Donovan's 7 Days to Die Modlets
 
-**A20 UPDATE!** All modlets have been updated to work in A20! Enjoy!
+**A21 UPDATE!** All modlets have been updated for A21! Enjoy!
 
 This is a collection of modlets I've made in order to enhance the "fun factor" of 7 Days to Die and most of them I would considered "Quality of Life" changes, but, of course, you're free to define them however you wish.
 
@@ -10,54 +10,62 @@ Please see the README located in each of the modlet's directories for more detai
 
 These are all available individually and are intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
-All have been verfied under game version: _Alpha 20 (stable)_
+Verfied under game version: _Alpha 21 (Experimental)_
 
-### AiO
+However, as these are still experimental builds, there may be some issues. Please report them if you find any.
+
+## AiO
 
 The _All In One_ modlet is a bundle of modlets which _I personally_ recommend for the "best" experience, but they are all available individually, so feel free to mix and match should you desire.
 
 Any modlets added after the AiO will overrule what's included in the AiO, esentially replacing the mod with a different one. e.g. `more*` vs `mega*` modlets. So you can start with AiO as your base and add additional ones to customize your experience.
 
-## The List
-- [All-In-One](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
+### The List
+
+- [All-In-One](donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
 
 #### Includes the following mods
 
-- [BetterBandages](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbandages) - Craft medical bandages directly from normal bandages + aloe cream
-- [BetterBlades](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
-- [BetterBridges](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
-- [BetterBuffs](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
-- [BetterCement](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
-- [BetterDyes](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
-- [BetterPowertools](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
-- [BetterVehicles](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
-- [Craftables](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftables) - Adds missing craftable items to the game (Acid, Beaker, SewingKit)
-- [LessGrind](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
-- [LootCleanup](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-lootcleanup) - Destroys bird nests and garbage piles after looting them, you know, to clean up the environment.
-- [LongerLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-- [PickMeUp](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
+Note that any of these mods can also be used a-la-carte, we just bundle them together for convienence in AiO.
+
+- [BetterBlades](donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
+- [BetterBuffs](donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
+- [BetterCement](donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
+- [BetterCollectors](donovan-bettercollectors) - Get more water from dew collectors
+- [BetterDyes](donovan-betterdyes) - Allows all colored dyes to be crafted from paint
+- [BetterPowertools](donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
+- [BetterVehicles](donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
+- [LessGrind](donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
+- [LongerLootbags](donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
+- [MegaStacks](donovan-megastacks) - Vastly increases stack sizes
+- [MoreBooks](donovan-morebooks) - Increases the chance of finding books
+- [MorePerks](donovan-moreperks) - Increases the amount of perks points received per level to 2
+- [PickMeUp](donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 
 ### A La Carte
 
-- [BigBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 60
-- [MegaBackpack](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabackpack) - Increases the size of the player inventory to 120
-- [CraftableJail](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-craftablejail) - Adds the jaildoor back into the game as a craftable item
-- [LevelFaster](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-levelfaster) - Increases the experience gain on most items
-- [MorePerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-moreperks) - Increases the amount of perks points received per level by 2 **- conflicts with megaperks**
-- [MegaPerks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megaperks) - Increases the amount of perks points received per level by 4 **- conflicts with moreperks**
-- [MoreLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%) **- conflicts with megalootbags**
-- [MegaLootbags](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%) **- conflicts with morelootbags**
-- [MegaStacks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megastacks) - Vastly increases stack sizes
-- [MoreBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-morebooks) - Increases the chance of finding books  **- conflicts with megabooks**
-- [MegaBooks](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-megabooks) - Significantly increases the chance of finding books  **- conflicts with morebooks**
-- [ModSchematics](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-modschematics) - Turn mods into schematics
-- [NightFog](https://github.com/donovan522/donovan-7d2d-modlets/tree/stable/donovan-nightfog) - Thick fog rolls in at night
+Add these mods by themselves, or as overrides to the AiO modlet.
 
-_Plus any of the mods listed in the AiO section can also be used a la carte_
+- [BetterBridges](donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
+- [LevelFaster](donovan-levelfaster) - Increases the experience gain on most items / actions (_deprecated as you can now set this in the game options_)
+- [MegaBooks](donovan-megabooks) - Significantly increases the chance of finding books
+- [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level to 4
+- [ModSchematics](donovan-modschematics) - Turn mods into schematics
+- [NightFog](donovan-nightfog) - Thick fog rolls in at night
+
+#### Inventory Size (pick one)
+
+1. [BigBackpack](donovan-bigbackpack) - Increases the size of the player inventory to 60
+2. [MegaBackpack](donovan-megabackpack) - Increases the size of the player inventory to 120
+
+#### Lootbag Drop Rates (pick one)
+
+1. [MoreLootbags](donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
+2. [MegaLootbags](donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 
 ### UI
 
-- [UI-Simple](https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
+- [UI-Simple](donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
 
 ### Outdated/Removed Modlets
 
@@ -65,6 +73,10 @@ _Plus any of the mods listed in the AiO section can also be used a la carte_
 - CraftAcid - Incorporated into `Craftables`
 - CraftBeaker - Incorporated into `Craftables`
 - CraftSpikes - REMOVED as of A20 (no longer supported by the game)
+- BetterBandages - REMOVED as of A21 (now incorporated into the base game!)
+- CraftableJail - REMOVED as of A21 (now incorporated into the base game)
+- LootCleanup - REMOVED as of A21 (now incorporated into the base game)
+- Craftables - REMOVED as of A21 due to compatibility issues with the base game
 
 ## History
 

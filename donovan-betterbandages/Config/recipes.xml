@@ -1,6 +1,0 @@
-<configs>
-  <remove xpath="/recipes/recipe[@name='medicalFirstAidBandage']/ingredient[@name='resourceCloth']" />
-  <append xpath="/recipes/recipe[@name='medicalFirstAidBandage']">
-    <ingredient name="medicalBandage" count="1" />
-  </append>
-</configs>

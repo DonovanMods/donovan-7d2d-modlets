@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <ModInfo>
-    <Name value="Donovan_LevelFaster" />
-    <Description value="Increases the experience gained from killing hostiles" />
-    <Author value="Donovan" />
-    <Version value="20.7.0" compat="A20" />
-  </ModInfo>
+  <Name value="Donovan_LevelFaster" />
+  <DisplayName value="Donovan's Level Faster" />
+  <Description value="Increases the experience gained from killing hostiles" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-levelfaster" />
 </xml>
