@@ -1,0 +1,4 @@
+<configs>
+  <csv xpath="//crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='cntDewCollector']/@item" delim="," op="add">resourceWaterFilter</csv>
+  <csv xpath="//crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='cntDewCollector']/@tags" delim="," op="add">resourceWaterFilter</csv>
+</configs>
