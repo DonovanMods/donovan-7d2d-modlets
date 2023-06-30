@@ -6,7 +6,8 @@ This modlet increases the amount of resources obtained from many sources and als
 
 Changes to recipes are minimal, but do includes things like:
 
-- Foods that should, realistically, only need 1 or 2 meat to create now have lower meat requirements. I mean, c'mon, 5 raw meat to make 1 charred steak is a bit silly.
-- Iron bars now take 50% of the iron needed in vanilla (100 iron is a bit much for a single iron bar block)
+- Most foods that use meat now have lower meat requirements.
+- Iron bars now take 50% of the iron needed in vanilla (100 iron is a bit much for a single iron bar block).
 - I know they give you more bone's for harvesting now, but you should still be able to make a bone knife with only one bone.
-- Bird Nests will now give more eggs
+- Bird Nests will now give more eggs.
+- Beakers are now craftable in the forge.
