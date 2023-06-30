@@ -34,6 +34,11 @@
   <append xpath="/items/item[@name='resourceCrushedSand']">
     <property name="CraftingIngredientTime" value="0.01"/>
   </append>
+  <!-- Included from donovan-bettercollectors -->
+  <append xpath="//item[@name='resourceWaterFilter']">
+    <property name="UnlockedBy" value="craftingWorkstations"/>
+    <property name="Tags" value="workstationSkill"/>
+  </append>
   <!-- Included from donovan-betterpowertools -->
   <!-- Chainsaw -->
   <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
@@ -55,14 +60,9 @@
   <set xpath="//item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
   <set xpath="//item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
   <set xpath="//item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
-  <!-- Melting time -->
+  <!-- Smelting time -->
   <set xpath="//item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
   <set xpath="//item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
-  <!-- Water Filter -->
-  <append xpath="//item[@name='resourceWaterFilter']">
-    <property name="UnlockedBy" value="craftingWorkstations"/>
-    <property name="Tags" value="workstationSkill"/>
-  </append>
   <!-- Included from donovan-megastacks -->
   <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
   <!-- Ammo -->

@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's Better Collectors" />
   <Description value="Makes the Dew Collectors produce more water, faster" />
   <Author value="Donovan" />
-  <Version value="21.0.1" compat="A21" />
+  <Version value="21.0.2" compat="A21" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-bettercollectors" />
 </xml>

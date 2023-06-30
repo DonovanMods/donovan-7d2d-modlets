@@ -1,0 +1,6 @@
+<configs>
+  <append xpath="//item[@name='resourceWaterFilter']">
+    <property name="UnlockedBy" value="craftingWorkstations" />
+    <property name="Tags" value="workstationSkill" />
+  </append>
+</configs>
