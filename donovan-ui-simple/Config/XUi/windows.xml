@@ -1,13 +1,13 @@
 <configs>
   <!-- Remove the default food/water bars -->
-  <remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Food']" />
-  <remove xpath="/windows/window[@name='windowToolbelt']/rect/rect[@stat_type='Water']" />
-  <set xpath="/windows/window[@name='windowToolbelt']/@pos">-313,88</set>
+  <remove xpath="//window[@name='windowToolbelt']/rect/rect[@stat_type='Food']" />
+  <remove xpath="//window[@name='windowToolbelt']/rect/rect[@stat_type='Water']" />
+  <set xpath="//window[@name='windowToolbelt']/@pos">-313,88</set>
 
   <!-- Add the new Water/Food Bars -->
-  <set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='left']/@pos">90,159</set>
-  <set xpath="/windows/window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='right']/@pos">9,183</set>
-  <append xpath="/windows/window[@name='HUDLeftStatBars']">
+  <set xpath="//window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='left']/@pos">90,159</set>
+  <set xpath="//window[@name='HUDLeftStatBars']/rect[@name='hud' and @side='right']/@pos">9,183</set>
+  <append xpath="//window[@name='HUDLeftStatBars']">
     <rect name="wellnessBars" pos="9,33" rows="1" cols="1" side="right">
       <!-- Water Bar -->
       <rect width="84" height="23" pos="0,0" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
@@ -32,13 +32,10 @@
   </append>
 
   <!-- Add the Locked slots functionality back to the UI -->
-  <append xpath="//window[@name='windowLooting']/panel[@name='header']/rect">
-    <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
-  </append>
   <append xpath="//window[@name='windowBackpack']/panel[@name='header']/rect/rect">
     <combobox depth="3" name="cbxLockedSlots" pos="120,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="45" value_wrap="true" value_increment="1" />
   </append>
-  <append xpath="//window[@name='windowVehicleStorage']/panel[@name='header']/rect">
+  <append xpath="//window[@name='windowLooting' or @name='windowVehicleStorage']/panel[@name='header']/rect">
     <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
   </append>
 </configs>
