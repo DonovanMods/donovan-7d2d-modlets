@@ -1,8 +1,8 @@
 <configs>
   <!-- Storage Sizes -->
-  <set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,2</set>  <!-- Bicycle (Default: 9,1) -->
-  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,4</set>  <!-- Minibike (Default: 9,3)-->
-  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,8</set>  <!-- Motorcycle (Default: 9,4) -->
-  <set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,10</set>  <!-- 4x4Truck (Default: 9,9) -->
-  <set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,6</set>  <!-- Gyrocopter (Default: 9,5) -->
+  <set xpath="//lootcontainer[@name='vehicleBicycle']/@size">10,2</set>  <!-- Bicycle (Default: 9,1) -->
+  <set xpath="//lootcontainer[@name='vehicleMinibike']/@size">10,4</set>  <!-- Minibike (Default: 9,3)-->
+  <set xpath="//lootcontainer[@name='vehicleMotorcycle']/@size">10,8</set>  <!-- Motorcycle (Default: 9,4) -->
+  <set xpath="//lootcontainer[@name='vehicle4x4Truck']/@size">10,10</set>  <!-- 4x4Truck (Default: 9,9) -->
+  <set xpath="//lootcontainer[@name='vehicleGyrocopter']/@size">10,6</set>  <!-- Gyrocopter (Default: 9,5) -->
 </configs>
