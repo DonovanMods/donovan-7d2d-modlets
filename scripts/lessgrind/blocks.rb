@@ -21,7 +21,7 @@ module LessGrind
 
     def multiplier(name)
       return @default_multiplier if name.match?(/^tree(Stump|Cactus)/)
-      return @default_multiplier * 2 if name.match?(/^(planted|terr)/)
+      return @default_multiplier * 2 if name.match?(/^(terr)/)
       return @default_multiplier * 4 if name.match?(/^(ore|rock|tree|woodLogPillar)/)
 
       @default_multiplier
@@ -38,6 +38,7 @@ module LessGrind
             destroy_events = block.xpath("drop[@event='Destroy']")
 
             # Skip unwanted blocks
+            next if name.match?(/^planted/) # don't want to mess with farming
             next if name.match?(/Shapes$/)
             next if name.match?(/Twitch$/)
 
