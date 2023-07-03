@@ -1,5 +1,11 @@
-*.code-workspace
-
-ToDo\.md
-debug.xml
-validate.sh
+# Ignore everything by default
+*
+# Allow certain files and directories
+!.github/**
+!scripts/**
+!donovan*/**
+!*.sln
+!.gitignore
+!LICENSE.md
+!profile.txt
+!README.md
