@@ -21,10 +21,24 @@ module LessGrind
 
     def multiplier(name)
       return @default_multiplier if name.match?(/^tree(Stump|Cactus)/)
-      return @default_multiplier * 2 if name.match?(/^(planted|terr)/)
+      return @default_multiplier * 2 if name.match?(/^(terr)/)
       return @default_multiplier * 4 if name.match?(/^(ore|rock|tree|woodLogPillar)/)
 
       @default_multiplier
+    end
+
+    def check_resource(event, name)
+      resource_name = event.at_xpath("@name")&.value
+      return unless resource_name
+      return if name == resource_name # Skip blocks that return themselves
+
+      count = event.at_xpath("@count")&.value
+      return unless count
+
+      new_count = xml_value(count, name)
+      return if new_count == 0 || new_count == count # skip if no change
+
+      [resource_name, new_count]
     end
 
     def build
@@ -34,50 +48,43 @@ module LessGrind
 
           @blocks.xpath("//block").each do |block|
             name = block.at_xpath("@name").value
-            harvest_events = block.xpath("drop[@event='Harvest']")
-            destroy_events = block.xpath("drop[@event='Destroy']")
 
             # Skip unwanted blocks
+            next if name.match?(/^planted/) # don't want to mess with farming
             next if name.match?(/Shapes$/)
             next if name.match?(/Twitch$/)
+
+            harvest_events = block.xpath("drop[@event='Harvest']")
+            destroy_events = block.xpath("drop[@event='Destroy']")
 
             next unless harvest_events.any? || destroy_events.any?
 
             ##
             ## Harvest events
             ##
-            event_type = "Harvest"
             harvest_events.each do |harvest_event|
-              resource_name = harvest_event.at_xpath("@name").value
-              count = harvest_event.at_xpath("@count").value
-              new_count = xml_value(count, name)
-
-              next if count == new_count # skips if no change
+              resource_name, count = check_resource(harvest_event, name)
+              next unless resource_name
 
               case name
               when /(cntCar|cntBus|cntFire|cntPolice)/
                 prob = prob_value(harvest_event.at_xpath("@prob")&.value)
-                xml.set(prob, xpath: "//block[@name='#{name}']/drop[@event='#{event_type}' and @name='#{resource_name}']/@prob") if prob.positive?
+                xml.set(prob, xpath: "//block[@name='#{name}']/drop[@event='Harvest' and @name='#{resource_name}']/@prob") if prob.positive?
               when "woodLogPillar100"
                 xml.comment(" Wood logs should burn longer than wood (4x) ")
                 value = block.at_xpath("property[@name='FuelValue']/@value").value.to_i * 4
                 xml.set(value, xpath: "//block[@name='woodLogPillar100']/property[@name='FuelValue']/@value")
               end
 
-              xml.set(new_count, xpath: "//block[@name='#{name}']/drop[@event='#{event_type}' and @name='#{resource_name}']/@count")
+              xml.set(count, xpath: "//block[@name='#{name}']/drop[@event='Harvest' and @name='#{resource_name}']/@count")
             end
 
             ##
             ## Destroy events
             ##
             destroy_events.each do |destroy_event|
-              event_type = "Destroy"
-
-              resource_name = destroy_event.at_xpath("@name")&.value
+              resource_name, count = check_resource(destroy_event, name)
               next unless resource_name
-
-              count = destroy_event.at_xpath("@count").value
-              new_count = xml_value(count, name)
 
               case name
               when "treeStump"
@@ -85,7 +92,7 @@ module LessGrind
                 xml.set(prob, xpath: "//block[@name='treeStump']/drop[@event='Destroy' and @name='foodHoney']/@prob")
               end
 
-              xml.set(new_count, xpath: "//block[@name='#{name}']/drop[@event='#{event_type}' and @name='#{resource_name}']/@count")
+              xml.set(count, xpath: "//block[@name='#{name}']/drop[@event='Destroy' and @name='#{resource_name}']/@count")
             end
           end
 
