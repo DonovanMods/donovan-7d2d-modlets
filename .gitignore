@@ -1,12 +1,7 @@
-# Ignore everything by default
-*
-# Allow certain files and directories
-!*/
-!.github/**
-!scripts/**
-!donovan-*/**
-!.gitignore
-!LICENSE.md
-!profile.txt
-!README.md
-!*.sln
+*.code-workspace
+.vs/
+.vscode/
+obj/
+
+ToDo.md
+debug.xml
