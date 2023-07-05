@@ -1,4 +1,12 @@
 <bundle>
+  <!-- Included from donovan-bettercollectors -->
+  <!--
+        To change the grid size of the dew collector, set these values.
+        The values MUST match the "ContainerSize" property value in blocks.xml!
+        If they don't, your game will crash.
+    -->
+  <set xpath="//window[@name='windowDewCollector']/rect/grid/@cols">3</set>
+  <set xpath="//window[@name='windowDewCollector']/rect/grid/@rows">2</set>
   <!-- Included from donovan-bettervehicles -->
   <set xpath="//window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@width">100%</set>
   <set xpath="//window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@height">100%</set>
