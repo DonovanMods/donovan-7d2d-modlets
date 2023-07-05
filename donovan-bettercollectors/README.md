@@ -4,6 +4,8 @@
 
 This modlet improves the dew collectors
 
+Note that this modlet is NOT compatible with EAC
+
 ### Pros
 
 - Creates 2x more water (6)

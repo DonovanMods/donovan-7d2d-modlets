@@ -7,6 +7,8 @@ This includes all the functionality from my recommended modlets, compiled into a
 
 You're still welcome to pick and choose additional modlets to use, of course, but this serves as a one-stop-shop for the included modelets.
 
+Note that this modlet is NOT compatible with EAC
+
 ### Modlets Included
 
 - betterblades
