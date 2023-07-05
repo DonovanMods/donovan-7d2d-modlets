@@ -21,3 +21,7 @@ You're still welcome to pick and choose additional modlets to use, of course, bu
 - megastacks
 - moreperks
 - pickmeup
+
+## Additional Credits
+
+- ["Rain Collectors" mod by khzmusik](https://gitlab.com/karlgiesing/7d2d-a21-modlets) in order to add additional functionality for Dew Collectors
