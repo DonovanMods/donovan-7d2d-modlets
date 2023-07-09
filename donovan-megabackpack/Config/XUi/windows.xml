@@ -5,7 +5,7 @@
 	<!-- Player backpack window -->
 	<set xpath="/windows/window[@name='windowBackpack']/@width">1008</set>
 	<set xpath="/windows/window[@name='windowBackpack']/@height">550</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">504</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">537</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">1008</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">537</set>
 	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">8</set>
