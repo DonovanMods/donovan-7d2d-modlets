@@ -11,4 +11,4 @@ Affects the following weapons:
 - Spears
 - Fireaxes
 
-Additionally, Spears can now be used to butcher animals
+Additionally, Spears and Axes can now be used to butcher animals
