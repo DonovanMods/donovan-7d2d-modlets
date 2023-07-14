@@ -65,7 +65,7 @@ Add these mods by themselves, or as overrides to the AiO modlet.
 
 ### UI
 
-- [UI-Simple](donovan-ui-simple) - A very simple custom UI that repositions the food/water bars.
+- [Donovan UI](donovan-ui) - A very simple custom UI that repositions the food/water bars.
 
 ### Outdated/Removed Modlets
 
