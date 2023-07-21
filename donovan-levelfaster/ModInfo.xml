@@ -5,5 +5,5 @@
   <Description value="Increases the experience gained from killing hostiles" />
   <Author value="Donovan" />
   <Version value="21.0.0" compat="A21,A20" />
-  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/experimental/donovan-levelfaster" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-levelfaster" />
 </xml>
