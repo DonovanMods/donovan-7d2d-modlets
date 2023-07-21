@@ -1,6 +1,5 @@
 <configs>
-	<set xpath="//window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@width">100%</set>
-	<set xpath="//window[@name='windowVehicle']/panel[@name='content']/sprite[@name='backgroundMain']/@height">100%</set>
+	<!-- Supports the increase in storage sizes in the UI, this must equal the maximum size for any vehicle -->
 	<set xpath="//window[@name='windowVehicleStorage']/grid[@name='queue']/@rows">10</set>
 	<set xpath="//window[@name='windowVehicleStorage']/grid[@name='queue']/@cols">10</set>
 </configs>
