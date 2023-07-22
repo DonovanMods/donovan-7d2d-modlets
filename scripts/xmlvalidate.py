@@ -67,14 +67,6 @@ def readModlets(original_configs):
                     for line in etree.parse(str(filename), parser).getroot():
                         if 'xpath' in line.attrib:
                             xpath = line.attrib['xpath']
-                            new_value = line.text
-                            tag = line.tag
-                            attrib = None
-                            if tag in ['set', 'removeattribute']:
-                                attrib = xpath.split('@')[-1]
-                            if tag == 'setattribute':
-                                attrib = line.attrib['name']
-
                             # add a / to the beginning of xpath if it's not already there
                             if xpath[0] != '/':
                                 xpath = f'/{xpath}'
@@ -83,6 +75,18 @@ def readModlets(original_configs):
                             xpath = f'.{xpath}'
 
                             results = configs.xpath(xpath)
+                            new_value = line.text
+                            tag = line.tag
+                            attrib = None
+
+                            if tag in ['set', 'removeattribute']:
+                                attrib = xpath.split('@')[-1]
+                            if tag == 'setattribute':
+                                attrib = line.attrib['name']
+                            if tag == 'csv':
+                                attrib = line
+                                delim = line.attrib['delim']
+                                oper = line.attrib['op']
 
                             if options['debug']:
                                 print('\nFILE:', base_filename)
@@ -111,6 +115,15 @@ def readModlets(original_configs):
 
                                     if tag == 'remove':
                                         result.getparent().remove(result)
+                                        continue
+
+                                    if tag == 'csv':
+                                        if len(attrib):
+                                            values = delim.join(line.values())
+                                            if oper == 'add':
+                                                results.append(values)
+                                            if oper == 'remove':
+                                                results.getparent().remove(values)
                                         continue
 
                                     break
