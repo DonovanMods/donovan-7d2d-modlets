@@ -1,0 +1,21 @@
+<configs>
+  <append xpath="/entity_classes">
+    <entity_class name="zombieWraith" extends="zombieSteveCrawlerFeral">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,feral" />
+      <property name="MoveSpeed" value=".8" />
+      <property name="MoveSpeedAggro" value="1.25, 1.5" />
+      <property name="RotateToGround" value="false" />
+      <property name="WalkType" value="6" />
+      <property name="CanClimbLadders" value="true" />
+      <property name="ExperienceGain" value="750" />
+      <property name="LootDropProb" value=".03" />
+      <property name="SoundFootstepModifier" value="crawlersteporganic" />
+      <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert" />
+      <property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="300" />
+      </effect_group>
+    </entity_class>
+  </append>
+</configs>

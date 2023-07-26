@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English
+zombieWraith,entityclasses,Entity,New,Wraith

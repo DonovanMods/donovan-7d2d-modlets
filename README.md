@@ -50,6 +50,7 @@ Add these mods by themselves, or as overrides to the AiO modlet.
 - [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level to 4
 - [ModSchematics](donovan-modschematics) - Turn mods into schematics
 - [NightFog](donovan-nightfog) - Thick fog rolls in at night
+- [Wraith](donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
 #### Inventory Size (pick one)
 
