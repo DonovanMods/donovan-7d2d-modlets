@@ -24,3 +24,4 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-moreperk
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-nightfog
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-pickmeup
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-ui
+https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-wraith

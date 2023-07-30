@@ -87,6 +87,8 @@ module LessGrind
               next unless resource_name
 
               case name
+              when /^(farmPlotBlockPlayer|cntDewCollector)/
+                next # Skip these blocks on destroy
               when "treeStump"
                 prob = prob_value(destroy_event.at_xpath("@prob")&.value)
                 xml.set(prob, xpath: "//block[@name='treeStump']/drop[@event='Destroy' and @name='foodHoney']/@prob")

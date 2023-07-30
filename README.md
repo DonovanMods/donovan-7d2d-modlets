@@ -12,8 +12,6 @@ These are all available individually and are intended to work in unison, so feel
 
 Verfied under game version: _Alpha 21_
 
-However, as these are still experimental builds, there may be some issues. Please report them if you find any.
-
 ## AiO
 
 The _All In One_ modlet is a bundle of modlets which _I personally_ recommend for the "best" experience, but they are all available individually, so feel free to mix and match should you desire.
@@ -52,6 +50,7 @@ Add these mods by themselves, or as overrides to the AiO modlet.
 - [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level to 4
 - [ModSchematics](donovan-modschematics) - Turn mods into schematics
 - [NightFog](donovan-nightfog) - Thick fog rolls in at night
+- [Wraith](donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
 #### Inventory Size (pick one)
 
