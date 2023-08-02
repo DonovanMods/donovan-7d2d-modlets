@@ -46,15 +46,17 @@
     </recipe>
   </append>
   <!-- Included from donovan-lessgrind -->
-  <!-- Why would you need 5 pieces of meat to make 1 cooked piece of meat? -->
+  <!-- Reduce the material requirements for recipes using meat (note: do not set lower than 3 or requirements could go to 0) -->
   <set xpath="//recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodChiliDog']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">3</set>
   <set xpath="//recipe[@name='foodMeatStew']/ingredient[@name='foodRawMeat']/@count">5</set>
+  <!-- Iron Bars -->
   <set xpath="//recipe[@name='ironBars']/ingredient[@name='unit_iron']/@count">50</set>
   <set xpath="//recipe[@name='ironBarsCentered']/ingredient[@name='unit_iron']/@count">50</set>
+  <!-- Iron Spikes -->
   <set xpath="//recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
   <set xpath="//recipe[@name='trapSpikesIronDmg0']/ingredient[@name='resourceScrapIron']/@count">40</set>
   <!-- You should be able to make a bone knife with only one bone -->
@@ -63,6 +65,9 @@
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceScrapIron']/@count">10</set>
   <set xpath="//recipe[starts-with(@name, 'resourceLockPick')]/ingredient[@name='resourceMechanicalParts']/@count">1</set>
+  <!-- Reduce the material requirements to craft seeds -->
+  <set xpath="//recipe[starts-with(@name, 'planted')]/ingredient[not (@count='5')]/@count">1</set>
+  <set xpath="//recipe[starts-with(@name, 'planted')]/ingredient[@count='5']/@count">2</set>
   <!-- Beaker -->
   <append xpath="/recipes">
     <recipe name="toolBeaker" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
