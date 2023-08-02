@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="Donovan_BetterBatons" />
+  <DisplayName value="Donovan's Better Batons" />
+  <Description value="Batons do more damage" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterbatons" />
+</xml>
