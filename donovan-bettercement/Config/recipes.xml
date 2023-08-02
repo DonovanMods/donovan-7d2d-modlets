@@ -1,7 +1,8 @@
 <configs>
+  <remove xpath="//recipe[@name='resourceConcreteMix']/ingredient[@name='resourceCrushedSand']" />
   <remove xpath="//recipe[@name='resourceCement']" />
   <append xpath="/recipes">
-    <recipe name="resourceCement" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+    <recipe name="resourceCement" count="1" material_based="true" craft_area="cementMixer" craft_time="0.25" is_trackable="false" tags="cementMixerCrafting">
       <ingredient name="resourceCrushedSand" count="2" />
       <ingredient name="resourceClayLump" count="2" />
     </recipe>
