@@ -1,4 +1,5 @@
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-aio
+https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterbatons
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterblades
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterbridges
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-betterbuffs
