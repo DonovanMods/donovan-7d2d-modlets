@@ -1,0 +1,7 @@
+<configs>
+  <!-- Pipe and Stun Batons -->
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT0')]/effect_group[starts-with(@name, 'meleeWpnBatonT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT0')]/effect_group[starts-with(@name, 'meleeWpnBatonT0')]/passive_effect[@name='StaminaLoss' and @operation='base_set']/@value">12.8</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT2')]/effect_group[starts-with(@name, 'meleeWpnBatonT2')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT2')]/effect_group[starts-with(@name, 'meleeWpnBatonT2')]/passive_effect[@name='StaminaLoss' and @operation='base_set']/@value">13.5</set>
+</configs>
