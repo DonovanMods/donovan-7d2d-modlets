@@ -1,0 +1,15 @@
+<bundle>
+  <!-- Included from donovan-wraith -->
+  <!-- spawn wraiths everywhere in the wasteland -->
+  <append xpath="//entitygroup[starts-with(@name,'ZombiesWasteland')]">
+    <entity name="zombieWraith"/>
+  </append>
+  <!-- spawn wraiths at night -->
+  <append xpath="//entitygroup[contains(@name,'Night')     and not (contains(@name,'ZombiesWasteland'))     and not (contains(@name,'NightClub'))     and not (contains(@name,'WildGame'))]">
+    <entity name="zombieWraith"/>
+  </append>
+  <!-- add wraiths to the blood horde -->
+  <append xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and contains(text(),'Feral')]">
+    <entity name="zombieWraith"/>
+  </append>
+</bundle>

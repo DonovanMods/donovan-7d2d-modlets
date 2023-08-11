@@ -2,6 +2,6 @@
 
 BASE="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable"
 
-for D in $(ls -d donovan-*); do
+for D in $(ls -d modlets/**/donovan-*); do
   echo "${BASE}/${D}"
 done

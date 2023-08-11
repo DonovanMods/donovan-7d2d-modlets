@@ -11,18 +11,23 @@ Note that this modlet is NOT compatible with EAC
 
 ### Modlets Included
 
+- betterbatons
 - betterblades
 - betterbridges
 - betterbuffs
 - bettercement
+- bettercollectors
 - betterdyes
 - betterpowertools
 - bettervehicles
 - lessgrind
 - longerlootbags
 - megastacks
+- morebooks
+- morelootbags
 - moreperks
 - pickmeup
+- wraith
 
 ## Additional Credits
 

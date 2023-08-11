@@ -11,7 +11,7 @@ module LessGrind
   DEFAULTS = {multiplier: 2.5, prob_multiplier: 1.5}.freeze
 
   @config_dir = "/mnt/s/Games/Steam/steamapps/common/7 Days To Die/Data/Config"
-  @mod_dir = "donovan-lessgrind/Config"
+  @mod_dir = "modlets/a-la-carte/donovan-lessgrind/Config"
 
   @game_files = {
     blocks_file: "#{@config_dir}/blocks.xml",
