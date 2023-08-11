@@ -1,0 +1,5 @@
+Key,Source,Context,Changes,English
+casinoCoinDesc,items,Item,Edit,"A Duke's casino coin. After the epidemic and war these brass coins became the main currency for trading in Navezgane.\n\nCan be smelted in a forge to craft firearm ammunition and crafted after you've found the appropriate skill book."
+bookWasteTreasuresComplete,items,perk  book,Add,Wasteland Treasures - Completion
+perkWasteTreasuresCompleteDesc,progression,perk  book,Edit,Harvest military fibers and Craft Dukes.
+perkWasteTreasuresCompleteLongDesc,progression,perk  book,Edit,"Military Fiber: All the best military gear is made from this amazing strong and lightweight material. Learn to harvest it from camping chairs and military trucks.\n\nCraft your own Dukes Casino coins in the Forge."

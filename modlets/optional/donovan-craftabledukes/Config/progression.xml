@@ -1,0 +1,6 @@
+<configs>
+  <setattribute xpath="//book[@name='perkWasteTreasuresComplete']" name="name_key">bookWasteTreasuresComplete</setattribute>
+  <append xpath="//book[@name='perkWasteTreasuresComplete']/effect_group">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="casinoCoin" />
+  </append>
+</configs>
