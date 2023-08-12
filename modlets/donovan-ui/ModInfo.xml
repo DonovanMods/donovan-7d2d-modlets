@@ -5,5 +5,5 @@
   <Description value="Repositions the food/water bars under heath/stamina" />
   <Author value="Donovan Young" />
   <Version value="21.0.4" compat="A21,A20,A19" />
-  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-ui" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-ui" />
 </xml>
