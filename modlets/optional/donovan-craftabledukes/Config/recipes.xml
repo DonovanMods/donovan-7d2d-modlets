@@ -1,0 +1,12 @@
+<configs>
+  <!-- Dukes -->
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="10" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolForgeCrucible" tags="learnable,perkAdvancedEngineering">
+      <ingredient name="unit_brass" count="15" />
+      <ingredient name="unit_iron" count="10" />
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.12,.06" tags="unit_brass,unit_iron" />
+      </effect_group>
+    </recipe>
+  </append>
+</configs>
