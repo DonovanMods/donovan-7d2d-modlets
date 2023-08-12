@@ -1,0 +1,5 @@
+<configs>
+  <set xpath="//block[@name='bladeTrap']/property[@name='Damage']/@value">40</set>
+  <set xpath="//block[@name='bladeTrap']/property[@name='DamageReceived']/@value">2</set>
+  <set xpath="//block[@name='electricfencepost']/property[@name='MaxDamage']/@value">500</set>
+</configs>

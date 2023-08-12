@@ -19,6 +19,7 @@ Note that this modlet is NOT compatible with EAC
 - bettercollectors
 - betterdyes
 - betterpowertools
+- bettertraps
 - bettervehicles
 - lessgrind
 - longerlootbags

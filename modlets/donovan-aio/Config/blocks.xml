@@ -24,6 +24,10 @@
     -->
     <property name="ContainerSize" value="3,2"/>
   </append>
+  <!-- Included from donovan-bettertraps -->
+  <set xpath="//block[@name='bladeTrap']/property[@name='Damage']/@value">40</set>
+  <set xpath="//block[@name='bladeTrap']/property[@name='DamageReceived']/@value">2</set>
+  <set xpath="//block[@name='electricfencepost']/property[@name='MaxDamage']/@value">500</set>
   <!-- Included from donovan-lessgrind -->
   <!-- Harvesting/Destroying Rates -->
   <set xpath="//block[@name='terrStone']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">275</set>

@@ -1,0 +1,4 @@
+<bundle>
+  <!-- Included from donovan-bettertraps -->
+  <set xpath="//material[@id='MmetalBladeTrap']/property[@name='MaxDamage']/@value">7000</set>
+</bundle>

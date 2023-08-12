@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="Donovan_BetterTraps" />
+  <DisplayName value="Donovan's Better Traps" />
+  <Description value="Traps have more health and do more damage" />
+  <Author value="Donovan" />
+  <Version value="21.1.0" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterblades" />
+</xml>

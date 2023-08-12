@@ -6,6 +6,7 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-car
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettercollectors
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterdyes
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterpowertools
+https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettertraps
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettervehicles
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-lessgrind
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-longerlootbags
