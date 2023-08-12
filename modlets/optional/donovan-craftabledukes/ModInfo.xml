@@ -5,5 +5,5 @@
   <Description value="Craft dukes in the forge using brass and iron" />
   <Author value="Donovan" />
   <Version value="21.1.0" compat="A21" />
-  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/donovan-craftabledukes" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-craftabledukes" />
 </xml>
