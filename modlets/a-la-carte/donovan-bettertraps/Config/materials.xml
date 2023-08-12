@@ -1,0 +1,3 @@
+<configs>
+  <set xpath="//material[@id='MmetalBladeTrap']/property[@name='MaxDamage']/@value">7000</set>
+</configs>

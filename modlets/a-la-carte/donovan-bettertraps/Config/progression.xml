@@ -1,0 +1,8 @@
+<configs>
+  <set xpath="//crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT1']/@icon">electricfencepost</set>
+  <set xpath="//crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT2']/@icon">bladeTrap</set>
+  <csv xpath="//crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT1']/unlock_entry/@item" delim="," op="remove">bladeTrap</csv>
+  <csv xpath="//crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT2']/unlock_entry/@item" delim="," op="add">bladeTrap</csv>
+  <csv xpath="//crafting_skill[@name='craftingTraps']/effect_group/passive_effect[@level='25,100']/@tags" delim="," op="remove">bladeTrap</csv>
+  <csv xpath="//crafting_skill[@name='craftingTraps']/effect_group/passive_effect[@level='50,100']/@tags" delim="," op="add">bladeTrap</csv>
+</configs>
