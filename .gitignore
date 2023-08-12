@@ -3,6 +3,9 @@
 .vscode/
 obj/
 
-ToDo.md
 debug.xml
 archive/
+
+todo.md
+todo.archive.md
+todo.someday.md
