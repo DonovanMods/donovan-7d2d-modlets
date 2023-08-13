@@ -7,7 +7,7 @@
 ### Added
 
 - New Modlet (AiO): Better Traps - Blade Traps have more health and do slightly more damage
-- New Modlet (Optional): Night Vision Helmet Mod - add a NVG helmet mod (found on Military and Swat Helmets)
+- New Modlet (AiO): Night Vision Helmet Mod - add a NVG helmet mod (found on Military and Swat Helmets)
 - New Modlet (Optional): Craftable Dukes - craft Dukes from Brass + Iron in the Forge
 
 ### Changed

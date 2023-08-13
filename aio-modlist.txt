@@ -14,5 +14,6 @@ modlets/a-la-carte/donovan-megastacks
 modlets/a-la-carte/donovan-morebooks
 modlets/a-la-carte/donovan-morelootbags
 modlets/a-la-carte/donovan-moreperks
+modlets/a-la-carte/donovan-nvhelmetmod
 modlets/a-la-carte/donovan-pickmeup
 modlets/a-la-carte/donovan-wraith
