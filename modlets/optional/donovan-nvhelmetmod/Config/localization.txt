@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+modNVHelmetLight,item_modifiers,mod,Add,Night Vision Helmet Mod
+modNVHelmetLightDesc,item_modifiers,mod,Add,A helmet attachment that provides Night Vision when activated.
