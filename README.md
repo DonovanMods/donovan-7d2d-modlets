@@ -18,53 +18,54 @@ The _All In One_ modlet is a bundle of modlets which _I personally_ recommend fo
 
 Any modlets added after the AiO will overrule what's included in the AiO, esentially replacing the mod with a different one. e.g. `more*` vs `mega*` modlets. So you can start with AiO as your base and add additional ones to customize your experience.
 
-### The List
+- [All-In-One](modlets/donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
 
-- [All-In-One](donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
-
-#### Includes the following mods
+### Included in AiO
 
 Note that any of these mods can also be used a-la-carte, we just bundle them together for convienence in AiO.
 
-- [BetterBlades](donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
-- [BetterBuffs](donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
-- [BetterCement](donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
-- [BetterCollectors](donovan-bettercollectors) - Get more water from dew collectors
-- [BetterDyes](donovan-betterdyes) - Allows all colored dyes to be crafted from paint
-- [BetterPowertools](donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
-- [BetterVehicles](donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
-- [LessGrind](donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
-- [LongerLootbags](donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
-- [MegaStacks](donovan-megastacks) - Vastly increases stack sizes
-- [MoreBooks](donovan-morebooks) - Increases the chance of finding books
-- [MorePerks](donovan-moreperks) - Increases the amount of perks points received per level to 2
-- [PickMeUp](donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
+- [BetterBatons](modlets/a-la-carte/donovan-betterbatons) - Increases melee damange on pipe and stun batons (puts them on par with spears/clubs)
+- [BetterBlades](modlets/a-la-carte/donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
+- [BetterBridges](modlets/a-la-carte/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
+- [BetterBuffs](modlets/a-la-carte/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
+- [BetterCement](modlets/a-la-carte/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
+- [BetterCollectors](modlets/a-la-carte/donovan-bettercollectors) - Get more water from dew collectors
+- [BetterDyes](modlets/a-la-carte/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
+- [BetterPowertools](modlets/a-la-carte/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
+- [BetterTraps](modlets/a-la-carte/donovan-betterptraps) - Blade Traps have more health and do slightly more damage
+- [BetterVehicles](modlets/a-la-carte/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
+- [LessGrind](modlets/a-la-carte/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
+- [LongerLootbags](modlets/a-la-carte/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
+- [MegaStacks](modlets/a-la-carte/donovan-megastacks) - Vastly increases stack sizes
+- [MoreBooks](modlets/a-la-carte/donovan-morebooks) - Increases the chance of finding books
+- [MoreLootbags](modlets/a-la-carte/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
+- [MorePerks](modlets/a-la-carte/donovan-moreperks) - Increases the amount of perks points received per level to 2
+- [NVHelmetMod](modlets/a-la-carte/donovan-nvhelmetmod) - Adds a Night Vision Helmet Mod (found on Military and Swat Helmets)
+- [PickMeUp](modlets/a-la-carte/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
+- [Wraith](modlets/a-la-carte/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
-### A La Carte
 
-Add these mods by themselves, or as overrides to the AiO modlet.
+### Optional
 
-- [BetterBridges](donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
-- [LevelFaster](donovan-levelfaster) - Increases the experience gain on most items / actions (_deprecated as you can now set this in the game options_)
-- [MegaBooks](donovan-megabooks) - Significantly increases the chance of finding books
-- [MegaPerks](donovan-megaperks) - Increases the amount of perks points received per level to 4
-- [ModSchematics](donovan-modschematics) - Turn mods into schematics
-- [NightFog](donovan-nightfog) - Thick fog rolls in at night
-- [Wraith](donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
+These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
 
-#### Inventory Size (pick one)
+- [CraftableDukes](modlets/optional/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
+- [CraftableParts](modlets/optional/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
+- [LevelFaster](modlets/optional/donovan-levelfaster) - Increases the experience gain on most items / actions (_deprecated as you can now set this in the game options_)
+- [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books
+- [MegaLootbags](modlets/optional/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
+- [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
+- [ModSchematics](modlets/optional/donovan-modschematics) - Turn mods into schematics
+- [NightFog](modlets/optional/donovan-nightfog) - Thick fog rolls in at night
 
-1. [BigBackpack](donovan-bigbackpack) - Increases the size of the player inventory to 60
-2. [MegaBackpack](donovan-megabackpack) - Increases the size of the player inventory to 120
+#### Inventory Size (only install one of these at at time)
 
-#### Lootbag Drop Rates (pick one)
-
-1. [MoreLootbags](donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
-2. [MegaLootbags](donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
+1. [BigBackpack](modlets/optional/donovan-bigbackpack) - Increases the size of the player inventory to 60
+2. [MegaBackpack](modlets/optional/donovan-megabackpack) - Increases the size of the player inventory to 120
 
 ### UI
 
-- [Donovan UI](donovan-ui) - A very simple custom UI that repositions the food/water bars.
+- [Donovan UI](modlets/donovan-ui) - A very simple custom UI that repositions the food/water bars.
 
 ### Outdated/Removed Modlets
 
@@ -76,6 +77,10 @@ Add these mods by themselves, or as overrides to the AiO modlet.
 - CraftableJail - REMOVED as of A21 (now incorporated into the base game)
 - LootCleanup - REMOVED as of A21 (now incorporated into the base game)
 - Craftables - REMOVED as of A21 due to compatibility issues with the base game
+
+## Additional Credits
+
+- ["Rain Collectors" mod by khzmusik](https://gitlab.com/karlgiesing/7d2d-a21-modlets) in order to add additional functionality for Dew Collectors
 
 ## History
 

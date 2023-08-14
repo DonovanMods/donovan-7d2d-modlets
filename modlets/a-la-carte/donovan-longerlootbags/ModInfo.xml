@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_LongerLootbags" />
+  <DisplayName value="Donovan's Longer Lootbags" />
+  <Description value="Decreases the decay rate on zombie loot bags from 5 to 30 minutes" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20,A19,A18,A17" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-longerlootbags" />
+</xml>

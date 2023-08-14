@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_ModSchematics" />
+  <DisplayName value="Donovan's Mod Schematics" />
+  <Description value="Create weapon mod schematics from mods" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20,A19,A18" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-modschematics" />
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_BetterVehicles" />
+  <DisplayName value="Donovan's Better Vehicles" />
+  <Description value="Bigger and Faster Vehicles; more storage plus 25% normal speed and double turbo speed" />
+  <Author value="Donovan" />
+  <Version value="21.0.2" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettervehicles" />
+</xml>

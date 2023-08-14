@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+perkDeepCutsDesc,progression,perk Agi,Edit,"Specialize in using bladed weapons like knives, machetes, Fireaxes, or Spears to bleed your foes dry."
+modDyeGroupDesc,item_modifiers,mod,New,Adding a dye mod applies a tint to the entire held or worn item and is installed in the cosmetic slot that most items have.\n\nScraps into and can be crafted out of paint.
+resourcePaintDesc,items,Item,New,Used to craft dyes or with a paint brush to paint building blocks.
+trapsT1,progression,Attribute,Edit,"Tier 1: Electric Fence & Dart Trap"
+trapsT2,progression,Attribute,Edit,"Tier 2: Blade Trap & Shotgun Auto Turret"
+modNVHelmetLight,item_modifiers,mod,Add,Night Vision Helmet Mod
+modNVHelmetLightDesc,item_modifiers,mod,Add,A helmet attachment that provides Night Vision when activated.
+zombieWraith,entityclasses,Entity,New,Wraith

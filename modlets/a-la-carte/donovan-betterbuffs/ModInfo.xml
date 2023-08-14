@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_BetterBuffs" />
+  <DisplayName value="Donovan's Better Buffs" />
+  <Description value="Tweaks some of the (de)buff settings. Notably, NearTrauma now only lasts 10 minutes and hunger and thirsty are now more realistic." />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20,A19" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterbuffs" />
+</xml>

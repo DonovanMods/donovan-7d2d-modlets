@@ -1,0 +1,4 @@
+<configs>
+  <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="remove">modArmorHelmetLight</csv>
+  <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="add">modNVHelmetLight</csv>
+</configs>

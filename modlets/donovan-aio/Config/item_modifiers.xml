@@ -1,0 +1,28 @@
+<bundle>
+  <!-- Included from donovan-nvhelmetmod -->
+  <append xpath="//item_modifiers">
+    <item_modifier name="modNVHelmetLight" installable_tags="head" modifier_tags="misc,modArmorHelmetLight" blocked_tags="noMods,clothing" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+      <property name="Material" value="Msteel"/>
+      <property name="LightValue" value=".4"/>
+      <property name="CustomIcon" value="apparelNightvisionGoggles"/>
+      <property name="CustomIconTint" value="50,150,50"/>
+      <effect_group tiered="false">
+        <requirement name="IsLocalPlayer"/>
+        <triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="NightVision" intensity="1" fade="0"/>
+        <triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="NightVision" intensity="0" fade="0"/>
+        <triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="NightVision" intensity="0" fade="0"/>
+        <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightTPV" prefab="ScreenEffects/DeferredNV/NVGLight" parentTransform="Spotlight" localPos="0,0,0" localRot="90,0,0"/>
+        <triggered_effect trigger="onSelfEquipStart" action="AddPart" part="HeadLightFPV" prefab="ScreenEffects/DeferredNV/NVGLight" parentTransform="CameraNode" localPos="0,0,.1" localRot="-90,0,0"/>
+        <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightTPV"/>
+        <triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="HeadLightFPV"/>
+        <triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightTPV" active="@!.IsFPV"/>
+        <triggered_effect trigger="onSelfItemActivate" action="SetPartActive" part="HeadLightFPV" active="@.IsFPV"/>
+        <triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightTPV" active="false"/>
+        <triggered_effect trigger="onSelfItemDeactivate" action="SetPartActive" part="HeadLightFPV" active="false"/>
+        <triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightTPV" active="@!.IsFPV"/>
+        <triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightFPV" active="@.IsFPV"/>
+      </effect_group>
+    </item_modifier>
+  </append>
+</bundle>

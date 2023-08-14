@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_MegaBackpack" />
+  <DisplayName value="Donovan's Mega Backpack" />
+  <Description value="Increases the size of the player inventory to 120" />
+  <Author value="Donovan" />
+  <Version value="21.0.1" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megabackpack" />
+</xml>

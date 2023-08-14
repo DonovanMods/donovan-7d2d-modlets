@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_MegaStacks" />
+  <DisplayName value="Donovan's Mega Stacks" />
+  <Description value="Increases stack sizes a large amount" />
+  <Author value="Donovan" />
+  <Version value="21.0.0" compat="A21,A20,A19" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-megastacks" />
+</xml>

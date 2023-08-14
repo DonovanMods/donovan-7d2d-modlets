@@ -62,7 +62,7 @@ def readXML(path, dir=None, xmlfiles={}):
                 xmlfiles[key] = etree.Element('bundle')
 
             xmlfiles[key].append(etree.Comment(
-                f' Included from {configfile.parts[0]} '))
+                f' Included from {configfile.parts[2]} '))
 
             for node in etree.parse(str(configfile), XMLparser).getroot():
                 xmlfiles[key].append(node)

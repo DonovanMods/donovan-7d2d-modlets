@@ -1,0 +1,5 @@
+<configs>
+  <append xpath="//item[@name='casinoCoin']">
+    <property name="UnlockedBy" value="perkWasteTreasuresComplete" />
+  </append>
+</configs>

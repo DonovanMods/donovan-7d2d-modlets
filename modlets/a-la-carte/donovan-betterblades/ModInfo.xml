@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_BetterBlades" />
+  <DisplayName value="Donovan's Better Blades" />
+  <Description value="Bladed weapons do more damage and harvest animals" />
+  <Author value="Donovan" />
+  <Version value="21.0.3" compat="A21" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterblades" />
+</xml>

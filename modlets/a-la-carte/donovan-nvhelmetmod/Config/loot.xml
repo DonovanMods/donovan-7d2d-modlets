@@ -1,0 +1,6 @@
+<configs>
+  <set xpath="//item[@name='armorMilitaryHelmet']/@mods">modNVHelmetLight</set>
+  <set xpath="//item[@name='armorMilitaryHelmet']/@mod_chance">.8</set>
+  <set xpath="//item[@name='armorSwatHelmet']/@mods">modNVHelmetLight</set>
+  <set xpath="//item[@name='armorSwatHelmet']/@mod_chance">.6</set>
+</configs>

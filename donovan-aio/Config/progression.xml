@@ -1,7 +1,0 @@
-<bundle>
-  <!-- Included from donovan-bettercollectors -->
-  <csv xpath="//crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='cntDewCollector']/@item" delim="," op="add">resourceWaterFilter</csv>
-  <csv xpath="//crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='cntDewCollector']/@tags" delim="," op="add">resourceWaterFilter</csv>
-  <!-- Included from donovan-moreperks -->
-  <set xpath="/progression/level/@skill_points_per_level">2</set>
-</bundle>

@@ -1,0 +1,100 @@
+<bundle>
+  <!-- Included from donovan-betterbatons -->
+  <!-- Pipe and Stun Batons -->
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT0')]/effect_group[starts-with(@name, 'meleeWpnBatonT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT0')]/effect_group[starts-with(@name, 'meleeWpnBatonT0')]/passive_effect[@name='StaminaLoss' and @operation='base_set']/@value">12.8</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT2')]/effect_group[starts-with(@name, 'meleeWpnBatonT2')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBatonT2')]/effect_group[starts-with(@name, 'meleeWpnBatonT2')]/passive_effect[@name='StaminaLoss' and @operation='base_set']/@value">13.5</set>
+  <!-- Included from donovan-betterblades -->
+  <!-- Knives and Machetes -->
+  <set xpath="//item[starts-with(@name, 'meleeWpnBladeT0')]/effect_group[starts-with(@name, 'meleeWpnBladeT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">8</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBladeT1')]/effect_group[starts-with(@name, 'meleeWpnBladeT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">16</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnBladeT3')]/effect_group[starts-with(@name, 'meleeWpnBladeT3')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">32</set>
+  <!-- Increase power attack speed on knives -->
+  <set xpath="//item[starts-with(@name, 'meleeWpnBlade')]/effect_group[@name='Power Attack']/passive_effect[@name='AttacksPerMinute']/@value">-50</set>
+  <!-- Spears -->
+  <set xpath="//item[starts-with(@name, 'meleeWpnSpearT0')]/effect_group[starts-with(@name, 'meleeWpnSpearT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnSpearT1')]/effect_group[starts-with(@name, 'meleeWpnSpearT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <set xpath="//item[starts-with(@name, 'meleeWpnSpearT3')]/effect_group[starts-with(@name, 'meleeWpnSpearT3')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">40</set>
+  <!-- Add butcher harvest to spears -->
+  <append xpath="//item[starts-with(@name, 'meleeWpnSpear')]/effect_group[starts-with(@name, 'meleeWpnSpear')]">
+    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+  </append>
+  <!-- Fireaxes -->
+  <set xpath="//item[starts-with(@name, 'meleeToolAxeT1')]/effect_group[starts-with(@name, 'meleeToolAxeT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="//item[starts-with(@name, 'meleeToolAxeT2')]/effect_group[starts-with(@name, 'meleeToolAxeT2')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
+  <csv xpath="//item[starts-with(@name, 'meleeToolAxe')]/property[@name='Tags']/@value" delim="," op="add">perkDeepCuts</csv>
+  <!-- Included from donovan-bettercement -->
+  <set xpath="/items/item[@name='unit_stone']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.01</set>
+  <append xpath="/items/item[@name='resourceCrushedSand']">
+    <property name="CraftingIngredientTime" value="0.01"/>
+  </append>
+  <!-- Included from donovan-bettercollectors -->
+  <append xpath="//item[@name='resourceWaterFilter']">
+    <property name="UnlockedBy" value="craftingWorkstations"/>
+    <property name="Tags" value="workstationSkill"/>
+  </append>
+  <!-- Included from donovan-betterpowertools -->
+  <!-- Chainsaw -->
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+  <append xpath="items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']">
+    <passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
+  </append>
+  <!-- Auger -->
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MaxRange']/@value">3.5</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set>
+  <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
+  <!-- Nailgun -->
+  <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
+  <!-- Included from donovan-lessgrind -->
+  <!-- Crafting time -->
+  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
+  <set xpath="//item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
+  <set xpath="//item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
+  <set xpath="//item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-.5</set>
+  <!-- Smelting time -->
+  <set xpath="//item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
+  <set xpath="//item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-.5</set>
+  <!-- Included from donovan-megastacks -->
+  <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
+  <!-- Ammo -->
+  <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
+  <!-- Medical -->
+  <set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">100</set>
+  <!-- Drugs -->
+  <set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">100</set>
+  <!-- Food -->
+  <set xpath="/items/item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>
+  <!-- Crops -->
+  <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
+  <!-- Drinks -->
+  <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
+  <!-- Resources -->
+  <set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>
+  <!-- Resources -->
+  <set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>
+  <!-- Grenades & Molotovs -->
+  <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>
+  <!-- Tools -->
+  <!-- Exceptions & Misc -->
+  <set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+  <!-- Dukes can't stack more than 25k -->
+  <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
+  <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  <!-- Included from donovan-nvhelmetmod -->
+  <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="remove">modArmorHelmetLight</csv>
+  <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="add">modNVHelmetLight</csv>
+</bundle>

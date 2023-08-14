@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="Donovan_BetterCement" />
+  <DisplayName value="Donovan's Better Cement" />
+  <Description value="Create 'Cement Mix' directly in the cement mixer" />
+  <Author value="Donovan" />
+  <Version value="21.0.2" compat="A21,A20,A19,A18" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettercement" />
+</xml>
