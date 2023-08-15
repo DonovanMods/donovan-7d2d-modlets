@@ -4,9 +4,14 @@
     <item_modifier name="modNVHelmetLight" installable_tags="head" modifier_tags="misc,modArmorHelmetLight" blocked_tags="noMods,clothing" type="attachment">
       <property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
       <property name="Material" value="Msteel"/>
-      <property name="LightValue" value=".4"/>
+      <property name="Weight" value="8"/>
+      <property name="DegradationBreaksAfter" value="false"/>
+      <property name="EconomicValue" value="3000"/>
       <property name="CustomIcon" value="apparelNightvisionGoggles"/>
-      <property name="CustomIconTint" value="50,150,50"/>
+      <property name="CustomIconTint" value="50,125,50"/>
+      <property name="ActivateObject" value="NightVision"/>
+      <property name="ImageEffectOnActive" value="NightVision"/>
+      <property name="PlaySoundOnActive" value="nightvision_toggle"/>
       <effect_group tiered="false">
         <requirement name="IsLocalPlayer"/>
         <triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="NightVision" intensity="1" fade="0"/>
