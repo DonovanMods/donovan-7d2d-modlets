@@ -9,6 +9,9 @@
   <csv xpath="//crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT2']/unlock_entry/@item" delim="," op="add">bladeTrap</csv>
   <csv xpath="//crafting_skill[@name='craftingTraps']/effect_group/passive_effect[@level='25,100']/@tags" delim="," op="remove">bladeTrap</csv>
   <csv xpath="//crafting_skill[@name='craftingTraps']/effect_group/passive_effect[@level='50,100']/@tags" delim="," op="add">bladeTrap</csv>
+  <!-- Included from donovan-lessgrind -->
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@level">1,2,3,4,5</set>
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@value">-.1,-.2,-.3,-.4,-.5</set>
   <!-- Included from donovan-moreperks -->
   <set xpath="/progression/level/@skill_points_per_level">2</set>
 </bundle>

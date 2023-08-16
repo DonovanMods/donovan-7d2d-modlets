@@ -1,0 +1,4 @@
+<configs>
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@level">1,2,3,4,5</set>
+  <set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='CraftingTime']/@value">-.1,-.2,-.3,-.4,-.5</set>
+</configs>
