@@ -4,6 +4,26 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v21.1.3]
+
+### Added
+
+- Modlet installation instructions to the README
+
+### Changed
+
+- Reduced the cloth requirements on some recipes (notable: Duct Tape is now 1:1 again)
+- Reworked crafting times in `donovan-lessgrind` for the AdvancedEngineering perk (10%, 20%, 30%, 40%, 50%)
+- The Wraith will now spawn in some POIs too
+
+### Fixed
+
+- NV Helmet Mod no longer increases sneak
+
+### Removed
+
+- `donovan-levelfaster` has been removed from the list of modlets (no longer needed)
+
 ## [v21.1.2]
 
 ### Added
@@ -43,6 +63,7 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
+[v21.1.3]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.2...A21.1.3
 [v21.1.2]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.1...A21.1.2
 [v21.1.1]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.0.5...A21.1.1
 [v21.0.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.0.4...A21.0.5

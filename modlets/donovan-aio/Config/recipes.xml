@@ -68,6 +68,9 @@
   <!-- Reduce the material requirements to craft seeds -->
   <set xpath="//recipe[starts-with(@name, 'planted')]/ingredient[not (@count='5')]/@count">1</set>
   <set xpath="//recipe[starts-with(@name, 'planted')]/ingredient[@count='5']/@count">2</set>
+  <!-- Reduce the material requirements on some cloth recipes -->
+  <set xpath="//recipe[@name='resourceDuctTape']/ingredient[@name='resourceCloth']/@count">1</set>
+  <set xpath="//recipe[@name='medicalBandage']/ingredient[@name='resourceCloth']/@count">2</set>
   <!-- Beaker -->
   <append xpath="/recipes">
     <recipe name="toolBeaker" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">

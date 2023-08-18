@@ -10,4 +10,6 @@ Changes to recipes are minimal, but do includes things like:
 - Iron bars now take 50% of the iron needed in vanilla (100 iron is a bit much for a single iron bar block).
 - I know they give you more bone's for harvesting now, but you should still be able to make a bone knife with only one bone.
 - Bird Nests will now give more eggs.
+- Duct Tape now only requires 1 cloth fragment instead of 10.
+- Medical Bandages now only require 2 cloth fragments instead of 10.
 - Beakers are now craftable in the forge.

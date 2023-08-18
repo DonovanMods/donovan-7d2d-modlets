@@ -114,7 +114,6 @@
       <property name="ExperienceGain" value="750"/>
       <property name="LootDropProb" value=".03"/>
       <property name="SoundFootstepModifier" value="crawlersteporganic"/>
-      <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
       <property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
       <effect_group name="Base Effects">
         <passive_effect name="HealthMax" operation="base_set" value="300"/>
