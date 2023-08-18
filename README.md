@@ -12,7 +12,60 @@ These are all available individually and are intended to work in unison, so feel
 
 Verfied under game version: _Alpha 21_
 
-## AiO
+## Installation
+
+### Setup (only needs to be done once)
+
+If you haven't already, head over to [releases](https://github.com/DonovanMods/donovan-7d2d-modlets/releases) and download the `source code.zip` file.
+
+1. Unzip that file into a temporary directory.
+1. Locate your "7 Days to Die" game folder (usually something like `C:\Program Files (x86)\steamapps\common\7 Days To Die`).
+1. If if doesn't already exist, create a `Mods` folder in that directory.
+
+### Choosing the Modlets you want
+
+All the modlets live under the `modlets` folder in the ZIP file, so navigate there first.
+
+Now you have several choices, and each of the modlets are detailed below. For the best "all around" experience, we recommend you start with `donovan-aio` but you're free to pick and choose.
+
+Look through the descriptions below and find whatever modlets you want to install (e.g. `donovan-aio`) and copy (or move) that entire folder over to the `7 Days to Die\Mods` directory you located or created above.
+
+For this example, we're going to assume you want to install `donovan-aio` and `donovan-ui`.
+
+Once you copy those folders over, your directory structure should looks something like this:
+
+```
+...\7 Days to Die\
+  Mods\
+    donovan-aio\
+    donovan-ui\
+```
+
+### Notes
+
+All modlets under `a-la-carte` are already included in `donovan-aio`, so there's no need to copy any of them over if you're using `donovan-aio`. However, if there are modlet's incluced in `donovan-aio` that you _don't_ want, then feel free to pick and choose whatever you like under the `a-la-carte` folder and copy them individually.
+
+All modlets under the `optional` are _not_ included in `donovan-aio`, and are designed to overwrite functionality included in `donovan-aio`, so you should be able to copy those into your `Mods` folder and have the new functionality be in effect.
+
+For instance, if you wanted to use `donovan-megaperks` instead of the `donovan-moreperks` (which is included in `donovan-aio`), you could simply put `donovan-megaperks` in your `Mods` directory alongside `donovan-aio` and it will take effect (because it's loaded after `donovan-aio`).
+
+e.g:
+
+```
+...\7 Days to Die\
+  Mods\
+    donovan-aio\
+    donovan-megaperks\
+    donovan-ui\
+```
+
+## Support
+
+If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/DonovanMods/donovan-8d2d-modlets/issues) or find me on Guppy's 7D2D modding Discord server and I'll look into it ASAP.
+
+## Modlet Descriptions
+
+### AiO
 
 The _All In One_ modlet is a bundle of modlets which _I personally_ recommend for the "best" experience, but they are all available individually, so feel free to mix and match should you desire.
 
@@ -20,7 +73,7 @@ Any modlets added after the AiO will overrule what's included in the AiO, esenti
 
 - [All-In-One](modlets/donovan-aio) - My "recommended" modlets all bundled together into a single modlet for convience.
 
-### Included in AiO
+#### Included in AiO
 
 Note that any of these mods can also be used a-la-carte, we just bundle them together for convienence in AiO.
 
@@ -44,8 +97,7 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [PickMeUp](modlets/a-la-carte/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
 - [Wraith](modlets/a-la-carte/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
-
-### Optional
+#### Optional
 
 These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
 
@@ -58,16 +110,16 @@ These are not included in AiO but may be used individually or as overrides to th
 - [ModSchematics](modlets/optional/donovan-modschematics) - Turn mods into schematics
 - [NightFog](modlets/optional/donovan-nightfog) - Thick fog rolls in at night
 
-#### Inventory Size (only install one of these at at time)
+##### Inventory Size (only install one of these at at time)
 
 1. [BigBackpack](modlets/optional/donovan-bigbackpack) - Increases the size of the player inventory to 60
 2. [MegaBackpack](modlets/optional/donovan-megabackpack) - Increases the size of the player inventory to 120
 
-### UI
+#### UI
 
 - [Donovan UI](modlets/donovan-ui) - A very simple custom UI that repositions the food/water bars.
 
-### Outdated/Removed Modlets
+#### Outdated/Removed Modlets
 
 - BetterSpears - incorporated into `BetterBlades`
 - CraftAcid - Incorporated into `Craftables`
@@ -84,14 +136,10 @@ These are not included in AiO but may be used individually or as overrides to th
 
 ## History
 
-I previously used an excellent XML config replacement made by SpikeDaddy, so full credit to him for his work and my inspiration!
+I previously used an excellent XML config replacement made by [SpikeDaddy](https://www.youtube.com/@spikedaddy46), so full credit to him for his work and my inspiration!
 
 With the addition of xpath support to the game architecture, I decided to convert some of his changes along with a few of my own into a series of a-la-carte modlets. The result is this body of work, which will be updated with new ideas and to support future stable versions of 7D2D.
 
 Enjoy!
 
 -- Donovan
-
-## Support
-
-If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/DonovanMods/donovan-7d2d-modlets/issues) or find me on Guppy's 7D2D modding Discord server and I'll look into it ASAP.
