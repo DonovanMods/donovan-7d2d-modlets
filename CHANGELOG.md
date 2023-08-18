@@ -8,11 +8,11 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 
 ### Added
 
-- Modlet installation instructions to the README
+- Modlet installation instructions added to the README
 
 ### Changed
 
-- Reduced the cloth requirements on some recipes (notable: Duct Tape is now 1:1 again)
+- Reduced the cloth requirements on some recipes (notable: Duct Tape is now 2:1)
 - Reworked crafting times in `donovan-lessgrind` for the AdvancedEngineering perk (10%, 20%, 30%, 40%, 50%)
 - The Wraith will now spawn in some POIs too
 
