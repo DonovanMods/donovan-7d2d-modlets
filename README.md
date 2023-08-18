@@ -14,7 +14,7 @@ Verfied under game version: _Alpha 21_
 
 ## Installation
 
-### Setup (only needs to be done once)
+### Setup
 
 If you haven't already, head over to [releases](https://github.com/DonovanMods/donovan-7d2d-modlets/releases) and download the `source code.zip` file.
 
@@ -32,10 +32,10 @@ Look through the descriptions below and find whatever modlets you want to instal
 
 For this example, we're going to assume you want to install `donovan-aio` and `donovan-ui`.
 
-Once you copy those folders over, your directory structure should looks something like this:
+Once you copy those folders over, your directory structure should look something like this:
 
 ```
-...\7 Days to Die\
+7 Days to Die\
   Mods\
     donovan-aio\
     donovan-ui\
@@ -43,16 +43,16 @@ Once you copy those folders over, your directory structure should looks somethin
 
 ### Notes
 
-All modlets under `a-la-carte` are already included in `donovan-aio`, so there's no need to copy any of them over if you're using `donovan-aio`. However, if there are modlet's incluced in `donovan-aio` that you _don't_ want, then feel free to pick and choose whatever you like under the `a-la-carte` folder and copy them individually.
+All modlets under `a-la-carte` are already included in `donovan-aio`, so there's no need to copy any of them over if you're using `donovan-aio`. However, if there are modlet's included in `donovan-aio` that you _don't_ want, then feel free to pick and choose whatever you like under the `a-la-carte` folder and copy them individually.
 
-All modlets under the `optional` are _not_ included in `donovan-aio`, and are designed to overwrite functionality included in `donovan-aio`, so you should be able to copy those into your `Mods` folder and have the new functionality be in effect.
+None of the modlets under the `optional` folder are included in `donovan-aio`, and are designed to _overwrite_ functionality included in `donovan-aio`, so you should be able to copy those into your `Mods` folder along with `donovan-aio` and have the new functionality take effect. Any exceptions to this should be listed in the Modlet's description below.
 
-For instance, if you wanted to use `donovan-megaperks` instead of the `donovan-moreperks` (which is included in `donovan-aio`), you could simply put `donovan-megaperks` in your `Mods` directory alongside `donovan-aio` and it will take effect (because it's loaded after `donovan-aio`).
+For instance, if you wanted to use `donovan-megaperks` instead of the `donovan-moreperks` (which is included in `donovan-aio`), you could simply put `donovan-megaperks` in your `Mods` directory alongside `donovan-aio` and it will take effect (because it will be loaded by the game after `donovan-aio`).
 
 e.g:
 
 ```
-...\7 Days to Die\
+7 Days to Die\
   Mods\
     donovan-aio\
     donovan-megaperks\
@@ -103,7 +103,6 @@ These are not included in AiO but may be used individually or as overrides to th
 
 - [CraftableDukes](modlets/optional/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
 - [CraftableParts](modlets/optional/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
-- [LevelFaster](modlets/optional/donovan-levelfaster) - Increases the experience gain on most items / actions (_deprecated as you can now set this in the game options_)
 - [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books
 - [MegaLootbags](modlets/optional/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 - [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
@@ -129,6 +128,7 @@ These are not included in AiO but may be used individually or as overrides to th
 - CraftableJail - REMOVED as of A21 (now incorporated into the base game)
 - LootCleanup - REMOVED as of A21 (now incorporated into the base game)
 - Craftables - REMOVED as of A21 due to compatibility issues with the base game
+- LevelFaster - REMOVED as this functionality is now included in game (via Experience %).
 
 ## Additional Credits
 
