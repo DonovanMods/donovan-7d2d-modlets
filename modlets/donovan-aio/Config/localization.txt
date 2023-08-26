@@ -11,4 +11,3 @@ perkAdvancedEngineeringRank4LongDesc,progression,perk Int,Edit,"You are the da V
 perkAdvancedEngineeringRank5LongDesc,progression,perk Int,Edit,"You are now an Advanced Engineer and would make MacGyver jealous.\nGain 75% XP from electrical trap kills.\nAll forge recipes cost 20% less, crafting Forged Steel and electrical devices costs 35% less.\nItems craft 50% faster."
 modNVHelmetLight,item_modifiers,mod,Add,Night Vision Helmet Mod
 modNVHelmetLightDesc,item_modifiers,mod,Add,A helmet attachment that provides Night Vision when activated.
-zombieWraith,entityclasses,Entity,New,Wraith

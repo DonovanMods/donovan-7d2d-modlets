@@ -28,7 +28,6 @@ Note that this modlet is NOT compatible with EAC
 - morelootbags
 - moreperks
 - pickmeup
-- wraith
 
 ## Additional Credits
 

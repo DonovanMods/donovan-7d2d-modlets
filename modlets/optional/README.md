@@ -13,6 +13,7 @@ Note that these can be installed along with AiO and will override any existing f
 - [Donovan Mega Perks](donovan-megaperks)
 - [Donovan Mod Schematics](donovan-modschematics)
 - [Donovan Night Fog](donovan-nightfog)
+- [Donovan Wraith](donovan-wraith)
 
 ### Conflicting Modlets (only pick one of these)
 

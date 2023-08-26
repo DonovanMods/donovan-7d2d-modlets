@@ -5,5 +5,5 @@
   <Description value="Adds a new Zombie, the Wraith -- faster, floating, and more deadly" />
   <Author value="Donovan" />
   <Version value="21.0.1" compat="A21" />
-  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-wraith" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-wraith" />
 </xml>

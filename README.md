@@ -34,7 +34,7 @@ For this example, we're going to assume you want to install `donovan-aio` and `d
 
 Once you copy those folders over, your directory structure should look something like this:
 
-```
+```text
 7 Days to Die\
   Mods\
     donovan-aio\
@@ -51,7 +51,7 @@ For instance, if you wanted to use `donovan-megaperks` instead of the `donovan-m
 
 e.g:
 
-```
+```text
 7 Days to Die\
   Mods\
     donovan-aio\
@@ -64,6 +64,10 @@ e.g:
 If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/DonovanMods/donovan-8d2d-modlets/issues) or find me on Guppy's 7D2D modding Discord server and I'll look into it ASAP.
 
 ## Modlet Descriptions
+
+All modlets live under the `modlets` folder in the ZIP file, so navigate there first. Each modlet has it's own README with more details.
+
+Other folders in the ZIP can be safely ignored.
 
 ### AiO
 
@@ -95,7 +99,6 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [MorePerks](modlets/a-la-carte/donovan-moreperks) - Increases the amount of perks points received per level to 2
 - [NVHelmetMod](modlets/a-la-carte/donovan-nvhelmetmod) - Adds a Night Vision Helmet Mod (found on Military and Swat Helmets)
 - [PickMeUp](modlets/a-la-carte/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
-- [Wraith](modlets/a-la-carte/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
 #### Optional
 
@@ -108,6 +111,7 @@ These are not included in AiO but may be used individually or as overrides to th
 - [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
 - [ModSchematics](modlets/optional/donovan-modschematics) - Turn mods into schematics
 - [NightFog](modlets/optional/donovan-nightfog) - Thick fog rolls in at night
+- [Wraith](modlets/optional/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
 ##### Inventory Size (only install one of these at at time)
 
