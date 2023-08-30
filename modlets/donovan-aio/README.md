@@ -11,25 +11,26 @@ Note that this modlet is NOT compatible with EAC
 
 ### Modlets Included
 
-- betterbatons
-- betterblades
-- betterbrawler
-- betterbridges
-- betterbuffs
-- bettercement
-- bettercollectors
-- betterdyes
-- betterpowertools
-- bettertraps
-- bettervehicles
-- lessgrind
-- longerlootbags
-- megastacks
-- morebooks
-- morelootbags
-- moreperks
-- nvhelmetmod
-- pickmeup
+- BetterBatons
+- BetterBlades
+- BetterBrawler
+- BetterBridges
+- BetterBuffs
+- BetterCement
+- BetterCollectors
+- BetterDyes
+- BetterPowertools
+- BetterStart
+- BetterTraps
+- BetterVehicles
+- LessGrind
+- LongerLootbags
+- MegaStacks
+- MoreBooks
+- MoreLootbags
+- MorePerks
+- NVHelmetMod
+- PickMeUp
 
 ## Additional Credits
 

@@ -90,7 +90,8 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [BetterCollectors](modlets/a-la-carte/donovan-bettercollectors) - Get more water from dew collectors
 - [BetterDyes](modlets/a-la-carte/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](modlets/a-la-carte/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
-- [BetterTraps](modlets/a-la-carte/donovan-betterptraps) - Blade Traps have more health and do slightly more damage
+- [BetterStart](modlets/a-la-carte/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
+- [BetterTraps](modlets/a-la-carte/donovan-bettertraps) - Blade Traps have more health and do slightly more damage
 - [BetterVehicles](modlets/a-la-carte/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
 - [LessGrind](modlets/a-la-carte/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LongerLootbags](modlets/a-la-carte/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
