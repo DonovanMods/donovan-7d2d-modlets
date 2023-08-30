@@ -63,40 +63,49 @@
   <set xpath="//item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
   <set xpath="//item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-0.5</set>
   <!-- Included from donovan-megastacks -->
-  <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
+  <!-- Resources -->
+  <set xpath="//item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>
+  <!-- Gathered Crops -->
+  <set xpath="//item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">1000</set>
   <!-- Ammo -->
-  <set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
-  <!-- Medical -->
-  <set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">100</set>
-  <!-- Drugs -->
-  <set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">100</set>
-  <!-- Food -->
-  <set xpath="/items/item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>
-  <!-- Crops -->
-  <set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
   <!-- Drinks -->
-  <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
-  <!-- Resources -->
-  <set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">500</set>
-  <!-- Resources -->
-  <set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>
+  <set xpath="//item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">100</set>
+  <!-- Drugs -->
+  <set xpath="//item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">100</set>
+  <!-- Food -->
+  <set xpath="//item[starts-with(@name, 'foodCrop')]/property[@name='Stacknumber']/@value">1000</set>
+  <!-- Food Crops -->
+  <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">50</set>
+  <!-- Medical -->
+  <set xpath="//item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">100</set>
   <!-- Grenades & Molotovs -->
-  <set xpath="/items/item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>
+  <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>
   <!-- Tools -->
+  <!-- Bundles -->
+  <set xpath="//item[starts-with(@name, 'ammo') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">1000</set>
+  <!-- Ammo Bundles -->
+  <set xpath="//item[starts-with(@name, 'resource') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">30000</set>
+  <!-- Resource Bundles -->
   <!-- Exceptions & Misc -->
-  <set xpath="/items/item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
-  <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
-  <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+  <set xpath="//item[@name='ammoJunkTurretRegular']/property[@name='Stacknumber']/@value">5000</set>
+  <set xpath="//item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">30000</set>
+  <set xpath="//item[@name='ammoGasCanBundle']//property[@name='Create_item_count']/@value">30000</set>
+  <!-- Gas Can Bundles -->
+  <set xpath="//item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
   <!-- Dukes can't stack more than 25k -->
-  <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
-  <set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
-  <set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
-  <set xpath="/items/item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
-  <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
-  <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
-  <set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>
+  <set xpath="//item[@name='foodEgg']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='medicalBloodBag']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='partsMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="//item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
+  <set xpath="//item[@name='smallEngine']/property[@name='Stacknumber']/@value">12</set>
+  <set xpath="//item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">500</set>
+  <set xpath="//item[@name='resourceLockPickBundle']//property[@name='Create_item_count']/@value">500</set>
+  <!-- Lockpick Bundles -->
   <!-- Included from donovan-nvhelmetmod -->
   <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="remove">modArmorHelmetLight</csv>
   <csv xpath="//item[starts-with(@name,'questRewardT2LightArmor')]//property[@name='Create_item']/@value" delim="," op="add">modNVHelmetLight</csv>
