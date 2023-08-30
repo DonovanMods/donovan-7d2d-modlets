@@ -8,7 +8,8 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 
 ### Added
 
-- New `donovan-betterbrawler` modlet - makes Knuckles and Brawler perk more useful
+- New `donovan-betterBrawler` modlet - makes Knuckles and Brawler perk more useful
+- New `donovan-betterStart` modlet - removes the starting quests and gives you basic resources
 - Added elevation data to the Compass in `donovan-ui`
 
 ### Changed

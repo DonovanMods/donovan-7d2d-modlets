@@ -1,0 +1,4 @@
+<bundle>
+  <!-- Included from donovan-betterstart -->
+  <set xpath="//action_sequence[@name='game_first_spawn']/action[@class='AddQuest']/property[@name='quest']/@value">quest_BetterStart</set>
+</bundle>

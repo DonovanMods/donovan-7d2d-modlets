@@ -7,6 +7,8 @@ perkBrawlerRank4LongDesc,progression,perk For,Edit,"You're now good enough to co
 perkBrawlerRank5LongDesc,progression,perk For,Edit,"You're now a complete mixed martial artist and a registered lethal weapon. Knuckle weapons deal 80% more damage and have a higher chance to explode heads with punches. Killing blows grant 30 stamina. Find more knuckle weapons and parts in loot."
 modDyeGroupDesc,item_modifiers,mod,New,Adding a dye mod applies a tint to the entire held or worn item and is installed in the cosmetic slot that most items have.\n\nScraps into and can be crafted out of paint.
 resourcePaintDesc,items,Item,New,Used to craft dyes or with a paint brush to paint building blocks.
+quest_BetterStart,Quest,Quest Info,New,Donovan's Better Start
+quest_BetterStartInfo,Quest,Quest Info,New,Donovan's Better Start
 trapsT1,progression,Attribute,Edit,"Tier 1: Electric Fence & Dart Trap"
 trapsT2,progression,Attribute,Edit,"Tier 2: Blade Trap & Shotgun Auto Turret"
 perkAdvancedEngineeringRank1LongDesc,progression,perk Int,Edit,"You are now out of the stone age and an apprentice Engineer!\nGain 15% XP from electrical trap kills.\nItems craft 10% faster.\nCraft glue cheaper."

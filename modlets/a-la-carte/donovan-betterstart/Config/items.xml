@@ -1,0 +1,3 @@
+<configs>
+  <set xpath="//item[@name='q_basicSurvival']//property[@name='QuestGiven']/@value">quest_BetterStart</set>
+</configs>
