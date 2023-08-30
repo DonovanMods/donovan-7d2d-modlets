@@ -16,6 +16,10 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 
 - Moved `donovan-wraith` out of AiO and into `optional` (if you liked having The Wraith, be sure to add it separately)
 
+### Fixed
+
+- Fixed a compatibility bug when independently applying BetterCollectors along with LessGrind (Issue #57)
+
 ## [v21.1.3]
 
 ### Added

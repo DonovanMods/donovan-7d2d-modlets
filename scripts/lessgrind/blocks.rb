@@ -67,6 +67,8 @@ module LessGrind
               next unless resource_name
 
               case name
+              when /cntDewCollector/ # skip these blocks on harvest
+                next
               when /(cntCar|cntBus|cntFire|cntPolice)/
                 prob = prob_value(harvest_event.at_xpath("@prob")&.value)
                 xml.set(prob, xpath: "//block[@name='#{name}']/drop[@event='Harvest' and @name='#{resource_name}']/@prob") if prob.positive?

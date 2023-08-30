@@ -835,8 +835,6 @@
   <set xpath="//block[@name='palletBagBlankSingleFlatArmyGreen']/drop[@event='Harvest' and @name='resourceClayLump']/@count">5,10</set>
   <set xpath="//block[@name='treePlant02']/drop[@event='Destroy' and @name='resourceClayLump']/@count">60</set>
   <set xpath="//block[@name='campfire']/drop[@event='Destroy' and @name='resourceRockSmall']/@count">8</set>
-  <set xpath="//block[@name='cntDewCollector']/drop[@event='Harvest' and @name='resourceScrapPolymers']/@count">100,150</set>
-  <set xpath="//block[@name='cntDewCollector']/drop[@event='Harvest' and @name='resourceMetalPipe']/@count">3,8</set>
   <set xpath="//block[@name='cntCollapsedDewCollector']/drop[@event='Harvest' and @name='resourceScrapPolymers']/@count">13,25</set>
   <set xpath="//block[@name='cntCollapsedDewCollector']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">8,13</set>
   <set xpath="//block[@name='cntCollapsedDewCollector']/drop[@event='Destroy' and @name='resourceMetalPipe']/@count">3,8</set>
