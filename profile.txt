@@ -1,5 +1,6 @@
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterbatons
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterblades
+https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterbrawler
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterbridges
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterbuffs
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-bettercement

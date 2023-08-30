@@ -1,0 +1,3 @@
+<configs>
+  <set xpath="//perk[@name='perkBrawler']//passive_effect[@name='EntityDamage' and @operation='perc_add']/@value">.2,.8</set>
+</configs>

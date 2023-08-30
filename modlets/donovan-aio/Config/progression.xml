@@ -1,4 +1,6 @@
 <bundle>
+  <!-- Included from donovan-betterbrawler -->
+  <set xpath="//perk[@name='perkBrawler']/effect_group/passive_effect[@name='EntityDamage' and @operation='perc_add']/@value">.2,.8</set>
   <!-- Included from donovan-bettercollectors -->
   <csv xpath="//crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='cntDewCollector']/@item" delim="," op="add">resourceWaterFilter</csv>
   <csv xpath="//crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='cntDewCollector']/@tags" delim="," op="add">resourceWaterFilter</csv>

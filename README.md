@@ -83,6 +83,7 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 
 - [BetterBatons](modlets/a-la-carte/donovan-betterbatons) - Increases melee damange on pipe and stun batons (puts them on par with spears/clubs)
 - [BetterBlades](modlets/a-la-carte/donovan-betterblades) - Increases melee damange on bladed weapons, spears, and axes
+- [BetterBrawler](modlets/a-la-carte/donovan-betterBrawler) - Increases melee damange on knuckle weapons, increasing with the Brawler Perk
 - [BetterBridges](modlets/a-la-carte/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](modlets/a-la-carte/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterCement](modlets/a-la-carte/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer

@@ -1,5 +1,6 @@
 modlets/a-la-carte/donovan-betterbatons
 modlets/a-la-carte/donovan-betterblades
+modlets/a-la-carte/donovan-betterbrawler
 modlets/a-la-carte/donovan-betterbridges
 modlets/a-la-carte/donovan-betterbuffs
 modlets/a-la-carte/donovan-bettercement

@@ -13,6 +13,7 @@ Note that this modlet is NOT compatible with EAC
 
 - betterbatons
 - betterblades
+- betterbrawler
 - betterbridges
 - betterbuffs
 - bettercement
@@ -27,6 +28,7 @@ Note that this modlet is NOT compatible with EAC
 - morebooks
 - morelootbags
 - moreperks
+- nvhelmetmod
 - pickmeup
 
 ## Additional Credits

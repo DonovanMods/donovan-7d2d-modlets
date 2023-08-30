@@ -1,0 +1,5 @@
+<configs>
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT3')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
+</configs>

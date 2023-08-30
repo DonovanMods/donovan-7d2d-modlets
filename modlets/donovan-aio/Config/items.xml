@@ -24,6 +24,10 @@
   <set xpath="//item[starts-with(@name, 'meleeToolAxeT1')]/effect_group[starts-with(@name, 'meleeToolAxeT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
   <set xpath="//item[starts-with(@name, 'meleeToolAxeT2')]/effect_group[starts-with(@name, 'meleeToolAxeT2')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">30</set>
   <csv xpath="//item[starts-with(@name, 'meleeToolAxe')]/property[@name='Tags']/@value" delim="," op="add">perkDeepCuts</csv>
+  <!-- Included from donovan-betterbrawler -->
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT0')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">10</set>
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT1')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">15</set>
+  <set xpath="//effect_group[starts-with(@name,'meleeWpnKnucklesT3')]/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">20</set>
   <!-- Included from donovan-bettercement -->
   <set xpath="/items/item[@name='unit_stone']/property[@name='CraftingIngredientTime']/@value">0.01</set>
   <set xpath="/items/item[@name='resourceClayLump']/property[@name='CraftingIngredientTime']/@value">0.01</set>
