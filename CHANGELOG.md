@@ -4,6 +4,17 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v21.1.4]
+
+### Added
+
+- New `donovan-betterbrawler` modlet - makes Knuckles and Brawler perk more useful
+- Added elevation data to the Compass in `donovan-ui`
+
+### Changed
+
+- Moved `donovan-wraith` out of AiO and into `optional` (if you liked having The Wraith, be sure to add it separately)
+
 ## [v21.1.3]
 
 ### Added
@@ -63,7 +74,8 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
-[v21.1.3]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.2...A21.1.3
+[v21.1.4]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.3...v21.1.4
+[v21.1.3]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.2...v21.1.3
 [v21.1.2]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.1...A21.1.2
 [v21.1.1]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.0.5...A21.1.1
 [v21.0.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.0.4...A21.0.5
