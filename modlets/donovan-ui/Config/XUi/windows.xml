@@ -48,4 +48,17 @@
   <append xpath="//window[@name='windowLooting' or @name='windowVehicleStorage']/panel[@name='header']/rect">
     <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
   </append>
+
+  <!-- Add elevation to the compass -->
+  <remove xpath="//window[@name='windowCompass']/sprite[@visible='{showtime}']" />
+  <append xpath="//window[@name='windowCompass']">
+    <rect name="content" depth="5" pos="180,-60" height="239" controller="MapStats">
+      <sprite pos="0,0" name="dateTime" sprite="" color="255,255,255,255" globalopacitymod="1.8" visible="{showtime}">
+        <label depth="2" width="300" height="30" text="{daytitle}: [{daycolor}]{day}[-] {timetitle}: {time}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center" />
+      </sprite>
+      <sprite pos="120,14" depth="2" name="elevIcon" width="24" height="24" sprite="ui_game_symbol_climb" color="[iconColor]" foregroundlayer="true">
+        <label depth="2" name="elevLabel" width="250" height="28" pos="25,0" text="[DECEA3]{mapelevation} M[-]" font_size="28" />
+      </sprite>
+    </rect>
+  </append>
 </configs>
