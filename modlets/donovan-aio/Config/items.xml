@@ -54,8 +54,6 @@
   <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
   <!-- Nailgun -->
   <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
-  <!-- Included from donovan-betterstart -->
-  <set xpath="//item[@name='q_basicSurvival']//property[@name='QuestGiven']/@value">quest_BetterStart</set>
   <!-- Included from donovan-lessgrind -->
   <!-- Crafting time -->
   <set xpath="//item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>

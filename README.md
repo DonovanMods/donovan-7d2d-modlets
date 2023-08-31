@@ -90,7 +90,6 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [BetterCollectors](modlets/a-la-carte/donovan-bettercollectors) - Get more water from dew collectors
 - [BetterDyes](modlets/a-la-carte/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](modlets/a-la-carte/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
-- [BetterStart](modlets/a-la-carte/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [BetterTraps](modlets/a-la-carte/donovan-bettertraps) - Blade Traps have more health and do slightly more damage
 - [BetterVehicles](modlets/a-la-carte/donovan-bettervehicles) - Bigger and Faster Vehicles; more storage and +25% normal speed (double that in turbo)
 - [LessGrind](modlets/a-la-carte/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
@@ -106,6 +105,7 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 
 These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
 
+- [BetterStart](modlets/a-la-carte/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [CraftableDukes](modlets/optional/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
 - [CraftableParts](modlets/optional/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
 - [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books

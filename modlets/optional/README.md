@@ -6,14 +6,12 @@ Note that these can be installed along with AiO and will override any existing f
 
 ## Adds or Overrides AiO
 
+- [Donovan Craftable Dukes](donovan-craftabledukes)
 - [Donovan Craftable Parts](donovan-craftableparts)
-- [Donovan Level Faster](donovan-levelfaster)
 - [Donovan Mega Books](donovan-megabooks)
 - [Donovan Mega LootBags](donovan-megalootbags)
 - [Donovan Mega Perks](donovan-megaperks)
 - [Donovan Mod Schematics](donovan-modschematics)
-- [Donovan Night Fog](donovan-nightfog)
-- [Donovan Wraith](donovan-wraith)
 
 ### Conflicting Modlets (only pick one of these)
 

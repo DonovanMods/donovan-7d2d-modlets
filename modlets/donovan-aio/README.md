@@ -20,7 +20,6 @@ Note that this modlet is NOT compatible with EAC
 - BetterCollectors
 - BetterDyes
 - BetterPowertools
-- BetterStart
 - BetterTraps
 - BetterVehicles
 - LessGrind

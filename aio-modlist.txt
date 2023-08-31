@@ -7,7 +7,6 @@ modlets/a-la-carte/donovan-bettercement
 modlets/a-la-carte/donovan-bettercollectors
 modlets/a-la-carte/donovan-betterdyes
 modlets/a-la-carte/donovan-betterpowertools
-modlets/a-la-carte/donovan-betterstart
 modlets/a-la-carte/donovan-bettertraps
 modlets/a-la-carte/donovan-bettervehicles
 modlets/a-la-carte/donovan-lessgrind

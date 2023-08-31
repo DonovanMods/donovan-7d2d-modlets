@@ -8,13 +8,13 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 
 ### Added
 
-- New `donovan-betterBrawler` modlet - makes Knuckles and Brawler perk more useful
-- New `donovan-betterStart` modlet - removes the starting quests and gives you basic resources
+- New Modlet (AiO): Better Brawler - makes Knuckles and Brawler perk more useful
+- New Modlet (Optional): Better Start - removes the starting quests and gives you basic resources
 - Added elevation data to the Compass in `donovan-ui`
 
 ### Changed
 
-- Moved `donovan-wraith` out of AiO and into `optional` (if you liked having The Wraith, be sure to add it separately)
+- Moved `donovan-wraith` out of AiO and into `modlets` (if you liked having The Wraith, be sure to add it separately)
 
 ### Fixed
 
