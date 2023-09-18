@@ -79,4 +79,7 @@
       <ingredient name="unit_clay" count="50"/>
     </recipe>
   </append>
+  <!-- Included from donovan-megastacks -->
+  <set xpath="//recipe[starts-with(@name, 'resource') and contains(@name, 'Bundle')]/ingredient[starts-with(@name, 'resource') and @count=6000]/@count">30000</set>
+  <!-- Resource Bundles -->
 </bundle>
