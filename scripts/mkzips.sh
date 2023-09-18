@@ -9,7 +9,7 @@ create_zips() {
 
       echo "Compressing $mod_name"
 
-      (cd "$dir_name" && zip -rq "$zip_file" "$mod_name")
+      (cd "$dir_name" && zip -ruq "$zip_file" "$mod_name")
     fi
   done
 }
@@ -17,8 +17,9 @@ create_zips() {
 # This script creates the zip files for the release.
 ZIP_DIR="${PWD}/ZIPs"
 
-create_zips modlets || exit $?
-create_zips modlets/a-la-carte || exit $?
-create_zips modlets/optional || exit $?
+create_zips modlets
+create_zips modlets/a-la-carte
+create_zips modlets/optional
 
+# zip update returns non-zero if no files were updated
 exit 0
