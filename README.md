@@ -22,6 +22,10 @@ If you haven't already, head over to [releases](https://github.com/DonovanMods/d
 1. Locate your "7 Days to Die" game folder (usually something like `C:\Program Files (x86)\steamapps\common\7 Days To Die`).
 1. If if doesn't already exist, create a `Mods` folder in that directory.
 
+#### Individual ZIP files
+
+If you want to pick and choose the modlets you want, individual ZIP files for each can be found in the `ZIPs` directory.
+
 ### Choosing the Modlets you want
 
 All the modlets live under the `modlets` folder in the ZIP file, so navigate there first.
@@ -63,9 +67,9 @@ e.g:
 
 If you find any issues or have a suggestion for improvement, [please open an issue on github](https://github.com/DonovanMods/donovan-8d2d-modlets/issues) or find me on Guppy's 7D2D modding Discord server and I'll look into it ASAP.
 
-## Modlet Descriptions
+## Modlets
 
-All modlets live under the `modlets` folder in the ZIP file, so navigate there first. Each modlet has it's own README with more details.
+All modlets live under the `modlets` folder in the source ZIP file, so navigate there first. Each modlet has it's own README with more details.
 
 Other folders in the ZIP can be safely ignored.
 
@@ -105,26 +109,29 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 
 These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
 
-- [BetterStart](modlets/a-la-carte/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
-- [CraftableDukes](modlets/optional/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
-- [CraftableParts](modlets/optional/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
+- [BetterStart](modlets/optional/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books
 - [MegaLootbags](modlets/optional/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 - [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
-- [ModSchematics](modlets/optional/donovan-modschematics) - Turn mods into schematics
-- [NightFog](modlets/optional/donovan-nightfog) - Thick fog rolls in at night
-- [Wraith](modlets/optional/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
-##### Inventory Size (only install one of these at at time)
+### Other Modlets
 
-1. [BigBackpack](modlets/optional/donovan-bigbackpack) - Increases the size of the player inventory to 60
-2. [MegaBackpack](modlets/optional/donovan-megabackpack) - Increases the size of the player inventory to 120
+- [CraftableDukes](modlets/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
+- [CraftableParts](modlets/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
+- [ModSchematics](modlets/donovan-modschematics) - Turn mods into schematics
+- [NightFog](modlets/donovan-nightfog) - Thick fog rolls in at night
+- [Wraith](modlets/donovan-wraith) - Adds a new zombie type, the Wraith, which is a fast, stealthy, and deadly zombie
 
-#### UI
+#### Inventory Size (only install one of these at at time)
+
+1. [BigBackpack](modlets/donovan-bigbackpack) - Increases the size of the player inventory to 60
+2. [MegaBackpack](modlets/donovan-megabackpack) - Increases the size of the player inventory to 120
+
+### UI
 
 - [Donovan UI](modlets/donovan-ui) - A very simple custom UI that repositions the food/water bars.
 
-#### Outdated/Removed Modlets
+### Outdated/Removed Modlets
 
 - BetterSpears - incorporated into `BetterBlades`
 - CraftAcid - Incorporated into `Craftables`
