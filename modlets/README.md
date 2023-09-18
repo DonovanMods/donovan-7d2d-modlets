@@ -8,6 +8,7 @@
 ## Modlets
 
 - [Donovan All In One](donovan-aio): All of the a-la-carte modlets in one package
+- [Donovan BetterStart](donovan-betterstart): Removes starter quests and gives you slightly better starting items
 - [Donovan Craftable Dukes](donovan-craftabledukes): Craft Dukes from Brass
 - [Donovan Craftable Parts](donovan-craftableparts): Craft Parts
 - [Donovan Mod Schematics](donovan-modschematics): Create Schematics for Mods using the mods you find

@@ -109,13 +109,13 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 
 These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
 
-- [BetterStart](modlets/optional/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books
 - [MegaLootbags](modlets/optional/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
 - [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
 
 ### Other Modlets
 
+- [BetterStart](modlets/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [CraftableDukes](modlets/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
 - [CraftableParts](modlets/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
 - [ModSchematics](modlets/donovan-modschematics) - Turn mods into schematics
