@@ -11,7 +11,6 @@
   <set xpath="//item[starts-with(@name, 'tool')]/property[@name='Stacknumber']/@value">25</set>  <!-- Tools -->
 
   <!-- Bundles -->
-  <set xpath="//item[starts-with(@name, 'ammo') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">1000</set>  <!-- Ammo Bundles -->
   <set xpath="//item[starts-with(@name, 'resource') and contains(@name, 'Bundle')]//property[@name='Create_item_count']/@value">30000</set>  <!-- Resource Bundles -->
 
   <!-- Exceptions & Misc -->

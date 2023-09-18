@@ -4,6 +4,16 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v21.1.5]
+
+### Changed
+
+- Updated some READMEs to clarify content
+
+### Fixed
+
+- Fixed a bug in bundle recipes for MegaStacks that was causing them to craft more than intended
+
 ## [v21.1.4]
 
 ### Added
@@ -79,6 +89,7 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
+[v21.1.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.4...v21.1.5
 [v21.1.4]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.3...v21.1.4
 [v21.1.3]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.2...v21.1.3
 [v21.1.2]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.1...A21.1.2
