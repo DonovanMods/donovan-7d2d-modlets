@@ -6,6 +6,7 @@ Note that these can be installed along with AiO and will override any existing f
 
 ## Adds or Overrides AiO
 
+- [Donovan BetterStart](donovan-betterstart): Removes starter quests and gives you slightly better starting items
 - [Donovan Mega Books](donovan-megabooks)
 - [Donovan Mega LootBags](donovan-megalootbags)
 - [Donovan Mega Perks](donovan-megaperks)

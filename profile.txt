@@ -18,7 +18,6 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-car
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-nvhelmetmod
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-pickmeup
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-aio
-https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-betterstart
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-bigbackpack
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-craftabledukes
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-craftableparts
@@ -27,6 +26,7 @@ https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-nightfog
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-ui
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-wraith
+https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-betterstart
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megabooks
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megalootbags
 https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megaperks
