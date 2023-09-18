@@ -4,6 +4,18 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v21.1.6]
+
+### Added
+
+- All modlets now have individual ZIP files in the `ZIPs` folder
+
+### Changed
+
+- Minor restructuring of the folders
+  moved modlets that weren't specifically overwrites for AiO out of the `optional` folder
+- Updated the READMEs to reflect the new folder structure
+
 ## [v21.1.5]
 
 ### Changed
@@ -89,6 +101,7 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
+[v21.1.6]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.5...v21.1.6
 [v21.1.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.4...v21.1.5
 [v21.1.4]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.3...v21.1.4
 [v21.1.3]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/A21.1.2...v21.1.3

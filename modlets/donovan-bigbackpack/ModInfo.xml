@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's Bigger Backpack" />
   <Description value="Increases the size of the player inventory to 60" />
   <Author value="Donovan" />
-  <Version value="21.0.1" compat="A21" />
+  <Version value="21.1.0" compat="A21" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-bigbackpack" />
 </xml>
