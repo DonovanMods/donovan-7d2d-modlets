@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's Night Vision Helmet Mod" />
   <Description value="A helmet mod that provides Night Vision when activated" />
   <Author value="Donovan" />
-  <Version value="21.1.1" compat="A21" />
+  <Version value="21.2.0" compat="A21" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-nvhelmetmod" />
 </xml>
