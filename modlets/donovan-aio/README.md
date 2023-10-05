@@ -17,7 +17,6 @@ Note that this modlet is NOT compatible with EAC
 - BetterBridges
 - BetterBuffs
 - BetterCement
-- BetterCollectors
 - BetterDyes
 - BetterPowertools
 - BetterTraps
