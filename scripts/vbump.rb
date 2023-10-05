@@ -10,6 +10,7 @@ Options = Struct.new(:modlet, :major, :minor, :patch, :verbose, :pretend) do
   end
 end
 
+# Version
 class Version
   attr_accessor :major, :minor, :patch
 
@@ -61,7 +62,7 @@ File.open("#{options.modlet}/ModInfo.xml", "r+") do |file|
 
   version = Version.new(current_version, options)
 
-  puts "Bumping version for #{options.modlet_name} to #{version}" if options.verbose > 0
+  puts "Bumping version for #{options.modlet_name} to #{version}" if options.verbose.positive?
   puts "From version #{current_version}" if options.verbose > 1
 
   contents.gsub!(/<Version value="\d+\.\d+\.\d+/, "<Version value=\"#{version}")
