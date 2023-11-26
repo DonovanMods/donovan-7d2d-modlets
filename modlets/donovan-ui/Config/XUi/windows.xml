@@ -41,10 +41,7 @@
     </rect>
   </append>
 
-  <!-- Add the Locked slots functionality back to the UI -->
-  <append xpath="//window[@name='windowBackpack']/panel[@name='header']/rect">
-    <combobox depth="3" name="cbxLockedSlots" pos="120,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="45" value_wrap="true" value_increment="1" />
-  </append>
+  <!-- Locked slots functionality was added into Vanilla, but only for 'windowBackpack' -->
   <append xpath="//window[@name='windowLooting' or @name='windowVehicleStorage']/panel[@name='header']/rect">
     <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
   </append>

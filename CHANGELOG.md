@@ -4,6 +4,22 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v21.2.0]
+
+### Added
+
+- Compatibility with A21.2
+
+### Changed
+
+- Moved BetterCollectors out of AiO bundle
+- Removed unnecessary locked slots from DonovanUI
+
+### Fixed
+
+- Fixed location of Dukes count in BigBackpack
+- Fixed xpath strings in MegaBackpack
+
 ## [v21.1.6]
 
 ### Added
@@ -101,6 +117,7 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
+[v21.2.0]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.6...v21.2.0
 [v21.1.6]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.5...v21.1.6
 [v21.1.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.4...v21.1.5
 [v21.1.4]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.3...v21.1.4

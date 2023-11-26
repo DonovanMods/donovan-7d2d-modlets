@@ -1,13 +1,16 @@
 <configs>
 	<!-- Player backpack window -->
-	<set xpath="/windows/window[@name='windowBackpack']/@width">673</set>
-	<set xpath="/windows/window[@name='windowBackpack']/@height">416</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">403</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">673</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">403</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">6</set>
-	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">10</set>
+	<set xpath="//window[@name='windowBackpack']/@width">673</set>
+	<set xpath="//window[@name='windowBackpack']/@height">416</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='header']/label[@text='{currencyamount}']/@pos">537,-8</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='header']/sprite[@name='costIcon']/@pos">642,-8</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/@height">403</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">673</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">403</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">6</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">10</set>
 	<!-- Crafting Queue x5 -->
-	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/@pos">10,0</set>
-	<set xpath="/windows/window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
+	<set xpath="//window[@name='windowCraftingQueue']/rect/@pos">10,0</set>
+	<set xpath="//window[@name='windowCraftingQueue']/rect/grid/@cols">5</set>
+	<!-- Move Money Over -->
 </configs>

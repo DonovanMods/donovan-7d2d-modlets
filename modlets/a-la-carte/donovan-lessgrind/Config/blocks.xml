@@ -1051,8 +1051,8 @@
   <set xpath="//block[@name='chairFoldingMetalFoldedLeaningWhite']/drop[@event='Destroy' and @name='resourceScrapIron']/@count">3,8</set>
   <set xpath="//block[@name='chairFoldingMetalFoldedFallenWhite']/drop[@event='Destroy' and @name='resourceScrapIron']/@count">3,8</set>
   <set xpath="//block[@name='chairCampingWhite']/drop[@event='Harvest' and @name='resourceCloth']/@count">5,10</set>
-  <set xpath="//block[@name='chairCampingWhite']/drop[@event='Destroy' and @name='resourceScrapIron']/@count">3,25</set>
-  <set xpath="//block[@name='chairCampingWhite']/drop[@event='Destroy' and @name='resourceMilitaryFiber']/@count">3</set>
+  <set xpath="//block[@name='chairCampingWhite']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">3,25</set>
+  <set xpath="//block[@name='chairCampingWhite']/drop[@event='Harvest' and @name='resourceMilitaryFiber']/@count">3</set>
   <set xpath="//block[@name='chairCampingWhite']/drop[@event='Destroy' and @name='resourceMilitaryFiber']/@count">3,5</set>
   <set xpath="//block[@name='sectionalPlaidCouchSofaMiddle']/drop[@event='Harvest' and @name='oldCash']/@count">3,8</set>
   <set xpath="//block[@name='sectionalPlaidCouchSofaMiddle']/drop[@event='Harvest' and @name='resourceWood']/@count">5</set>

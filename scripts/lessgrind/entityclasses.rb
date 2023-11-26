@@ -2,7 +2,6 @@ require_relative "common"
 
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/AbcSize
 module LessGrind
   # LessGrind::EntityClasses
   class EntityClasses
@@ -19,7 +18,7 @@ module LessGrind
 
     private
 
-    def multiplier(name = nil)
+    def multiplier(_name = nil)
       @default_multiplier
     end
 
@@ -75,4 +74,3 @@ module LessGrind
     end
   end
 end
-# rubocop:enable Metrics/AbcSize

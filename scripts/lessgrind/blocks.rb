@@ -2,7 +2,6 @@ require_relative "common"
 
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/AbcSize
 module LessGrind
   # LessGrind::Blocks
   class Blocks
@@ -36,7 +35,7 @@ module LessGrind
       return unless count
 
       new_count = xml_value(count, name)
-      return if new_count == 0 || new_count == count # skip if no change
+      return if new_count == count # skip if no change
 
       [resource_name, new_count]
     end
@@ -123,4 +122,3 @@ module LessGrind
     end
   end
 end
-# rubocop:enable Metrics/AbcSize

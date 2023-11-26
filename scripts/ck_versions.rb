@@ -4,9 +4,9 @@ modlets = []
 modinfo = []
 
 `git ls-files --modified`.split("\n").each do |line|
-  next unless line.match(%r|(.*/donovan-\w+)/|) do |match|
+  next unless line.match(%r{(.*/donovan-\w+)/}) do |match|
     modlets << match[1]
-    modinfo << match[1] if line =~ /ModInfo.xml/
+    modinfo << match[1] if line.match?(/ModInfo.xml/)
   end
 end
 

@@ -8,6 +8,7 @@
 ## Modlets
 
 - [Donovan All In One](donovan-aio): All of the a-la-carte modlets in one package
+- [Donovan BetterCollectors](donovan-bettercollectors): Get more water from dew collectors
 - [Donovan BetterStart](donovan-betterstart): Removes starter quests and gives you slightly better starting items
 - [Donovan Craftable Dukes](donovan-craftabledukes): Craft Dukes from Brass
 - [Donovan Craftable Parts](donovan-craftableparts): Craft Parts

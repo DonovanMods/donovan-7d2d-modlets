@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's Mega Books" />
   <Description value="Greatly increases the chance of finding books" />
   <Author value="Donovan" />
-  <Version value="21.1.0" compat="A21,A20" />
+  <Version value="21.2.0" compat="A21,A20" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megabooks" />
 </xml>

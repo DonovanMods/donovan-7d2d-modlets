@@ -91,7 +91,6 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [BetterBridges](modlets/a-la-carte/donovan-betterbridges) - Allows advanced rotation on garage door and drawbridge
 - [BetterBuffs](modlets/a-la-carte/donovan-betterbuffs) - Tweaks (de)buffs; i.e. shorter NearDeathTrauma and no more being thirsty/hungry at 190%
 - [BetterCement](modlets/a-la-carte/donovan-bettercement) - Create 'Cement Mix' directly in the cement mixer
-- [BetterCollectors](modlets/a-la-carte/donovan-bettercollectors) - Get more water from dew collectors
 - [BetterDyes](modlets/a-la-carte/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](modlets/a-la-carte/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterTraps](modlets/a-la-carte/donovan-bettertraps) - Blade Traps have more health and do slightly more damage
@@ -115,6 +114,7 @@ These are not included in AiO but may be used individually or as overrides to th
 
 ### Other Modlets
 
+- [BetterCollectors](modlets/a-la-carte/donovan-bettercollectors) - Get more water from dew collectors
 - [BetterStart](modlets/donovan-betterstart) - Removes the starting quests and gives you basic resources at the start of the game
 - [CraftableDukes](modlets/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
 - [CraftableParts](modlets/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.

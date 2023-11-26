@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's Mega Perks" />
   <Description value="Increases the number of perks you get per level (x4)" />
   <Author value="Donovan" />
-  <Version value="21.1.0" compat="A21,A20,A19,A18,A17" />
+  <Version value="21.2.0" compat="A21,A20,A19,A18,A17" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/optional/donovan-megaperks" />
 </xml>
