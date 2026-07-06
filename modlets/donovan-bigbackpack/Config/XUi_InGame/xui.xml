@@ -1,0 +1,5 @@
+<configs>
+	<!-- Main scale of UI -->
+	<set xpath="/xui/@scale">1.20</set>
+	<set xpath="/xui/@stackpanel_scale">1.00</set>
+</configs>

@@ -1,19 +1,24 @@
 <configs>
-  <!-- spawn wraiths everywhere in the wasteland -->
-  <csv xpath="//entitygroup[starts-with(@name,'ZombiesWasteland')]/text()" delim="\n" op="add">zombieWraith</csv>
+  <!-- v3.0: entity groups use <e n="entity"/> elements instead of text lists -->
 
-  <!-- spawn wraiths at night -->
-  <csv xpath="//entitygroup[contains(@name,'Night')
-    and not (contains(@name,'ZombiesWasteland'))
-    and not (contains(@name,'NightClub'))
-    and not (contains(@name,'WildGame'))]/text()" delim="\n" op="add">
-    zombieWraith
-  </csv>
+  <!-- spawn wraiths everywhere in the wasteland -->
+  <append xpath="//entitygroup[starts-with(@name,'ZombiesWasteland')]">
+    <e n="zombieWraith" />
+  </append>
+
+  <!-- spawn wraiths at night (zombie groups only; wasteland is already covered above) -->
+  <append xpath="//entitygroup[starts-with(@name,'Zombies') and contains(@name,'Night') and not(contains(@name,'ZombiesWasteland')) and not(contains(@name,'NightClub'))]">
+    <e n="zombieWraith" />
+  </append>
 
   <!-- add wraiths to the blood horde -->
-  <csv xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and (contains(text(),'Feral'))]/text()" delim="\n" op="add">zombieWraith</csv>
+  <append xpath="//entitygroup[starts-with(@name,'feralHordeStageGS') and e[contains(@n,'Feral')]]">
+    <e n="zombieWraith" />
+  </append>
 
   <!-- replace feral crawlers with Wraiths -->
-  <csv xpath="//entitygroup[contains(text(),'zombieSteveCrawlerFeral') and not (contains(text(),'zombieWraith'))]/text()" delim="\n" op="add">zombieWraith</csv>
-  <csv xpath="//entitygroup[contains(text(),'zombieSteveCrawlerFeral')]/text()" delim="\n" op="remove">zombieSteveCrawlerFeral*</csv>
+  <append xpath="//entitygroup[e[@n='zombieSteveCrawlerFeral'] and not(e[@n='zombieWraith'])]">
+    <e n="zombieWraith" />
+  </append>
+  <remove xpath="//entitygroup/e[starts-with(@n,'zombieSteveCrawlerFeral')]" />
 </configs>
