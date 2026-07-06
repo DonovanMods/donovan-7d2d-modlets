@@ -11,6 +11,7 @@
 - [Donovan Craftable Parts](donovan-craftableparts): Craft Parts
 - [Donovan Mod Schematics](donovan-modschematics): Create Schematics for Mods using the mods you find
 - [Donovan NightFog](donovan-nightfog): Makes the fog at night more dense
+- [Donovan Preset](donovan-preset): Adds a "Donovan" Sandbox Options preset to the new game menu
 - [Donovan Wraith](donovan-wraith): Adds a new zombie type, the Wraith
 
 ### Conflicting Modlets (only pick one of these)

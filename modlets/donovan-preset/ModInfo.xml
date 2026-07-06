@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="Donovan_Preset" />
+  <DisplayName value="Donovan's Sandbox Preset" />
+  <Version value="3.0.0" compat="3.0" />
+  <Description value="Adds a 'Donovan' Sandbox Options preset to the new game menu, replicating the retired lessgrind/morebooks/morelootbags/moreperks modlets" />
+  <Author value="Donovan" />
+  <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-preset" />
+</xml>

@@ -86,6 +86,7 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 
 ### Other Modlets
 
+- [Preset](modlets/donovan-preset) - Adds a "Donovan" Sandbox Options preset to the new game menu (my recommended settings, replicating the retired modlets below)
 - [CraftableDukes](modlets/donovan-craftabledukes) - Allows you to craft Dukes from Brass + Iron in the Forge
 - [CraftableParts](modlets/donovan-craftableparts) - Allows you to craft all weapon and armor parts in the workbench.
 - [ModSchematics](modlets/donovan-modschematics) - Turn mods into schematics
