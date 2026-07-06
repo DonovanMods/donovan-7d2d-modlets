@@ -86,13 +86,8 @@ module LessGrind
               resource_name, count = check_resource(destroy_event, name)
               next unless resource_name
 
-              case name
-              when /^(farmPlotBlockPlayer|cntDewCollector)/
-                next # Skip these blocks on destroy
-              when "treeStump"
-                prob = prob_value(destroy_event.at_xpath("@prob")&.value)
-                xml.set(prob, xpath: "//block[@name='treeStump']/drop[@event='Destroy' and @name='foodHoney']/@prob")
-              end
+              # Skip these blocks on destroy
+              next if name.match?(/^(farmPlotBlockPlayer|cntDewCollector)/)
 
               xml.set(count, xpath: "//block[@name='#{name}']/drop[@event='Destroy' and @name='#{resource_name}']/@count")
             end

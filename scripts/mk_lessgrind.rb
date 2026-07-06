@@ -10,7 +10,7 @@ require_relative "lessgrind/entityclasses"
 module LessGrind
   DEFAULTS = { multiplier: 1.5, prob_multiplier: 1.5 }.freeze
 
-  @config_dir = "/mnt/s/Games/Steam/steamapps/common/7 Days To Die/Data/Config"
+  @config_dir = File.expand_path("~/.local/share/Steam/steamapps/common/7 Days To Die/Data/Config")
   @mod_dir = "modlets/a-la-carte/donovan-lessgrind/Config"
 
   @game_files = {

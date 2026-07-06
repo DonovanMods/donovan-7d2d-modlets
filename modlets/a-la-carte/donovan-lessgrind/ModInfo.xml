@@ -4,6 +4,6 @@
   <DisplayName value="Donovan's LessGrind" />
   <Description value="Increases the harvest amount of most resources" />
   <Author value="Donovan" />
-  <Version value="1.2.0" compat="1.0" />
+  <Version value="1.2.1" compat="1.0" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-lessgrind" />
 </xml>
