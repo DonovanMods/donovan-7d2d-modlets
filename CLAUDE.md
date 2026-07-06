@@ -73,15 +73,15 @@ Located in `scripts/`:
 
 | Script | Purpose | Dependencies |
 |--------|---------|--------------|
-| `mkall.sh` | Runs the full pipeline: profile, recipe generators, AiO, version check, ZIPs | bash, mise |
+| `mkall.sh` | Runs the full pipeline: profile, recipe generators, AiO, version check, ZIPs | bash |
 | `mkbundle.py` | Combines a-la-carte modlets into donovan-aio | Python 3, lxml (colorama optional) |
 | `mkaio.sh` | Regenerates aio-modlist.txt and runs mkbundle.py | bash |
 | `mkzips.sh` | Recreates distribution ZIP files from scratch | bash, zip or bsdtar |
-| `mk_mod_schematic_recipes.rb` | Regenerates modschematics recipes from game items.xml | Ruby, nokogiri |
-| `mk_parts_recipes.rb` | Regenerates craftableparts recipes from game items.xml | Ruby, nokogiri |
+| `mk_mod_schematic_recipes.py` | Regenerates modschematics recipes from game items.xml | Python 3, lxml |
+| `mk_parts_recipes.py` | Regenerates craftableparts recipes from game items.xml | Python 3, lxml |
 | `mkprofile.sh` | Regenerates profile.txt (GitHub links per modlet) | sh |
-| `ck_versions.rb` | Bumps ModInfo of modlets modified without a version change | Ruby |
-| `vbump.rb` | Version bumping utility | Ruby |
+| `ck_versions.py` | Bumps ModInfo of modlets modified without a version change | Python 3 |
+| `vbump.py` | Version bumping utility | Python 3 |
 | `xmlvalidate.py` | Validates every modlet xpath against the game XML (run via `validate.sh`) | Python 3, lxml |
 | `validate.sh` | Runs xmlvalidate.py against the repo's `Config` symlink | bash |
 
@@ -89,15 +89,9 @@ The recipe generators and `xmlvalidate.py` read the game XML through the repo's 
 
 ### Dependencies
 
-Ruby (via mise):
-```bash
-mise install ruby
-mise exec -- gem install nokogiri
-```
-
 Python (via pacman on Arch):
 ```bash
-sudo pacman -S python-colorama python-lxml
+sudo pacman -S python-lxml
 ```
 
 ## Versioning

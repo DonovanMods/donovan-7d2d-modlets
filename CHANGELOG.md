@@ -6,6 +6,7 @@
 
 - ModSchematics (3.0.1): recipes regenerated for v3.0 — drops schematics for the removed InsulatedLiner/CoolingMesh armor mods and adds the new v3.0 mods (e.g. drone stun weapon, vehicle storage)
 - Build scripts updated for the v3.0 repo layout: retired the lessgrind script library, recipe generators and the xpath validator now read the game XML through the repo's `Config` symlink, `xmlvalidate.py` validates subdirectories (e.g. `XUi_InGame`) and no longer requires colorama
+- All Ruby build scripts converted to Python (output verified identical); the repo's only dev dependencies are now Python 3 + lxml, and mise/nokogiri are no longer needed
 
 *NOTE: This log was only started with mod version v21.0.5, please refer to [Github releases] for any previous version information.*
 
