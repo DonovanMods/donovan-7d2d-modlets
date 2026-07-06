@@ -4,7 +4,7 @@
   <DisplayName value="Donovan's Craftable Parts" />
   <Description value="Craftable weapon and armor parts" />
   <Author value="Donovan" />
-  <Version value="1.2.0" compat="A21,A20" />
+  <Version value="3.0.0" compat="3.0" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/donovan-craftableparts" />
 </xml>
 

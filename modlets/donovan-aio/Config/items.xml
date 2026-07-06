@@ -49,14 +49,6 @@
   <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
   <!-- Nailgun -->
   <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
-  <!-- Included from donovan-lessgrind -->
-  <!-- Crafting time -->
-  <set xpath="//item[starts-with(@name, 'resource')]/property[@name='CraftingIngredientTime']/@value">0.1</set>
-  <set xpath="//item[@name='resourceForgedIron']/property[@name='CraftingIngredientTime']/@value">2</set>
-  <set xpath="//item[@name='resourceForgedSteel']/property[@name='CraftingIngredientTime']/@value">5</set>
-  <!-- Smelting time -->
-  <set xpath="//item[@name='unit_iron']/property[@name='MeltTimePerUnit']/@value">0.1</set>
-  <set xpath="//item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-0.5</set>
   <!-- Included from donovan-megastacks -->
   <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
   <!-- Resources -->

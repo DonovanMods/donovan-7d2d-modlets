@@ -4,6 +4,32 @@
 
 Also, if you want to see what's coming up, check out the [Develop] branch.
 
+## [v3.0.0]
+
+Modlet versions now match the game version they target (starting with game V 3.0).
+
+### Removed
+
+Game v3.0 introduced native Sandbox Options and HUD improvements that made these modlets unnecessary (see the README's migration table for the equivalent settings):
+
+- LessGrind (use `Harvesting/Mining/Scrapping Output` and `Crafting Time/Input/Output`)
+- MoreBooks / MegaBooks (use `Crafting Magazines Loot Count`)
+- MoreLootbags / MegaLootbags (use `Loot Bag Chance`)
+- MorePerks / MegaPerks (use `Skill Points Per Level`)
+- MoreHorde (Mutated zombies now appear in Blood Moon hordes natively)
+- Donovan UI (food/water bars, day/time display, and loot slot locking are now native)
+- The `modlets/optional` folder (all of its modlets were retired)
+
+### Added
+
+- New Modlet: **Preset** - adds a "Donovan" Sandbox Options preset to the new game menu, replicating the retired modlets' settings
+
+### Changed
+
+- All modlets updated and verified for game version 3.0
+- BigBackpack/MegaBackpack: updated for the new `XUi_InGame` UI config layout
+- The Wraith: updated spawning for the new entity group format
+
 ## [v1.2.0]
 
 - Convert all modlets to Game Version 1.2
@@ -105,6 +131,7 @@ Also, if you want to see what's coming up, check out the [Develop] branch.
 
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
+[v3.0.0]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v1.2.0...v3.0.0
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
 [v21.1.6]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.5...v21.1.6
 [v21.1.5]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.4...v21.1.5
