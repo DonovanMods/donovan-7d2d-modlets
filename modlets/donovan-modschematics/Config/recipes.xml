@@ -222,18 +222,6 @@
       <ingredient name="resourceGlue" count="5"/>
       <ingredient name="resourceLeather" count="2"/>
     </recipe>
-    <recipe name="modArmorInsulatedLinerSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
-      <ingredient name="modArmorInsulatedLiner" count="1"/>
-      <ingredient name="resourcePaper" count="50"/>
-      <ingredient name="resourceGlue" count="5"/>
-      <ingredient name="resourceLeather" count="2"/>
-    </recipe>
-    <recipe name="modArmorCoolingMeshSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
-      <ingredient name="modArmorCoolingMesh" count="1"/>
-      <ingredient name="resourcePaper" count="50"/>
-      <ingredient name="resourceGlue" count="5"/>
-      <ingredient name="resourceLeather" count="2"/>
-    </recipe>
     <recipe name="modArmorImprovedFittingsSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
       <ingredient name="modArmorImprovedFittings" count="1"/>
       <ingredient name="resourcePaper" count="50"/>
@@ -360,6 +348,12 @@
       <ingredient name="resourceGlue" count="5"/>
       <ingredient name="resourceLeather" count="2"/>
     </recipe>
+    <recipe name="modRoboticDroneStunWeaponModSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="modRoboticDroneStunWeaponMod" count="1"/>
+      <ingredient name="resourcePaper" count="50"/>
+      <ingredient name="resourceGlue" count="5"/>
+      <ingredient name="resourceLeather" count="2"/>
+    </recipe>
     <recipe name="modVehicleFuelSaverSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
       <ingredient name="modVehicleFuelSaver" count="1"/>
       <ingredient name="resourcePaper" count="50"/>
@@ -398,6 +392,12 @@
     </recipe>
     <recipe name="modVehicleArmorSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
       <ingredient name="modVehicleArmor" count="1"/>
+      <ingredient name="resourcePaper" count="50"/>
+      <ingredient name="resourceGlue" count="5"/>
+      <ingredient name="resourceLeather" count="2"/>
+    </recipe>
+    <recipe name="modVehicleStorageSchematic" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="modVehicleStorage" count="1"/>
       <ingredient name="resourcePaper" count="50"/>
       <ingredient name="resourceGlue" count="5"/>
       <ingredient name="resourceLeather" count="2"/>

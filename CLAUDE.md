@@ -73,17 +73,26 @@ Located in `scripts/`:
 
 | Script | Purpose | Dependencies |
 |--------|---------|--------------|
-| `mkbundle.py` | Combines a-la-carte modlets into donovan-aio | Python 3, colorama, lxml |
-| `mkaio.sh` | Wrapper that runs mkbundle.py with correct arguments | bash |
-| `mkzips.sh` | Creates ZIP files for distribution | bash |
+| `mkall.sh` | Runs the full pipeline: profile, recipe generators, AiO, version check, ZIPs | bash, mise |
+| `mkbundle.py` | Combines a-la-carte modlets into donovan-aio | Python 3, lxml (colorama optional) |
+| `mkaio.sh` | Regenerates aio-modlist.txt and runs mkbundle.py | bash |
+| `mkzips.sh` | Recreates distribution ZIP files from scratch | bash, zip or bsdtar |
+| `mk_mod_schematic_recipes.rb` | Regenerates modschematics recipes from game items.xml | Ruby, nokogiri |
+| `mk_parts_recipes.rb` | Regenerates craftableparts recipes from game items.xml | Ruby, nokogiri |
+| `mkprofile.sh` | Regenerates profile.txt (GitHub links per modlet) | sh |
+| `ck_versions.rb` | Bumps ModInfo of modlets modified without a version change | Ruby |
 | `vbump.rb` | Version bumping utility | Ruby |
-| `xmlvalidate.py` | Validates XML syntax | Python 3 |
+| `xmlvalidate.py` | Validates every modlet xpath against the game XML (run via `validate.sh`) | Python 3, lxml |
+| `validate.sh` | Runs xmlvalidate.py against the repo's `Config` symlink | bash |
+
+The recipe generators and `xmlvalidate.py` read the game XML through the repo's `Config` symlink, so they track whatever game version is installed. Run `bash scripts/validate.sh` after any game update to find broken xpaths.
 
 ### Dependencies
 
 Ruby (via mise):
 ```bash
 mise install ruby
+mise exec -- gem install nokogiri
 ```
 
 Python (via pacman on Arch):
@@ -100,7 +109,13 @@ sudo pacman -S python-colorama python-lxml
 
 ## Testing Changes
 
-There is no automated testing. To test changes:
+First run the static validator, which checks every xpath in every modlet against the installed game's XML:
+
+```bash
+bash scripts/validate.sh
+```
+
+Then test in-game:
 
 1. Copy the modlet to the game's Mods directory:
    ```bash

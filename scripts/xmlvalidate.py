@@ -1,244 +1,172 @@
-#!env python3
+#!/usr/bin/env python3
+"""Validate modlet XPath patches against the game's XML config files.
+
+Each file under a modlet's Config/ directory is matched to the game config
+file at the same relative path (subdirectories such as XUi_InGame/ included),
+and every xpath attribute is evaluated against that file. An xpath that
+matches nothing would produce a "WRN XML patch ... did not apply" in-game,
+so it is reported as a failure here.
+
+Requires: python-lxml
+"""
 
 import getopt
 import sys
-from copy import copy
-from glob import glob
-from os import scandir
 from pathlib import Path
 
-from colorama import Fore, Style
 from lxml import etree
 
+COLOR = sys.stdout.isatty()
 
-# returns a message in the given color
+
 def colortext(color, message):
-    return f'{color}{message}{Style.RESET_ALL}'
+    codes = {'red': '31', 'green': '32', 'yellow': '33', 'white': '37'}
+    if not COLOR:
+        return message
+    return f'\033[{codes[color]}m{message}\033[0m'
 
 
-# Flattens and returns the given array
-def flatten(array):
-    return [item for items in array for item in items]
+# ops that carry an xpath attribute in the game's XPath DSL
+XPATH_OPS = {'set', 'setattribute', 'append', 'prepend', 'insertAfter',
+             'insertBefore', 'remove', 'removeattribute', 'csv', 'conditional'}
+
+game_cache = {}
 
 
-# Read all config XML files into one massive XML (this is what 7 days does internally)
-def readConfigs(path):
-    XML = etree.Element('root')
-
-    with scandir(path) as configs:
-        for config in configs:
-            filename = Path(config)
-
-            if config.is_file() and filename.suffix == '.xml':
-                XML.append(etree.parse(str(filename)).getroot())
-
-    return XML
+def game_tree(config_dir, relpath):
+    """Parse (and cache) the game config file for a modlet-relative path."""
+    if relpath not in game_cache:
+        gamefile = config_dir / relpath
+        if gamefile.is_file():
+            parser = etree.XMLParser(recover=True, huge_tree=True)
+            game_cache[relpath] = etree.parse(str(gamefile), parser)
+        else:
+            game_cache[relpath] = None
+    return game_cache[relpath]
 
 
-# Read and validate our modlet XML files
-def readModlets(original_configs):
-    for modlet_dir in options['modlets']:
-        if not modlet_dir.exists() or not modlet_dir.is_dir():
+def validate_modlet(modlet_dir, config_dir, options, stats):
+    failures = []
+    modlet_config = modlet_dir / 'Config'
+    stats['modlets'] += 1
+
+    for modfile in sorted(modlet_config.rglob('*.xml')):
+        stats['modfiles'] += 1
+        relpath = modfile.relative_to(modlet_config)
+
+        try:
+            modtree = etree.parse(str(modfile))
+        except etree.XMLSyntaxError as error:
+            failures.append(f'{modfile}: XML syntax error: {error}')
             continue
 
-        # don't clobber other modlets while validating
-        configs = copy(original_configs)
+        gametree = game_tree(config_dir, relpath)
+        if gametree is None:
+            failures.append(f'{modfile}: no matching game file {str(relpath)!r}')
+            continue
 
-        passfail = True
-        base_filename = Path(modlet_dir).parent
-        parser = etree.XMLParser(
-            ns_clean=True, remove_blank_text=True, remove_comments=True)
-        stats['modlets'] += 1
+        for node in modtree.iter():
+            if not isinstance(node.tag, str) or node.tag not in XPATH_OPS:
+                continue
+            xpath = node.get('xpath')
+            if xpath is None:
+                continue
 
-        if options['verbose']:
+            # the game DSL allows xpaths without a leading slash
+            query = xpath if xpath.startswith('/') else f'//{xpath}'
+
             if options['debug']:
-                print('\n')
+                print(f'\nFILE: {modfile}\nTAG: {node.tag}\nXPATH: {xpath}')
 
-            print(f'{colortext(Fore.YELLOW, base_filename):40}\t', end='')
+            try:
+                results = gametree.xpath(query)
+            except etree.XPathEvalError as error:
+                failures.append(
+                    f'{modfile}:{node.sourceline}: invalid xpath {xpath!r} ({error})')
+                continue
 
-        with scandir(Path(modlet_dir)) as modlets:
+            matched = len(results) if isinstance(results, list) else 1
+            if not matched:
+                failures.append(
+                    f'{modfile}:{node.sourceline}: no match for {xpath!r}')
 
-            for modlet in modlets:
-                filename = Path(modlet)
+    if options['verbose'] or failures:
+        print(f'{colortext("yellow", str(modlet_dir)):50}\t', end='')
+        print(colortext('green', 'OKAY') if not failures else colortext('red', 'FAIL'))
 
-                if modlet.is_file() and filename.suffix == '.xml':
-                    stats['modfiles'] += 1
+    for failure in failures:
+        print(f'  {colortext("red", "FAIL:")} {failure}')
 
-                    for line in etree.parse(str(filename), parser).getroot():
-                        if 'xpath' in line.attrib:
-                            xpath = line.attrib['xpath']
-                            # add a / to the beginning of xpath if it's not already there
-                            if xpath[0] != '/':
-                                xpath = f'/{xpath}'
+    stats['failures'] += len(failures)
 
-                            # add a . to the beginning of xpath for search purposes
-                            xpath = f'.{xpath}'
 
-                            results = configs.xpath(xpath)
-                            new_value = line.text
-                            tag = line.tag
-                            attrib = None
-
-                            if tag in ['set', 'removeattribute']:
-                                attrib = xpath.split('@')[-1]
-                            if tag == 'setattribute':
-                                attrib = line.attrib['name']
-                            if tag == 'csv':
-                                attrib = line
-                                delim = line.attrib['delim']
-                                oper = line.attrib['op']
-
-                            if options['debug']:
-                                print('\nFILE:', base_filename)
-                                print('TAG:', tag)
-                                print('XPATH:', xpath)
-                                print('RESULTS:', results)
-                                print('ATTRIB:', attrib)
-                                print('NEW VALUE:', new_value)
-
-                            if results:
-                                for result in results:
-                                    if tag in ['set', 'setattribute']:
-                                        if attrib:
-                                            result.getparent().set(attrib, new_value)
-                                        continue
-
-                                    if tag == 'removeattribute':
-                                        if attrib:
-                                            result.getparent().removeattribute(attrib)
-                                        continue
-
-                                    if tag == 'append':
-                                        for child in line:
-                                            result.append(child)
-                                        continue
-
-                                    if tag == 'remove':
-                                        result.getparent().remove(result)
-                                        continue
-
-                                    if tag == 'csv':
-                                        if len(attrib):
-                                            values = delim.join(line.values())
-                                            if oper == 'add':
-                                                results.append(values)
-                                            if oper == 'remove':
-                                                results.getparent().remove(values)
-                                        continue
-
-                                    break
-                            else:
-                                stats['failures'] += 1
-                                passfail = False
-                                print(
-                                    f'\n{colortext(Fore.RED, "FAIL: ")}{filename} on line {line.sourceline}:\n{line.values()[0]}')
-
-        if passfail and options['verbose']:
-            print(f'{colortext(Fore.GREEN, "OKAY")}')
+def find_modlets(path):
+    """Every directory under path (or path itself) holding a ModInfo.xml + Config/."""
+    return sorted(p.parent for p in Path(path).glob('**/ModInfo.xml')
+                  if (p.parent / 'Config').is_dir())
 
 
 def getoptions():
     def help():
-        def format(command, description):
-            return f'\t{command:20} - {description}'
-
-        print(f'Usage: {Path(sys.argv[0]).name} -c <directory> [opts]')
+        print(f'Usage: {Path(sys.argv[0]).name} -c <directory> [opts] ')
         print('\nOpts:')
-        print(f'{format("-c|--config <dir>", "the game XML config directory")}')
-        print(f'{format("-m|--modlets <dir>", "where we should look for modlets (can be repeated) -- Default is current directory")}')
-        print(f'\n{format("-v|--verbose", "display successes as well as failures during run -- failures always show")}')
-        print(
-            f'\n{format("-d|--debug", "produces copious amounts of output, not recommended for normal use!")}')
-        print(f'\n{format("-h|--help", "this help message")}')
+        print('\t-c|--config <dir>  - the game XML config directory')
+        print('\t-m|--modlets <dir> - where to look for modlets (repeatable, default: ./modlets)')
+        print('\t-v|--verbose       - display successes as well as failures')
+        print('\t-d|--debug         - copious output, not for normal use')
+        print('\t-h|--help          - this help message')
         sys.exit(2)
 
-    options = {
-        'config': None,
-        'debug': False,
-        'modlets': [],
-        'verbose': False,
-    }
-
-    short_args = 'c:dhm:v'
-    long_args = ['config', 'debug', 'help', 'modlets', 'verbose']
+    options = {'config': None, 'debug': False, 'modlets': [], 'verbose': False}
 
     try:
-        arguments, values = getopt.getopt(sys.argv[1:], short_args, long_args)
+        arguments, _ = getopt.getopt(
+            sys.argv[1:], 'c:dhm:v',
+            ['config=', 'debug', 'help', 'modlets=', 'verbose'])
     except getopt.error as err:
         print(str(err))
         sys.exit(1)
 
     for arg, value in arguments:
         if arg in ('-c', '--config'):
-            options['config'] = value
-
-        if arg in ('-m', '--modlets'):
-            modlets = flatten([Path(value).glob('**/Config')])
-
-            if modlets:
-                options['modlets'].append(modlets)
+            options['config'] = Path(value)
+        elif arg in ('-m', '--modlets'):
+            found = find_modlets(value)
+            if found:
+                options['modlets'] += found
             else:
-                print(f'{value!r} is not a valid modlet directory -- skipping')
-
-        if arg in ('-d', '--debug'):
+                print(f'{value!r} contains no modlets -- skipping')
+        elif arg in ('-d', '--debug'):
             options['debug'] = True
-
-        if arg in ('-h', '--help'):
+        elif arg in ('-v', '--verbose'):
+            options['verbose'] = True
+        elif arg in ('-h', '--help'):
             help()
 
-        if arg in ('-v', '--verbose'):
-            options['verbose'] = True
-
-    # Flatten the modlets list
-    options['modlets'] = [item for items in options['modlets']
-                          for item in items]
-
-    if options['config'] == None:
-        print('You must provide a directory for us to validate against -- generally this should be the 7 days Data/Config directory')
+    if options['config'] is None or not options['config'].is_dir():
+        print('You must provide the game Data/Config directory to validate against')
         help()
 
     if not options['modlets']:
-        if options['verbose']:
-            print('No modlets provided on command line, using current directory\n')
-
-        options['modlets'] = Path('.').glob('**/Config')
-
-    if not Path(options['config']).exists():
-        print(f'{options["config"]!r} is not a valid directory')
-        sys.exit(1)
+        options['modlets'] = find_modlets('modlets')
 
     return options
-
-
-def print_stats(stats):
-    if stats['failures']:
-        print(colortext(Fore.RED,
-                        f'\nFound {stats["failures"]} failures in {stats["modfiles"]} XML files across {stats["modlets"]} modlets'))
-    else:
-        print(colortext(Fore.GREEN,
-                        f'\nAll {stats["modlets"]} modlets are OKAY\n'))
 
 
 ##
 # Main()
 ##
-stats = {
-    'failures': 0,
-    'modfiles': 0,
-    'modlets': 0,
-}
+stats = {'failures': 0, 'modfiles': 0, 'modlets': 0}
 options = getoptions()
 
-if options['debug']:
-    print(options)
+for modlet in options['modlets']:
+    validate_modlet(modlet, options['config'], options, stats)
 
-configXML = readConfigs(options['config'])
-readModlets(configXML)
+if stats['failures']:
+    print(colortext(
+        'red',
+        f'\nFound {stats["failures"]} failures in {stats["modfiles"]} XML files across {stats["modlets"]} modlets'))
+else:
+    print(colortext('green', f'\nAll {stats["modlets"]} modlets are OKAY'))
 
-if options['verbose']:
-    print_stats(stats)
-
-if options['debug']:
-    etree.ElementTree(configXML).write('debug.xml')
-
-sys.exit(1) if stats['failures'] else sys.exit(0)
+sys.exit(1 if stats['failures'] else 0)

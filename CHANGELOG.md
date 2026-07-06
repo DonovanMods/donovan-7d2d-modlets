@@ -1,5 +1,12 @@
 # Donovan Mods CHANGELOG
 
+## [Unreleased]
+
+### Changed
+
+- ModSchematics (3.0.1): recipes regenerated for v3.0 — drops schematics for the removed InsulatedLiner/CoolingMesh armor mods and adds the new v3.0 mods (e.g. drone stun weapon, vehicle storage)
+- Build scripts updated for the v3.0 repo layout: retired the lessgrind script library, recipe generators and the xpath validator now read the game XML through the repo's `Config` symlink, `xmlvalidate.py` validates subdirectories (e.g. `XUi_InGame`) and no longer requires colorama
+
 *NOTE: This log was only started with mod version v21.0.5, please refer to [Github releases] for any previous version information.*
 
 Also, if you want to see what's coming up, check out the [Develop] branch.

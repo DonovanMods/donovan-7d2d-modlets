@@ -4,7 +4,8 @@
 
 require "nokogiri"
 
-config_dir = "/mnt/s/Games/Steam/steamapps/common/7 Days To Die/Data/Config"
+# The repo's Config symlink points at the game's Data/Config directory
+config_dir = File.expand_path("Config", "#{__dir__}/..")
 items_file = "#{config_dir}/items.xml"
 
 raise "#{config_dir} Does not exist" unless File.exist?(config_dir) && File.directory?(config_dir)

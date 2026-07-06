@@ -5,8 +5,16 @@ import getopt
 from os import scandir
 from pathlib import Path
 
-from colorama import Fore, Style
 from lxml import etree
+
+try:
+    from colorama import Fore, Style
+except ImportError:  # colors are cosmetic; run fine without colorama
+    class _NoColor:
+        def __getattr__(self, name):
+            return ''
+
+    Fore = Style = _NoColor()
 
 
 def colortext(color, message):
