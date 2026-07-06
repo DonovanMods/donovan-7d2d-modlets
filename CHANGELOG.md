@@ -1,6 +1,6 @@
 # Donovan Mods CHANGELOG
 
-## [Unreleased]
+## [v3.0.1]
 
 ### Changed
 
@@ -139,6 +139,7 @@ Game v3.0 introduced native Sandbox Options and HUD improvements that made these
 
 <!-- Versions -->
 [github releases]: https://github.com/DonovanMods/donovan-7d2d-modlets/releases
+[v3.0.1]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v3.0.0...v3.0.1
 [v3.0.0]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v1.2.0...v3.0.0
 [develop]: https://github.com/DonovanMods/donovan-7d2d-modlets/tree/develop
 [v21.1.6]: https://github.com/DonovanMods/donovan-7d2d-modlets/compare/v21.1.5...v21.1.6
