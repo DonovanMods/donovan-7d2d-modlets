@@ -1,6 +1,0 @@
-Key,Source,Context,Changes,English
-perkAdvancedEngineeringRank1LongDesc,progression,perk Int,Edit,"You are now out of the stone age and an apprentice Engineer!\nGain 15% XP from electrical trap kills.\nItems craft 10% faster.\nCraft glue cheaper."
-perkAdvancedEngineeringRank2LongDesc,progression,perk Int,Edit,"The long hours tinkering on projects is starting to pay dividends!\nGain 30% XP from electrical trap kills.\nItems craft 20% faster."
-perkAdvancedEngineeringRank3LongDesc,progression,perk Int,Edit,"You really know your way around the workshop and can build about anything you set your mind to!\nGain 45% XP from electrical trap kills.\nAll forge recipes cost 10% less, crafting Forged Steel and electrical devices costs 15% less.\nItems craft 30% faster."
-perkAdvancedEngineeringRank4LongDesc,progression,perk Int,Edit,"You are the da Vinci of the apocalypse with all your amazing inventions!\nGain 60% XP from electrical trap kills.\nAll forge recipes cost 15% less, crafting Forged Steel and electrical devices costs 25% less.\nItems craft 40% faster."
-perkAdvancedEngineeringRank5LongDesc,progression,perk Int,Edit,"You are now an Advanced Engineer and would make MacGyver jealous.\nGain 75% XP from electrical trap kills.\nAll forge recipes cost 20% less, crafting Forged Steel and electrical devices costs 35% less.\nItems craft 50% faster."

@@ -10,7 +10,6 @@ This repository contains XML modlets for the game "7 Days to Die". Modlets use t
 
 - `modlets/donovan-aio/` - All-in-One bundle containing recommended mods combined into a single modlet
 - `modlets/a-la-carte/` - Individual modlets that are included in AiO (can be used standalone)
-- `modlets/optional/` - Optional modlets that override/enhance AiO functionality (e.g., mega* variants)
 - `modlets/` (top-level) - Standalone modlets not included in AiO
 - `ZIPs/` - Pre-packaged ZIP files for distribution
 - `Config/` - **SYMLINK to original game XML files. NEVER modify these files.**
@@ -74,32 +73,17 @@ Located in `scripts/`:
 
 | Script | Purpose | Dependencies |
 |--------|---------|--------------|
-| `mk_lessgrind.rb` | Regenerates lessgrind blocks.xml and entityclasses.xml from game files | Ruby, nokogiri |
 | `mkbundle.py` | Combines a-la-carte modlets into donovan-aio | Python 3, colorama, lxml |
 | `mkaio.sh` | Wrapper that runs mkbundle.py with correct arguments | bash |
 | `mkzips.sh` | Creates ZIP files for distribution | bash |
 | `vbump.rb` | Version bumping utility | Ruby |
 | `xmlvalidate.py` | Validates XML syntax | Python 3 |
 
-### Regenerating lessgrind (after game updates)
-
-The `donovan-lessgrind` modlet dynamically generates XPath patches based on the game's XML files. When the game updates and block/entity structures change:
-
-```bash
-mise exec -- ruby scripts/mk_lessgrind.rb
-bash scripts/mkaio.sh
-```
-
-The script reads from `~/.local/share/Steam/steamapps/common/7 Days To Die/Data/Config/` and writes to `modlets/a-la-carte/donovan-lessgrind/Config/`.
-
-**Note:** `recipes.xml` in lessgrind is manually maintained, not auto-generated.
-
 ### Dependencies
 
 Ruby (via mise):
 ```bash
 mise install ruby
-gem install nokogiri
 ```
 
 Python (via pacman on Arch):
@@ -110,7 +94,8 @@ sudo pacman -S python-colorama python-lxml
 ## Versioning
 
 - Version numbers in `ModInfo.xml` use the `compat` attribute to indicate game version compatibility
-- Current game version: 1.0.0 (check README.md for updates)
+- Current game version: 3.0.0 (check README.md for updates)
+- Modlet versions match the game version they target (e.g. 3.0.0 for game V 3.0)
 - Modlet version: stored in each `ModInfo.xml` and should match across the bundle
 
 ## Testing Changes
@@ -119,7 +104,7 @@ There is no automated testing. To test changes:
 
 1. Copy the modlet to the game's Mods directory:
    ```bash
-   cp -r modlets/donovan-aio ~/.local/share/Steam/steamapps/common/7\ Days\ To\ Die/Mods/
+   cp -r modlets/donovan-aio /data/SteamLibrary/steamapps/common/7\ Days\ To\ Die/Mods/
    ```
 
 2. Launch the game and wait for it to reach the main menu (XML parsing happens during load)
@@ -145,7 +130,7 @@ When XPath patches fail, the game structure has likely changed. Compare the modl
 
 ## Game Paths (Linux)
 
-- Game install: `~/.local/share/Steam/steamapps/common/7 Days To Die/`
+- Game install: `/data/SteamLibrary/steamapps/common/7 Days To Die/` (the repo's `Config` symlink points at its `Data/Config/`)
 - Game data/config: `<game>/Data/Config/`
 - Mods directory: `<game>/Mods/`
 - User data/logs: `~/.local/share/7DaysToDie/`

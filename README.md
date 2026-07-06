@@ -1,6 +1,6 @@
 # Donovan's 7 Days to Die Modlets
 
-**V1.0 UPDATE!** All modlets have been updated for v1.0! Enjoy!
+**V3.0 UPDATE!** All modlets have been updated for game version 3.0! Several modlets have been retired because the game now provides their functionality natively — see [Removed in V3.0](#removed-in-v30-use-sandbox-options-instead) for how to reproduce their effects with the new Sandbox Options.
 
 This is a collection of modlets I've made in order to enhance the "fun factor" of 7 Days to Die and most of them I would considered "Quality of Life" changes, but, of course, you're free to define them however you wish.
 
@@ -10,7 +10,7 @@ Please see the README located in each of the modlet's directories for more detai
 
 These are all available individually and are intended to work in unison, so feel free to mix and match to suit your needs, however, pay attention to any conflicts listed in the descriptions.
 
-Verfied under game version: _1.0.0_
+Verfied under game version: _3.0.0_
 
 ## Installation
 
@@ -34,7 +34,7 @@ Now you have several choices, and each of the modlets are detailed below. For th
 
 Look through the descriptions below and find whatever modlets you want to install (e.g. `donovan-aio`) and copy (or move) that entire folder over to the `7 Days to Die\Mods` directory you located or created above.
 
-For this example, we're going to assume you want to install `donovan-aio` and `donovan-ui`.
+For this example, we're going to assume you want to install `donovan-aio` and `donovan-wraith`.
 
 Once you copy those folders over, your directory structure should look something like this:
 
@@ -42,26 +42,12 @@ Once you copy those folders over, your directory structure should look something
 7 Days to Die\
   Mods\
     donovan-aio\
-    donovan-ui\
+    donovan-wraith\
 ```
 
 ### Notes
 
 All modlets under `a-la-carte` are already included in `donovan-aio`, so there's no need to copy any of them over if you're using `donovan-aio`. However, if there are modlet's included in `donovan-aio` that you _don't_ want, then feel free to pick and choose whatever you like under the `a-la-carte` folder and copy them individually.
-
-None of the modlets under the `optional` folder are included in `donovan-aio`, and are designed to _overwrite_ functionality included in `donovan-aio`, so you should be able to copy those into your `Mods` folder along with `donovan-aio` and have the new functionality take effect. Any exceptions to this should be listed in the Modlet's description below.
-
-For instance, if you wanted to use `donovan-megaperks` instead of the `donovan-moreperks` (which is included in `donovan-aio`), you could simply put `donovan-megaperks` in your `Mods` directory alongside `donovan-aio` and it will take effect (because it will be loaded by the game after `donovan-aio`).
-
-e.g:
-
-```text
-7 Days to Die\
-  Mods\
-    donovan-aio\
-    donovan-megaperks\
-    donovan-ui\
-```
 
 ## Support
 
@@ -94,21 +80,9 @@ Note that any of these mods can also be used a-la-carte, we just bundle them tog
 - [BetterDyes](modlets/a-la-carte/donovan-betterdyes) - Allows all colored dyes to be crafted from paint
 - [BetterPowertools](modlets/a-la-carte/donovan-betterpowertools) - Makes the Chainsaw, Auger, and Nailgun way more useful
 - [BetterTraps](modlets/a-la-carte/donovan-bettertraps) - Blade Traps have more health and do slightly more damage
-- [LessGrind](modlets/a-la-carte/donovan-lessgrind) - Increases the harvest amount of most methods and reduces some resource requirements
 - [LongerLootbags](modlets/a-la-carte/donovan-longerlootbags) - Decreases the decay rate on zombie lootbags from 5 to 30 minutes
 - [MegaStacks](modlets/a-la-carte/donovan-megastacks) - Vastly increases stack sizes
-- [MoreBooks](modlets/a-la-carte/donovan-morebooks) - Increases the chance of finding books
-- [MoreLootbags](modlets/a-la-carte/donovan-morelootbags) - Increases the drop rates on zombie lootbags (normal: 5%, feral: 10%, irradiated: 20%)
-- [MorePerks](modlets/a-la-carte/donovan-moreperks) - Increases the amount of perks points received per level to 2
 - [PickMeUp](modlets/a-la-carte/donovan-pickmeup) - Allows for certain blocks to be picked up after placing.
-
-#### Optional
-
-These are not included in AiO but may be used individually or as overrides to the AiO modlet. Unless otherwise noted below, they are all compatible with AiO.
-
-- [MegaBooks](modlets/optional/donovan-megabooks) - Significantly increases the chance of finding books
-- [MegaLootbags](modlets/optional/donovan-megalootbags) - Dramatically increases the drop rates on zombie lootbags (normal: 20%, feral: 50%, irradiated: 80%)
-- [MegaPerks](modlets/optional/donovan-megaperks) - Increases the amount of perks points received per level to 4
 
 ### Other Modlets
 
@@ -123,9 +97,18 @@ These are not included in AiO but may be used individually or as overrides to th
 1. [BigBackpack](modlets/donovan-bigbackpack) - Increases the size of the player inventory to 60
 2. [MegaBackpack](modlets/donovan-megabackpack) - Increases the size of the player inventory to 120
 
-### UI
+### Removed in V3.0 (use Sandbox Options instead)
 
-- [Donovan UI](modlets/donovan-ui) - A very simple custom UI that repositions the food/water bars.
+Game version 3.0 introduced a large set of native **Sandbox Options** (new game settings) and HUD improvements that made several of these modlets unnecessary. If you used any of the modlets below, here's how to get the same effect in the vanilla game:
+
+| Removed Modlet | Native V3.0 Replacement |
+|---|---|
+| LessGrind | Sandbox Options: `Harvesting Output`, `Mining Output`, `Scrapping Output`, `Crafting Time`, `Crafting Input`, `Crafting Output` |
+| MoreBooks / MegaBooks | Sandbox Option: `Crafting Magazines Loot Count` |
+| MoreLootbags / MegaLootbags | Sandbox Option: `Loot Bag Chance` |
+| MorePerks / MegaPerks | Sandbox Option: `Skill Points Per Level` |
+| MoreHorde | The game now includes the Mutated zombie family in Blood Moon hordes natively |
+| Donovan UI | Food/water bars now sit under health/stamina natively; the compass shows day/time/temperature (`Show Day/Time` option); loot containers have a native slot-locking toggle |
 
 ### Outdated/Removed Modlets
 
