@@ -1,0 +1,9 @@
+<bundle>
+  <!-- Included from donovan-bettervehicles -->
+  <!-- Vehicle storage is limited to 90 slots in v3.0. -->
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleBicycle']/@size">10,2</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMinibike']/@size">10,4</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleMotorcycle']/@size">10,8</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicle4x4Truck']/@size">10,9</set>
+  <set xpath="/lootcontainers/lootcontainer[@name='vehicleGyrocopter']/@size">10,6</set>
+</bundle>

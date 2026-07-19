@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!-- velocityMax_turbo is forward, reverse, turbo-forward, turbo-reverse. -->
+  <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']/@value">6.25,4,10,4</set>
+  <set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']/@value">8.75,4,13,4</set>
+  <set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']/@value">12.5,6,19,8</set>
+  <set xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']/@value">11.25,8,17,10</set>
+  <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax_turbo']/@value">14,9,21,9</set>
+</configs>

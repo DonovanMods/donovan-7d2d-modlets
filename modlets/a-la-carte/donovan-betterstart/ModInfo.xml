@@ -2,7 +2,7 @@
 <xml>
   <Name value="Donovan_Preset" />
   <DisplayName value="Donovan's Better Start" />
-  <Version value="3.0.3" compat="3.0" />
+  <Version value="3.0.5" compat="3.0" />
   <Description value="Replaces the initial trader reward with a series of 'starter boxes' you can choose from" />
   <Author value="Donovan" />
   <Website value="https://github.com/DonovanMods/donovan-7d2d-modlets/tree/stable/modlets/a-la-carte/donovan-betterstart" />
