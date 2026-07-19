@@ -75,7 +75,7 @@ def readXML(path, dir=None, xmlfiles={}):
             for node in etree.parse(str(configfile), XMLparser).getroot():
                 xmlfiles[key].append(node)
 
-        if configfile.name.lower() == 'localization.txt':
+        if configfile.name.lower() == 'localization.csv':
             filetype = "LOCALIZATION"
 
             if key not in xmlfiles:
@@ -114,10 +114,10 @@ def writeXML(bundle, xmlfiles):
                     f'Unable to write XML file {value}: {colortext(Fore.RED, error)}')
                 sys.exit(1)
 
-        if bundle_file.name.lower() == 'localization.txt':
+        if bundle_file.name.lower() == 'localization.csv':
             if not bundle_file.is_file():
                 with bundle_file.open("w") as lf:
-                    lf.write('Key,Source,Context,Changes,English\n')
+                    lf.write('Key,File,Type,english\n')
 
             with bundle_file.open("a") as lf:
                 lf.writelines(value)

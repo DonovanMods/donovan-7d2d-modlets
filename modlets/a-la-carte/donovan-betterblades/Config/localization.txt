@@ -1,2 +1,0 @@
-Key,Source,Context,Changes,English
-perkDeepCutsDesc,progression,perk Agi,Edit,"Specialize in using bladed weapons like knives, machetes, Fireaxes, or Spears to bleed your foes dry."

@@ -1,3 +1,0 @@
-Key,Source,Context,Changes,English
-trapsT1,progression,Attribute,Edit,"Tier 1: Electric Fence & Dart Trap"
-trapsT2,progression,Attribute,Edit,"Tier 2: Blade Trap & Shotgun Auto Turret"
