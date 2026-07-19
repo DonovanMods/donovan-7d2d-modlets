@@ -1,0 +1,11 @@
+Key,Source,Context,Changes,English
+donovanBetterStartStrengthBundle,items,Item,New,"Strength Bundle"
+donovanBetterStartStrengthBundleDesc,items,Item,New,"Contains a bicycle, baseball bat, double barrel shotgun, and 100 shotgun shells."
+donovanBetterStartPerceptionBundle,items,Item,New,"Perception Bundle"
+donovanBetterStartPerceptionBundleDesc,items,Item,New,"Contains a bicycle, iron spear, lever-action rifle, and 100 7.62mm rounds."
+donovanBetterStartFortitudeBundle,items,Item,New,"Fortitude Bundle"
+donovanBetterStartFortitudeBundleDesc,items,Item,New,"Contains a bicycle, iron knuckles, AK-47, and 100 7.62mm rounds."
+donovanBetterStartAgilityBundle,items,Item,New,"Agility Bundle"
+donovanBetterStartAgilityBundleDesc,items,Item,New,"Contains a bicycle, hunting knife, pistol, and 100 9mm rounds."
+donovanBetterStartIntellectBundle,items,Item,New,"Intellect Bundle"
+donovanBetterStartIntellectBundleDesc,items,Item,New,"Contains a bicycle, stun baton, robotic turret, and 100 robotic turret rounds."

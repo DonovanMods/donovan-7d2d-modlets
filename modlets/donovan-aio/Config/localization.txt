@@ -7,5 +7,15 @@ perkBrawlerRank4LongDesc,progression,perk For,Edit,"You're now good enough to co
 perkBrawlerRank5LongDesc,progression,perk For,Edit,"You're now a complete mixed martial artist and a registered lethal weapon. Knuckle weapons deal 80% more damage and have a higher chance to explode heads with punches. Killing blows grant 30 stamina. Find more knuckle weapons and parts in loot."
 modDyeGroupDesc,item_modifiers,mod,New,Adding a dye mod applies a tint to the entire held or worn item and is installed in the cosmetic slot that most items have.\n\nScraps into and can be crafted out of paint.
 resourcePaintDesc,items,Item,New,Used to craft dyes or with a paint brush to paint building blocks.
+donovanBetterStartStrengthBundle,items,Item,Add,"Strength Bundle"
+donovanBetterStartStrengthBundleDesc,items,Item,Add,"Contains a bicycle, baseball bat, double barrel shotgun, and 100 shotgun shells."
+donovanBetterStartPerceptionBundle,items,Item,Add,"Perception Bundle"
+donovanBetterStartPerceptionBundleDesc,items,Item,Add,"Contains a bicycle, iron spear, lever-action rifle, and 100 7.62mm rounds."
+donovanBetterStartFortitudeBundle,items,Item,Add,"Fortitude Bundle"
+donovanBetterStartFortitudeBundleDesc,items,Item,Add,"Contains a bicycle, iron knuckles, AK-47, and 100 7.62mm rounds."
+donovanBetterStartAgilityBundle,items,Item,Add,"Agility Bundle"
+donovanBetterStartAgilityBundleDesc,items,Item,Add,"Contains a bicycle, hunting knife, pistol, and 100 9mm rounds."
+donovanBetterStartIntellectBundle,items,Item,Add,"Intellect Bundle"
+donovanBetterStartIntellectBundleDesc,items,Item,Add,"Contains a bicycle, stun baton, robotic turret, and 100 robotic turret rounds."
 trapsT1,progression,Attribute,Edit,"Tier 1: Electric Fence & Dart Trap"
 trapsT2,progression,Attribute,Edit,"Tier 2: Blade Trap & Shotgun Auto Turret"

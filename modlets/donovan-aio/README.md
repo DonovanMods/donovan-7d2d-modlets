@@ -19,15 +19,9 @@ Note that this modlet is NOT compatible with EAC
 - BetterCement
 - BetterDyes
 - BetterPowertools
+- BetterStart
 - BetterTraps
-- LessGrind
 - LongerLootbags
 - MegaStacks
-- MoreBooks
-- MoreLootbags
-- MorePerks
 - PickMeUp
 
-## Additional Credits
-
-- ["Rain Collectors" mod by khzmusik](https://gitlab.com/karlgiesing/7d2d-a21-modlets) in order to add additional functionality for Dew Collectors

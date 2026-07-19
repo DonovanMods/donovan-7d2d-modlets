@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!-- Replace the starter trader quest's stone shovel with one starter bundle choice. -->
+  <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item' and @id='meleeToolShovelT0StoneShovel']"/>
+  <append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+    <property name="reward_choices_count" value="1"/>
+    <reward type="Item" id="donovanBetterStartStrengthBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartPerceptionBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartFortitudeBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartAgilityBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartIntellectBundle" ischosen="true" value="1"/>
+  </append>
+</configs>

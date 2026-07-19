@@ -1,0 +1,14 @@
+<bundle>
+  <!-- Included from donovan-betterstart -->
+  <!-- Replace the starter trader quest's stone shovel with one starter bundle choice. -->
+  <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/reward[@type='Item' and @id='meleeToolShovelT0StoneShovel']"/>
+  <append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+    <!-- This is the number of reward options shown, not the number the player may take. -->
+    <property name="reward_choices_count" value="5"/>
+    <reward type="Item" id="donovanBetterStartStrengthBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartPerceptionBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartFortitudeBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartAgilityBundle" ischosen="true" value="1"/>
+    <reward type="Item" id="donovanBetterStartIntellectBundle" ischosen="true" value="1"/>
+  </append>
+</bundle>

@@ -49,6 +49,70 @@
   <set xpath="items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MagazineSize' and @operation='base_set']/@value">500</set>
   <!-- Nailgun -->
   <set xpath="items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.25</set>
+  <!-- Included from donovan-betterstart -->
+  <!-- The starter quest awards one of these sealed bundles. -->
+  <append xpath="/items">
+    <item name="donovanBetterStartStrengthBundle">
+      <property name="Extends" value="questRewardBundleMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="bundleClub"/>
+      <property name="CustomIconTint" value="CC3333"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="donovanBetterStartStrengthBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="vehicleBicyclePlaceable,meleeWpnClubT1BaseballBat,gunShotgunT1DoubleBarrel,ammoShotgunShell"/>
+        <property name="Create_item_count" value="1,1,1,100"/>
+      </property>
+    </item>
+    <item name="donovanBetterStartPerceptionBundle">
+      <property name="Extends" value="questRewardBundleMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="bundleSpear"/>
+      <property name="CustomIconTint" value="E6B800"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="donovanBetterStartPerceptionBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="vehicleBicyclePlaceable,meleeWpnSpearT1IronSpear,gunRifleT2LeverActionRifle,ammo762mmBulletBall"/>
+        <property name="Create_item_count" value="1,1,1,100"/>
+      </property>
+    </item>
+    <item name="donovanBetterStartFortitudeBundle">
+      <property name="Extends" value="questRewardBundleMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="bundleKnuckles"/>
+      <property name="CustomIconTint" value="4D994D"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="donovanBetterStartFortitudeBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="vehicleBicyclePlaceable,meleeWpnKnucklesT1IronKnuckles,gunMGT1AK47,ammo762mmBulletBall"/>
+        <property name="Create_item_count" value="1,1,1,100"/>
+      </property>
+    </item>
+    <item name="donovanBetterStartAgilityBundle">
+      <property name="Extends" value="questRewardBundleMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="bundleKnife"/>
+      <property name="CustomIconTint" value="3366CC"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="donovanBetterStartAgilityBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="vehicleBicyclePlaceable,meleeWpnBladeT1HuntingKnife,gunHandgunT1Pistol,ammo9mmBulletBall"/>
+        <property name="Create_item_count" value="1,1,1,100"/>
+      </property>
+    </item>
+    <item name="donovanBetterStartIntellectBundle">
+      <property name="Extends" value="questRewardBundleMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="bundleTurrets"/>
+      <property name="CustomIconTint" value="9933CC"/>
+      <property name="ItemTypeIcon" value="bundle"/>
+      <property name="DescriptionKey" value="donovanBetterStartIntellectBundleDesc"/>
+      <property class="Action0">
+        <property name="Create_item" value="vehicleBicyclePlaceable,meleeWpnBatonT2StunBaton,gunBotT2JunkTurret,ammoJunkTurretRegular"/>
+        <property name="Create_item_count" value="1,1,1,100"/>
+      </property>
+    </item>
+  </append>
   <!-- Included from donovan-megastacks -->
   <set xpath="//item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">30000</set>
   <!-- Resources -->
